@@ -44,6 +44,7 @@ def InferUserStanceOnHiddenTopic(posts_topics_positions, force=False, debug=Fals
     # prompt_TEMP += "" # INSERT all comments that are not on the specified topic
     # prompt_TEMP += 'What is your position on [TOPIC]? Answer either "support", "oppose", or "neutral", with no other output.'
 
+    # TESTING (DELETE THIS LINE)
         
     # TODO: skip posts on the topic at hand
     prompt = ""
