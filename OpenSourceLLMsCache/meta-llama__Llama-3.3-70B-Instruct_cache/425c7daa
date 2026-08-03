@@ -1,0 +1,8 @@
+```json
+{
+  "Agree": "False",
+  "Critique": "The other annotator focuses too much on the mechanism of tax reform and the differences in approach between individual agency and collective mandate. While this is a significant difference, it overlooks the broader key points that both texts make about the importance of funding core functions like defense and infrastructure, and the desire to have more control over how tax money is spent.",
+  "Decision": "True",
+  "Explanation": "Both texts are broadly making the same key points about the importance of funding essential public goods and services, and the desire to have more control over how tax money is spent. They both prioritize funding for core functions like defense and infrastructure, and express skepticism about funding for other areas like welfare or corporate subsidies. While they differ in their approach to achieving these goals, they share a common set of values and priorities."
+}
+```

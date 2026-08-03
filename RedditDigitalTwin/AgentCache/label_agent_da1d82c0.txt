@@ -1,0 +1,3 @@
+```json
+{"label": "False", "rationale": "Post 1 presents a serious political analysis predicting that a state could flip red. Post 2 uses sarcasm and absurd imagery (unicorns and leprechauns) to mock the feasibility of a plan or outcome, thereby clearly disagreeing with the serious and realistic tone and premise of Post 1."}
+```

@@ -1,0 +1,1 @@
+{"independent_label": "True", "agree": true, "label": "True", "critique": "Both posts argue that sequestration was a bipartisan legislative result and that it is incorrect to blame a single individual for it. Post 2 provides more specific historical context (Budget Control Act, trigger mechanism), but it supports the exact same conclusion as Post 1."}

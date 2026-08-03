@@ -1,0 +1,6 @@
+```json
+{
+  "label": "True",
+  "rationale": "Post 1, while a question, implicitly expresses a concern or interest in how government shutdowns affect the military, given the linked article title and domain. Post 2 directly addresses a significant negative impact of government shutdowns on military personnel (not getting paid) and attributes blame to government mismanagement. Post 2 does not disagree with the underlying concern of Post 1; instead, it provides a strong opinion and specific example that falls within the scope of Post 1's implied inquiry, broadly supporting the idea that shutdowns negatively impact the military due to government failures."
+}
+```

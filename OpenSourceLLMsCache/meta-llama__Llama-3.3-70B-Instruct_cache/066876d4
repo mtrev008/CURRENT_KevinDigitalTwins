@@ -1,0 +1,6 @@
+```json
+{
+  "label": "True",
+  "explanation": "The LLM-generated text and the user-authored text both convey that Fox and CNN represent similar viewpoints, and that seeking diverse perspectives requires looking beyond these mainstream sources. Although the LLM-generated text uses a different analogy and provides additional examples, the core idea is the same: Fox and CNN are not sufficiently distinct, and exploring other sources is necessary for a broader range of viewpoints."
+}
+```

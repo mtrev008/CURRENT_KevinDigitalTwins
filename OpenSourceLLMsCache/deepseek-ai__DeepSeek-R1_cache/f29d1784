@@ -1,0 +1,14 @@
+<think>
+Alright, let's tackle this annotation problem step by step. The user wants to know if the LLM-generated text and the user-authored text are making the same key points broadly. 
+
+First, looking at the user's text: "That already happens." It's a short statement acknowledging that a situation exists. The context isn't provided, but it seems to be responding to a previous point, likely about policies justified by divine mandates already occurring.
+
+The LLM-generated text argues against using divine mandates in policy-making because it shuts down debate and prevents accountability. The key points here are the negative consequences of invoking divine authority—suppressing criticism and hindering accountability in a secular framework.
+
+The other annotator labeled this as "False," explaining that the user's text is a brief assertion of existence, while the LLM elaborates on the implications. 
+
+Now, comparing the broad key points: The user's text confirms the existence of such policies. The LLM's text discusses the problems arising from those policies. While both relate to divine mandates in policy, the user's point is about occurrence, and the LLM's is about consequences. They're related but not the same key point. The user states "what is," and the LLM argues "why it's bad." 
+
+Therefore, I agree with the other annotator's "False" label. The core focus differs—existence versus consequences—making the key points not the same.
+</think>
+{"False": "User text merely acknowledges existence of a phenomenon, while LLM text argues about its negative consequences for debate and accountability - fundamentally different core assertions."}

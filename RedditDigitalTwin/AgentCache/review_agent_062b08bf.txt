@@ -1,0 +1,3 @@
+```json
+{"label": "False", "rationale": "Post 1 makes a prediction about states flipping red due to political factors. Post 2 uses sarcasm to dismiss the idea as unrealistic and fantastical, directly disagreeing with the implied feasibility of Post 1's conclusion."}
+```

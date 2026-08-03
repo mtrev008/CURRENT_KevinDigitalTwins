@@ -1,0 +1,1 @@
+{"agree": true, "label": "True", "critique": "Post 1 is a pun for 'You two', while Post 2 uses standard spelling. They convey the same sentiment and do not disagree."}

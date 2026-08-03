@@ -1,0 +1,1 @@
+{"independent_label": "True", "agree": true, "label": "True", "critique": "Both posts assert the same broad conclusion: federal money is significantly involved in funding infrastructure and education. Post 2's initial phrase 'That's not entirely accurate' seems to be aimed at an unstated opposing view, but its detailed explanation supports and elaborates on Post 1's core point."}

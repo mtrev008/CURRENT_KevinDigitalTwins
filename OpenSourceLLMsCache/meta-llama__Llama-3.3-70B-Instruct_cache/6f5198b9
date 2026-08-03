@@ -1,0 +1,6 @@
+```json
+{
+  "label": "True",
+  "explanation": "The user-authored text and the LLM-generated text both agree that the president has authority, despite the LLM-generated text providing more context and nuance to this statement."
+}
+```

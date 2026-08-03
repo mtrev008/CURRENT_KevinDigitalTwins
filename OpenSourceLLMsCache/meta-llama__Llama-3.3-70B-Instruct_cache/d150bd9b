@@ -1,0 +1,6 @@
+```json
+{
+  "label": "True",
+  "explanation": "The other annotator focuses on the specific details and tone of the texts, while the task asks for broad key points. Both texts convey a sense of dismissal and skepticism towards the interlocutor's argument, with the user-authored text explicitly stating 'I don't care' and the LLM-generated text using sarcasm to imply a similar sentiment."
+}
+```

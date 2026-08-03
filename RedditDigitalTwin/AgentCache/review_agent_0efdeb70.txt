@@ -1,0 +1,1 @@
+{"independent_label": "True", "agree": true, "label": "True", "critique": "Both posts express the same overall position: that the military must remain strictly non-political, subordinate to civilian authority, and must not engage in policy-making or governance, as doing so leads to dangerous outcomes like juntas or internal fracturing."}

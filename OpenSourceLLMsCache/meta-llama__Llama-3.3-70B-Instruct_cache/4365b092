@@ -1,0 +1,6 @@
+```json
+{
+  "label": "True",
+  "explanation": "I agree with the other annotator. Both texts convey the idea that the information being presented is not accurate, with the user-authored text using the phrase 'spin machine' and the LLM-generated text describing it as 'distorted' and 'disingenuous'. The core point of both texts is that the truth is being misrepresented, which aligns with the other annotator's assessment."
+}
+```

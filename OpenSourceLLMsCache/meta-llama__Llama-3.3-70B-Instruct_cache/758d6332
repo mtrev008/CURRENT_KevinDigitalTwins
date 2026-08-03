@@ -1,0 +1,6 @@
+```json
+{
+  "label": "True",
+  "explanation": "The other annotator correctly identifies the central idea that both texts convey, which is that certain policies are equivalent to letting criminals go free or failing to uphold the rule of law. Although the LLM-generated text provides more context and framing, the broad key point of equivalence between the policy and letting criminals go free is present in both texts."
+}
+```

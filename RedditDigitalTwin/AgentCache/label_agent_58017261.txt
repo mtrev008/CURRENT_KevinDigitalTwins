@@ -1,0 +1,6 @@
+```json
+{
+  "label": "True",
+  "rationale": "Despite Post 2 opening with 'I disagree,' its subsequent content elaborates on the exact same broad conclusion as Post 1: that candidates like Bernie Sanders, who are not long-term, committed members of a party, should not be able to 'parachute in' and dictate the party's direction. Both posts emphasize the importance of long-term commitment and engagement for influencing a party, criticizing outsiders who lack this dedication."
+}
+```

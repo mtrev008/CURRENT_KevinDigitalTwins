@@ -1,0 +1,3 @@
+```json
+{"label":"False","rationale":"Post 1, especially considering its transparency note, expresses a desire for a 'good argument' in support of the status quo, which the author personally leans towards supporting. Its broad conclusion is a frustration with the lack of compelling justifications for a system they otherwise might accept. Post 2, in contrast, takes a clear stance *against* the status quo, arguing that the system 'undermines the idea of equal representation' in a modern democracy. Post 2 does not offer a justification for the status quo (which Post 1 seeks) but instead provides an argument against it, thus clearly disagreeing with the underlying sentiment and desired outcome of Post 1."}
+```

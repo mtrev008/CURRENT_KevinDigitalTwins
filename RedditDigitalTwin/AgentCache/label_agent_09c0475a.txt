@@ -1,0 +1,6 @@
+```json
+{
+  "label": "True",
+  "rationale": "Post 1, while a question, implies a concern about the negative effects of government shutdowns, particularly given the linked article from military.com about how shutdowns affect individuals. Post 2 directly addresses a negative consequence of government shutdowns—the inability to pay vital defense personnel—and criticizes government mismanagement. Both posts broadly engage with the topic of government shutdowns and their detrimental impact on the military, sharing a similar negative sentiment. Post 2 does not disagree with Post 1 but rather provides an opinion on a specific instance of the implied concern."
+}
+```

@@ -1,0 +1,1 @@
+{"independent_label": "True", "agree": true, "label": "True", "critique": "Post 2 explicitly agrees with Post 1 ('Precisely') and expands on the reasoning. Both posts support the idea that open borders require a change or 'tweak' to traditional welfare systems due to sustainability or ideological conflicts."}

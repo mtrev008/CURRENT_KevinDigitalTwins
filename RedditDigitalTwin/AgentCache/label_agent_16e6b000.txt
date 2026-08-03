@@ -1,0 +1,6 @@
+```json
+{
+  "label": "True",
+  "rationale": "Post 1 argues for a nuanced understanding of single-issue voting, suggesting that voters who prioritize one issue may still consider others. Post 2 concedes that single-issue voting exists but pushes back against the idea that voters are 'single-issue idiots' incapable of understanding other issues, directly aligning with Post 1's nuanced perspective that prioritizing one issue doesn't preclude caring about others."
+}
+```

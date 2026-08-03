@@ -1,0 +1,6 @@
+```json
+{
+  "label": "True",
+  "rationale": "Post 1 argues against compromise, viewing it as 'selling out' and something that 'shouldn't happen lightly.' Post 2, while discussing a 'governing philosophy' and 'socialist ideals,' also takes a stance against 'setting aside' ideals for 'moderation,' implying that true adherence to an ideology involves sticking to principles rather than compromising them. Both posts broadly express skepticism or disapproval of moderation/compromise in favor of adhering to one's core positions."
+}
+```

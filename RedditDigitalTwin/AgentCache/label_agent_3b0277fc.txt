@@ -1,0 +1,6 @@
+```json
+{
+  "label": "True",
+  "rationale": "Both posts express agreement or affirmation. Post 1 says 'Yup,' and Post 2 says 'Yep,' followed by an explanation for an edit. Post 2 does not disagree with Post 1; rather, it also conveys agreement, albeit with additional context about a correction."
+}
+```

@@ -1,0 +1,3 @@
+```json
+{"independent_label": "True", "agree": true, "label": "True", "critique": "Both posts express the same overall position: that political parties should be led and influenced by long-term, committed members rather than outsiders or 'fair-weather' supporters who only participate when a specific candidate like Bernie Sanders or Trump is running. Post 2 reinforces the same logic and conclusion as Post 1."}
+```

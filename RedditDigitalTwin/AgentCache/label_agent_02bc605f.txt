@@ -1,0 +1,6 @@
+```json
+{
+  "label": "True",
+  "rationale": "Post 1 states that Trump's support among blue-collar voters is a myth and that Clinton has significant blue-collar support. Post 2 reinforces this by arguing that Trump would need to pull a *significant* number of voters to overcome Clinton's existing appeal to blue-collar voters, especially non-white ones, implying that his current support among this group is insufficient or weak. Both posts align on the idea that Clinton has strong blue-collar support and Trump struggles in this demographic."
+}
+```

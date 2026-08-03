@@ -1,0 +1,12 @@
+<think>
+Alright, I need to figure out if the LLM-generated text and the user-authored text are making the same key points broadly. Let me start by understanding both texts.
+
+The user's text says that asking a sober person "Would you like to have sex?" is sufficient and dismisses the need for complex scripts as absurd. They emphasize simplicity and rationality.
+
+The LLM response argues against a script like that, calling it a strawman. It clarifies that the real issue is the capacity to consent, especially when someone is intoxicated beyond the ability to give meaningful consent. The Ohio case example shows that intoxication can invalidate consent regardless of verbal agreement.
+
+The other annotator labeled it as True, saying both agree that simple communication suffices between sober adults and reject complex scripts.
+
+Now, comparing the key points: Both texts agree that overly complex scripts are unnecessary and absurd. However, the user focuses on sober adults and straightforward consent. The LLM shifts the discussion to intoxication impairing consent capacity, which the user didn't mention. The user's text doesn't address incapacity due to intoxication; it's about sober consent. The LLM's main point is about assessing the other person's ability to consent, which goes beyond the user's argument. So while both reject complex scripts, the LLM introduces a different key point about impaired consent, which the user doesn't cover. Therefore, the key points aren't broadly the same. The other annotator missed this distinction.
+</think>
+{"False": "Both texts reject complex scripts as absurd, but the LLM shifts focus to intoxication impairing consent capacity—a core point absent from the user's text."}

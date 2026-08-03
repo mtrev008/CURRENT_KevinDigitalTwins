@@ -1,0 +1,6 @@
+```json
+{
+  "label": "True",
+  "explanation": "The other annotator's reasoning is sound. Both texts make the broad key point that removing financial incentives leads to lower productivity, as people will only do the minimum required. They also both use the example of the Pilgrims to illustrate this point. The LLM-generated text provides more detail and a specific historical reference, but the core argument is the same as the user-authored text."
+}
+```

@@ -1,0 +1,3 @@
+```json
+{"label": "True", "rationale": "Both posts address the intersection of government shutdowns and military pay/treatment. Post 1 requests historical context via a military-focused link, and Post 2 expresses a pro-military stance regarding government mismanagement during shutdowns. Post 2 does not clearly disagree with Post 1."}
+```

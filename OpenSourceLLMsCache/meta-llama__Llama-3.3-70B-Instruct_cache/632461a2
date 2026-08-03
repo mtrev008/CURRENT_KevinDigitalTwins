@@ -1,0 +1,6 @@
+```json
+{
+  "label": "True",
+  "explanation": "The LLM-generated text and the user-authored text are broadly making the same key point, which is that failing to raise the debt ceiling can lead to a crisis. Although the LLM-generated text contradicts the user's assertion that the end result is the same as Greece's situation, the core argument of both texts is that the debt ceiling poses a risk. The LLM-generated text provides additional context and explanation, but the broad key point is that the debt ceiling can lead to problems if not addressed."
+}
+```

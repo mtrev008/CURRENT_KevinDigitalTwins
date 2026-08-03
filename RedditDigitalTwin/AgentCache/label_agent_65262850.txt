@@ -1,0 +1,6 @@
+```json
+{
+  "label": "True",
+  "rationale": "Post 1, despite its initial defensive tone, ultimately concedes that 'there is some sexism against Clinton among Democrats, and that this contributes at least some to Bernie's very high levels of support among men.' Post 2, as the OP, states its 'initial hypothesis was that sexism is the most plausible explanation' for the gender gap and is seeking discussion on this. Post 1 does not disagree with Post 2's broad conclusion that sexism plays a role in the gender gap; rather, it offers a nuanced agreement and additional perspective. They are both discussing sexism as a factor in the gender gap."
+}
+```

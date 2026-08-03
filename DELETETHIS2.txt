@@ -1,0 +1,23 @@
+Majority vote:
+F1 Score: 0.8106
+Precision: 0.8088
+Recall: 0.8200
+Balanced Accuracy: 0.7105
+
+Linear SVM Results:
+F1 Score: 0.7381
+Precision: 0.7498
+Recall: 0.7300
+Balanced Accuracy: 0.6656
+
+Logistic Regression Results (with agreement features):
+F1 Score: 0.8065
+Precision: 0.8074
+Recall: 0.8200
+Balanced Accuracy: 0.6963
+
+Random Forest Results:
+F1 Score: 0.7514
+Precision: 0.7532
+Recall: 0.7800
+Balanced Accuracy: 0.6129

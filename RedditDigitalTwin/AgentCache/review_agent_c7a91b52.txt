@@ -1,0 +1,3 @@
+```json
+{"independent_label": "True", "agree": true, "label": "True", "critique": "Both posts argue that unemployment is primarily driven by economic conditions and a lack of viable job openings rather than individual choice or the availability of unemployment benefits. They both reject the 'plenty of jobs' narrative by highlighting the mismatch between seekers and suitable positions."}
+```

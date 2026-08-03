@@ -1,0 +1,6 @@
+```json
+{
+  "label": "True",
+  "explanation": "The other annotator correctly identifies the core argument of both texts, which is that political parties should prioritize the input and leadership of long-term, committed members over that of 'outsider' candidates or 'fair-weather' voters who only engage sporadically. While the user-authored text and the LLM-generated text may differ in tone, examples, and specific reasoning, they both convey the idea that parties should be guided by those with a demonstrated commitment to the party's platform and goals, rather than by individuals who only participate when it is convenient or advantageous to them."
+}
+```

@@ -1,0 +1,1 @@
+{"independent_label": "False", "agree": true, "label": "False", "critique": "Post 1 makes a political prediction about states flipping red. Post 2 uses sarcasm to mock a plan or prediction as unrealistic and fantastical ('unicorns and leprechauns'), thereby disagreeing with the feasibility of the position expressed in Post 1."}

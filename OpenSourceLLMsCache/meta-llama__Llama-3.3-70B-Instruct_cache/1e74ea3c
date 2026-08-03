@@ -1,0 +1,8 @@
+```json
+{
+  "agreement": "Disagree",
+  "critique": "The other annotator's reasoning is overly focused on Trump's strategy, whereas the user-authored text is more about the demographics that are and aren't swayed by Sanders and Trump, implying a division in their appeal.",
+  "decision": "False",
+  "explanation": "The LLM-generated text discusses Trump's strategy to appeal to certain voter segments, while the user-authored text contrasts the appeal of Sanders and Trump to different demographics, suggesting that Trump doesn't expect to win over older Democrats."
+}
+```

@@ -1,0 +1,6 @@
+```json
+{
+  "label": "True",
+  "rationale": "Both posts express significant disappointment with the president's performance, particularly from a progressive viewpoint. Post 1 highlights specific failures (PATRIOT Act, NDAA), which aligns with Post 2's broader conclusion of a 'presidency of compromise and incrementalism' rather than bold change. Post 2 expands on the reasons for this disappointment, but it does not disagree with Post 1's underlying critical stance."
+}
+```

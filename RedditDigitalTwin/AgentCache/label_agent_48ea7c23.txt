@@ -1,0 +1,3 @@
+```json
+{"label":"True","rationale":"Both posts are broadly questioning the justification for why the interests of the 'state' (leading to imbalanced voting power) should be valued over the equal representation of citizens. Post 1 raises this as a core question and notes the lack of good arguments for the status quo. Post 2 directly engages with this question, asking why the 'whole' being greater than its parts translates to unequal individual votes, and concludes that it undermines equal representation. Post 2 does not disagree with Post 1's central inquiry or critique of the current system's rationale."}
+```

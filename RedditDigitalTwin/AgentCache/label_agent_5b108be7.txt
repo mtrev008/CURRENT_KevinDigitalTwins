@@ -1,0 +1,1 @@
+{"label": "True", "rationale": "Post 1 argues that the main issue with healthcare.gov was capacity and scalability, and that the government couldn't delay launch. Post 2 agrees that the initial capacity problem was a massive barrier, even while acknowledging other issues. Both posts converge on the idea that capacity/scalability was a critical, if not the primary, problem."}

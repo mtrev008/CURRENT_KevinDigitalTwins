@@ -1,0 +1,19 @@
+<think>
+Alright, let me tackle this annotation problem step by step. The user wants me to evaluate whether two texts share the same broad key points, focusing on core ideas rather than wording differences.
+
+First, I'll examine the user's text. They emphasize that laws aren't made on isolated principles in the US, highlighting the relevance of constitutional/common law frameworks. The core argument here is that legal systems require institutional grounding beyond abstract principles.
+
+Now looking at the LLM's response: it acknowledges principles but stresses the challenge of codifying them into law, specifically mentioning federal/state dynamics and the 10th Amendment's role. The key points are about constitutional mechanisms (like state constitutions and the 10th Amendment) enabling rights beyond federal minimums.
+
+Comparing both:
+- Both reject pure principle-based lawmaking
+- Both insist on constitutional/legal frameworks
+- Both reference US-specific structures (Constitution, federalism)
+
+The other annotator labeled this "True" because both texts require grounding principles in legal frameworks. I agree with this assessment - while the LLM adds specifics about federalism and the 10th Amendment, these are supporting details for the shared core argument about institutional legal grounding.
+
+The difference in examples (LLM's cannabis vs user's unspecified scenario) doesn't alter the fundamental agreement about needing constitutional bases for laws. The LLM's elaboration on state power actually reinforces the user's original point about legal frameworks mattering more than isolated principles.
+
+Therefore the "True" label stands, as both texts fundamentally agree that US law requires constitutional anchoring beyond abstract principles.
+</think>
+{"True": "Both texts fundamentally agree that abstract principles alone cannot form US laws and must be anchored in constitutional/legal frameworks like federalism or state constitutions."}

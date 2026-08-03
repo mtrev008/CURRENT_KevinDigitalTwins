@@ -1,0 +1,23 @@
+<think>
+Hmm, the user wants me to determine if the LLM-generated text and the user-authored text make broadly the same key points about Citizens United. I need to focus only on the broad key points, ignoring differences in wording, examples, tone, detail, or reasoning.
+
+Looking at the user's text: They make three main points - Citizens United didn't address campaign donations but instead addressed paid advocacy (like the anti-Hillary video); campaign contribution limits still exist today; and crucially, the case didn't turn on whether corporations are people or have First Amendment rights.
+
+Now examining the LLM's response: It emphasizes that Citizens United did NOT allow unlimited direct corporate donations to campaigns; it dealt with independent expenditures (ads advocating for/against candidates without campaign coordination); direct corporate contributions remain banned; and it clarifies this is a common misconception.
+
+Both texts agree on the core legal distinction: Citizens United was about independent expenditures (advocacy), not direct campaign contributions. Both explicitly state direct contributions remain banned/limited. Both note this misunderstanding is widespread. Neither text focuses on corporate personhood as the central issue - the LLM mentions corporate speech rights only in passing at the end, while the user explicitly denies it was the core issue.
+
+The key overlap is unmistakable: 1) Correcting the misconception about direct donations 2) Clarifying the case was about independent advocacy 3) Confirming contribution limits remain. Additional details in the LLM (like Super PACs or McCain-Feingold) don't contradict these fundamentals. The shared essence is rectifying the same widespread error about Citizens United's scope.
+</think>
+True
+
+**Reasoning:**  
+Both texts make the same three broad key points:  
+1. **Citizens United did NOT permit unlimited direct corporate campaign contributions.**  
+   *(User: "didn't address campaign donations... Today there are still campaign contribution limits" | LLM: "Direct contributions... banned... Citizens United did not change that")*  
+2. **Citizens United addressed independent expenditures (paid advocacy/communications), not donations.**  
+   *(User: "addressed paid advocacy... produced an anti-Hillary Clinton video" | LLM: "dealt with independent expenditures... ads... without coordination")*  
+3. **The common misconception (that Citizens United allowed direct corporate donations) is widespread and incorrect.**  
+   *(User: "Many people think it does. It is a common misconception" | LLM: "This is a really common misconception")*  
+
+Differences in scope, examples (Hillary video vs. Super PACs), or emphasis on corporate speech rights do not alter these core, shared points. Both texts fundamentally correct the same misunderstanding about Citizens United.

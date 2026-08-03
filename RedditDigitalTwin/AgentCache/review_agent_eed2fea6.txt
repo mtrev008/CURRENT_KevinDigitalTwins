@@ -1,0 +1,1 @@
+{"independent_label": "False", "agree": true, "label": "False", "critique": "Post 2 directly contradicts Post 1's claim that the 'end result' of failing to raise the debt ceiling is 'the same' as a crisis faced by a country like Greece. Post 2 argues that the US, unlike Greece, can print its own currency, fundamentally changing the nature of any potential default or crisis."}

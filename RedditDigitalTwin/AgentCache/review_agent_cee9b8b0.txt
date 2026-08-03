@@ -1,0 +1,1 @@
+{"independent_label": "True", "agree": true, "label": "True", "critique": "Both posts share the same core position: that *Citizens United* is widely misunderstood and that it specifically legalized independent expenditures (advocacy) rather than direct corporate contributions to campaigns, which remain banned."}

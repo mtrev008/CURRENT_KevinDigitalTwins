@@ -1,0 +1,6 @@
+```json
+{
+  "label": "True",
+  "rationale": "While Post 2 initially rejects 'individually earmarking my tax dollars,' its subsequent argument aligns with Post 1's broad conclusion that taxpayers should have more agency over what their taxes fund, particularly by not being forced to support expenditures they deem illegitimate or outside essential government functions. Both posts express a desire to avoid funding specific categories of government spending they disagree with (e.g., Post 1's examples of corporate welfare, Planned Parenthood; Post 2's example of welfare as a 'direct transfer of wealth')."
+}
+```

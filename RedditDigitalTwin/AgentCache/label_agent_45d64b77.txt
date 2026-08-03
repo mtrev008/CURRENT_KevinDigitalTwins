@@ -1,0 +1,6 @@
+```json
+{
+  "label": "True",
+  "rationale": "Both posts convey the same broad conclusion: that a ballot initiative to legalize marijuana can diminish the incentive for voters, particularly younger ones, to vote for a candidate (like Johnson) whose primary appeal is often their stance on marijuana legalization."
+}
+```

@@ -1,0 +1,1 @@
+{"independent_label": "True", "agree": true, "label": "True", "critique": "Both posts argue the same core position: that productivity decreases in systems without financial incentives for extra effort (socialism/communal living), and both use the historical example of the Pilgrims to illustrate this point."}

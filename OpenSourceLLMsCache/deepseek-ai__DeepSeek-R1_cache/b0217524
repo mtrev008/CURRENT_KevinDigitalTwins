@@ -1,0 +1,25 @@
+<think>
+Alright, let me tackle this annotation problem step by step. The user wants me to determine if the LLM-generated text and the user-authored text convey the same broad key points about Citizens United, ignoring minor differences in wording or examples.
+
+First, I'll examine the user's text. They make three clear points:
+1) Citizens United addressed paid advocacy (like the anti-Hillary video), not campaign donations
+2) Campaign contribution limits still exist today
+3) The case didn't hinge on corporate personhood or First Amendment rights - that's a common misconception
+
+Now looking at the LLM response:
+- It explicitly states Citizens United dealt with independent expenditures (not direct donations)
+- Confirms direct corporate contributions remain banned
+- Explains independent expenditures mean advocacy without candidate coordination
+- Mentions Super PACs as the mechanism for corporate spending
+- Corrects the donation misconception multiple times
+
+The core overlap is undeniable:
+✅ Both texts emphasize Citizens United was about independent advocacy, not donations
+✅ Both confirm direct contribution bans remain in place
+✅ Both identify the donation misconception as widespread
+
+The LLM does add extra details (Super PACs, McCain-Feingold, reform suggestions), but these don't contradict the user's core claims. The third point about corporate personhood isn't addressed in the LLM response, but since the annotation focuses on "broad key points" and the first two points are thoroughly covered, I consider this within acceptable scope.
+
+The other annotator's "True" assessment seems correct - both texts fundamentally agree on what Citizens United did and didn't change regarding corporate political spending.
+</think>
+{"True": "Both texts clearly state that Citizens United addressed independent advocacy expenditures, not direct campaign donations, and that direct contribution bans/limits remain intact."}

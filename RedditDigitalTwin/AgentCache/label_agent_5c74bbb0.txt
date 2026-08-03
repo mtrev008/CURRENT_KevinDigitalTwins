@@ -1,0 +1,6 @@
+```json
+{
+  "label": "True",
+  "rationale": "Post 1 states 'Not going to happen.' Post 2, while using softer language ('It's a tough nut to crack'), provides extensive reasoning and challenges that overwhelmingly support the sentiment of the original proposal being practically unfeasible or highly unlikely to occur. Post 2 does not disagree with the broad conclusion that the proposed action is unlikely to happen; instead, it elaborates on why it would be so difficult."
+}
+```

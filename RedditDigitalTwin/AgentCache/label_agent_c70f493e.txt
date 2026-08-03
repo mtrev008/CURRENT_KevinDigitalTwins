@@ -1,0 +1,6 @@
+```json
+{
+  "label": "True",
+  "rationale": "Post 1 states that the president 'does have the authority.' Post 2, despite its initial 'No,' refutes the idea of an 'absolutist No' and explicitly states that 'the President *does* have the authority to act to protect the country' in imminent threat scenarios. While Post 2 adds nuance about limitations ('not a blank check'), its broad conclusion aligns with Post 1's affirmation that the president possesses authority."
+}
+```

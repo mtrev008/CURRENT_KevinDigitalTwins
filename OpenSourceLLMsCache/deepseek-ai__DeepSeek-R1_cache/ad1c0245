@@ -1,0 +1,27 @@
+<think>
+Alright, let's tackle this annotation task. The user wants to know if the LLM-generated text and the user-authored text are making the same broad key points, ignoring differences in wording, examples, tone, detail, or reasoning.
+
+First, I'll look at the user's text. The main points there are:
+1. Trump only beat the market once (around 1988) and never again after.
+2. Smart investors wouldn't invest in someone who can't beat the market when passive options exist.
+3. Other funds (like Apple) outperform Trump's returns.
+4. Even his hotel business isn't top-tier (ranked 6th) compared to leaders like Sheldon Adelson.
+
+Now, the LLM-generated text focuses on:
+1. Trump's inheritance amount is debated but was substantial.
+2. Analyses show passive index funds would've yielded higher returns than Trump's ventures.
+3. His business performance didn't outperform the market long-term, especially considering bankruptcies.
+4. Current net worth estimates ($4-5B) are lower than his claims.
+
+The other annotator labeled this as "True" because both texts argue Trump underperformed the market. 
+
+Looking broadly:
+- Both texts agree Trump's returns were subpar compared to passive investing.
+- Both imply there's no justification for active management given his track record.
+- Both reference comparative performance (user: Apple/Adelson; LLM: market indices).
+
+The user's specific examples (Apple, hotels) and the LLM's focus on inheritance debates/index funds are different angles supporting the same core argument: Trump's investment performance was inferior to passive alternatives. The "why invest?" sentiment is mirrored in the LLM's ROI comparison.
+
+Therefore, despite differing details, the central thesis aligns. The other annotator's "True" judgment holds.
+</think>
+{"True": "Both texts fundamentally argue that Trump's business performance failed to outperform passive market investments over the long term, making active investment in his ventures unjustified."}

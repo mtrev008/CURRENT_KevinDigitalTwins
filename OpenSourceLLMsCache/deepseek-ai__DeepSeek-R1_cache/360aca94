@@ -1,0 +1,12 @@
+<think>
+Alright, let me tackle this annotation problem step by step. The user wants me to determine if the LLM-generated text and the user-authored text convey the same broad key points, ignoring minor differences in wording or examples.
+
+First, I'll analyze the user's original statement. They emphasize overcoming feelings of futility by voting as part of a collective, stressing the importance of principle-based voting to make one's voice heard. The core message here is about collective action overcoming individual powerlessness.
+
+Now looking at the LLM response: It structures arguments around four points - broader impact beyond local districts, indirect accountability through engagement, long-term political change, and consequences of disengagement. The conclusion reinforces being part of a collective effort despite feeling like "one person in the engine room."
+
+Comparing these: Both texts fundamentally reject political apathy, frame voting/engagement as collective action, acknowledge the frustration but insist on participation's importance. The LLM expands with structured reasoning while the user is more concise, but their core thesis aligns perfectly about persistent civic participation mattering beyond immediate results.
+
+The other annotator's "True" judgment seems correct because both texts share these foundational elements: combating defeatism, collective efficacy, and voting's symbolic/practical value despite frustration. The LLM's additional points (national impact, accountability mechanisms) support rather than contradict the user's core message.
+</think>
+{"True": "Both texts fundamentally reject political apathy, emphasize voting/engagement as part of a collective effort despite feeling powerless, and stress the importance of making one's voice heard even when immediate change seems unlikely."}

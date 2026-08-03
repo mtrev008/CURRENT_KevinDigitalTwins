@@ -1,0 +1,6 @@
+```json
+{
+  "label": "True",
+  "rationale": "Post 2 explicitly agrees with and elaborates on the broad conclusion of Post 1, which is that in a specific life-or-death situation where one's body is temporarily connected to another whose life depends on it, the right to bodily autonomy is outweighed by the need to save a life."
+}
+```

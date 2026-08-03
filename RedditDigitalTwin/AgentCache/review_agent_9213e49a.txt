@@ -1,0 +1,1 @@
+{"independent_label": "True", "agree": true, "label": "True", "critique": "Both posts express the same core argument: that productivity decreases when individual incentives are removed (as in socialist or communal systems). They also both cite the historical example of the Pilgrims and the failure of their communal property system to support this conclusion."}

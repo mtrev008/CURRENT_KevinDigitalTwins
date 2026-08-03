@@ -1,0 +1,6 @@
+```json
+{
+  "label": "True",
+  "explanation": "The LLM-generated text and the user-authored text both suggest that a ballot initiative for marijuana legalization addresses a key concern for certain voters, potentially reducing their incentive to vote for a specific candidate, such as Johnson, based on that issue alone. The other annotator's reasoning is sound, as it correctly identifies the core argument shared by both texts, despite differences in wording and detail."
+}
+```

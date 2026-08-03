@@ -1,0 +1,1 @@
+{"independent_label": "True", "agree": true, "label": "True", "critique": "Post 2 elaborates on and agrees with the premise set in Post 1: that a ballot initiative for legal weed can satisfy a key issue for young voters, thereby removing an incentive to vote for a candidate (like Johnson) primarily on that issue."}

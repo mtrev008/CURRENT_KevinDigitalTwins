@@ -1,0 +1,6 @@
+```json
+{
+  "label": "True",
+  "rationale": "Post 1 is extremely brief, stating 'The majority'. Post 2 discusses the preferences of various voter groups, concluding that a significant portion (implied majority of these groups) would likely support Cruz over Trump. There is no disagreement; Post 2 could be seen as elaborating on a 'majority' scenario or providing context for such a statement."
+}
+```

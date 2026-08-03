@@ -1,0 +1,1 @@
+{"independent_label": "True", "agree": true, "label": "True", "critique": "Post 1 is a simple expression of agreement and praise for an argument. Post 2 is a detailed expression of agreement with the same argument, expanding on the points made. Both represent the same supportive stance toward the original author's points."}

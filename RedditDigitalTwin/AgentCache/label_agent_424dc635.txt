@@ -1,0 +1,3 @@
+```json
+{"label": "True", "rationale": "Both posts share the broad conclusion that the current taxation system is flawed because it forces citizens to fund programs they do not support. While Post 2 disagrees with the specific mechanism of individual earmarking proposed in Post 1, they both advocate for limiting government spending to core, essential functions and increasing taxpayer consent."}
+```

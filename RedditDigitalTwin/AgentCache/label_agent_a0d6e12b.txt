@@ -1,0 +1,6 @@
+```json
+{
+  "label": "True",
+  "rationale": "Both posts express the broad conclusion that the DNC, specifically through its former head DWS's actions and subsequent employment, appeared not to be impartial during the primary process, suggesting a conflict of interest. Post 2 elaborates on this point, providing more detail and strengthening the same overall sentiment expressed in Post 1."
+}
+```

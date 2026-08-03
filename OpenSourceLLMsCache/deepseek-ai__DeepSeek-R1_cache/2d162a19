@@ -1,0 +1,20 @@
+<think>
+Alright, let's tackle this annotation task. The user wants me to determine if the LLM-generated text and the user-authored text broadly make the same key points, focusing only on the core arguments and ignoring differences in wording, examples, tone, or detail. 
+
+First, I'll read both texts carefully. The user-authored text criticizes Bernie Sanders for switching parties opportunistically rather than being a long-term Democrat. They express frustration with "fair-weather supporters" who only engage during elections via populist candidates like Bernie or Trump, arguing that party direction should be set by committed members, not temporary participants. 
+
+The LLM-generated text focuses on party nomination processes, arguing that candidates should have long-term commitment to a party rather than using it as a platform. It specifically criticizes open primaries for allowing temporary influence without commitment, proposing instead that only registered party members should select nominees to maintain party cohesion.
+
+Now, comparing the core arguments: Both texts fundamentally argue that political parties should prioritize long-term, committed members over temporary participants or opportunistic candidates. The user emphasizes "fair-weather supporters" undermining parties, while the LLM focuses on candidate behavior and primary systems enabling this. 
+
+The other annotator labeled this as "True" because both texts advocate for party governance by committed members rather than outsiders. I agree with this assessment. Though the user discusses candidate opportunism and the LLM emphasizes primary rules, their central thesis aligns—both reject transient political engagement in favor of sustained party commitment.
+
+Key point alignment:
+- Against opportunistic candidates (Bernie as example in both)
+- Against temporary voters influencing parties
+- For requiring formal/membership commitment
+- Preservation of party integrity as the goal
+
+Therefore, the broad key points match despite different emphases (candidate behavior vs. primary systems). The other annotator's reasoning holds.
+</think>
+{"True": "Both texts fundamentally argue that political parties should prioritize long-term committed members over opportunistic candidates ('Bernie') or transient voters ('fair-weather supporters'/'anti-establishment voters') who lack sustained engagement, seeking to protect party integrity from external influence."}

@@ -1,0 +1,1 @@
+{"independent_label": "True", "agree": true, "label": "True", "critique": "Post 2 explicitly agrees with and elaborates on the premise set forth in Post 1, that in specific life-or-death situations, the moral obligation to save a life can outweigh the right to bodily autonomy, representing the same broad conclusion."}

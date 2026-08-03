@@ -1,0 +1,22 @@
+<think>
+Hmm, the user wants me to determine if the LLM-generated text and the user-authored text are making the same broad key points. They've specified that I should focus only on the broad key points, ignoring differences in wording, examples, tone, detail, or reasoning.
+
+Looking at the user's text: They're saying that normally they wouldn't tell someone what to do with their body, but when another human's life is at stake, they feel morally obligated to intervene, even if it means committing a "lesser evil." This seems to be about prioritizing life preservation over bodily autonomy in life-or-death situations.
+
+Now examining the LLM-generated text: It argues that society has the right to stop someone from disconnecting if it causes death, emphasizing that preserving human life outweighs bodily autonomy when the sacrifice is temporary and not extremely harmful. It mentions that failing to save a life when possible feels like neglecting human rights.
+
+Comparing the core ideas: Both texts are fundamentally about justifying intervention against bodily autonomy to prevent death. They both prioritize saving a life over individual autonomy in specific circumstances where the cost to the rescuer is framed as temporary or not extreme. The user calls it a "lesser evil" while the LLM frames it as a "temporary imposition," but this difference falls under wording rather than core concept.
+
+The key point alignment is clear: life preservation > bodily autonomy in life-threatening scenarios with limited sacrifice required. Minor differences in framing (user's "lesser evil" vs LLM's "temporary imposition") don't change this fundamental equivalence.
+
+Therefore, the answer should be True since both texts share the same broad ethical position on this dilemma.
+</think>
+True  
+
+**Reasoning:**  
+Both texts fundamentally assert that preserving human life can override bodily autonomy rights in specific, life-threatening circumstances where the required sacrifice is limited (temporary/non-extreme).  
+
+- **User's key point:** Accepts overriding bodily autonomy to prevent death ("lesser evil").  
+- **LLM's key point:** Argues society can override bodily autonomy to save a life when the burden is temporary and not extreme.  
+
+The core ethical stance—prioritizing life preservation over bodily autonomy under constrained conditions—is identical. Differences in phrasing (e.g., "lesser evil" vs. "temporary imposition") are superficial per the instruction to focus on broad alignment.

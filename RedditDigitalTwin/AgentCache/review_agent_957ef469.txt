@@ -1,0 +1,1 @@
+{"independent_label": "False", "agree": true, "label": "False", "critique": "Post 2 explicitly attacks and rejects the content of Post 1, calling it 'meaningless bullshit' and stating the author has 'nothing' to refute the points. They represent opposing sides of an argument."}

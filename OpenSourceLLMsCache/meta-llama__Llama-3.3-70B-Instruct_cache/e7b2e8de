@@ -1,0 +1,6 @@
+```json
+{
+  "label": "True",
+  "explanation": "The other annotator's reasoning is sound because both texts imply that World War II had a more substantial impact on jobs and the economy than the New Deal. The user-authored text states this directly, while the LLM-generated text mentions that the WW2 jobs program 'absolutely did pull us out of the Depression and set up the post-war boom', indirectly suggesting that WW2 had a greater effect than the New Deal. The broad key point of both texts is that WW2 was a more significant economic and jobs driver than the New Deal."
+}
+```

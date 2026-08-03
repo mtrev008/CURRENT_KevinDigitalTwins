@@ -1,0 +1,1 @@
+{"independent_label": "False", "agree": true, "label": "False", "critique": "Post 1 makes a political prediction about states flipping red. Post 2 sarcastically dismisses the likelihood of such an outcome, comparing it to unicorns and leprechauns. Therefore, Post 2 clearly disagrees with the broad conclusion of Post 1."}

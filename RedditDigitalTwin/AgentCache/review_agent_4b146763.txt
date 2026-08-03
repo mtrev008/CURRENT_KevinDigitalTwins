@@ -1,0 +1,1 @@
+{"independent_label": "True", "agree": true, "label": "True", "critique": "Both posts share the same broad conclusion: that despite feeling powerless or frustrated by the political system, it is important to stay engaged, vote, and contribute to the collective effort. Post 2 elaborates on the reasons why, but supports the central takeaway of Post 1."}

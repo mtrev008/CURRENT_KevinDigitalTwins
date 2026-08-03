@@ -1,0 +1,1 @@
+{"independent_label": "True", "agree": true, "label": "True", "critique": "Both posts convey the same broad conclusion: the fear surrounding Islamic extremism/terrorism is disproportionate to the actual threat when viewed in the context of overall violence and crime. Post 2 reiterates and reinforces this main takeaway, even while clarifying specific points."}

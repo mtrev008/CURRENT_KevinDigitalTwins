@@ -1,0 +1,8 @@
+```json
+{
+  "independent_label": "False",
+  "agree": false,
+  "label": "False",
+  "critique": "Post 1 is a question, likely expressing skepticism or challenging an assertion about negative impacts (presumably on the military) during government shutdowns, asking for proof of such occurrences in the past. Post 2, however, states as a fact that the government 'can't even manage to pay its vital defense personnel during a shutdown' and uses this as a point of criticism against government mismanagement. Post 2 therefore directly affirms the existence of the negative impact that Post 1 seems to be questioning or demanding proof for. They hold opposing positions regarding the certainty or frequency of military personnel not being paid during shutdowns. Thus, Post 2 clearly disagrees with the implied skepticism of Post 1."
+}
+```

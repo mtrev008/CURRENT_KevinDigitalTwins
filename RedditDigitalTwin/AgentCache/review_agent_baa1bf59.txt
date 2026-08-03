@@ -1,0 +1,1 @@
+{"independent_label": "True", "agree": true, "label": "True", "critique": "Both posts broadly agree that legal arguments in the US require a basis in established law (Constitution, common law, state constitutions) rather than solely relying on abstract principles."}

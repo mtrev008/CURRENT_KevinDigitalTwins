@@ -1,0 +1,6 @@
+```json
+{
+  "label": "False",
+  "explanation": "The user-authored text argues that they are voting for a major party candidate (Obama) because they genuinely agree with their stances, whereas the LLM-generated text argues that voting for a third-party candidate is a wasted vote because they can't win. The key point of the user-authored text is that they prefer a major party candidate for substantive reasons, while the LLM-generated text focuses on the strategic futility of voting for a third-party candidate."
+}
+```

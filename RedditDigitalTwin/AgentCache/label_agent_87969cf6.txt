@@ -1,0 +1,6 @@
+```json
+{
+  "label": "True",
+  "rationale": "Post 1 implicitly argues that government is a relevant entity from which free speech needs protection. Post 2 explicitly supports this by stating that the First Amendment protects against government censorship, directly aligning with the underlying point of Post 1."
+}
+```

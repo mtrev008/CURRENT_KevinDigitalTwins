@@ -1,0 +1,6 @@
+```json
+{
+  "label": "False",
+  "rationale": "Post 1 defines 'the ruling elite' as encompassing both government and private entities. Post 2, however, expresses a critical opinion about the actions and systemic outcomes of 'those in power' (specifically focusing on government), arguing they lead to negative consequences. Post 2 does not represent or reiterate the definitional conclusion of Post 1; instead, it offers a separate evaluative conclusion about a subset of the group defined in Post 1."
+}
+```

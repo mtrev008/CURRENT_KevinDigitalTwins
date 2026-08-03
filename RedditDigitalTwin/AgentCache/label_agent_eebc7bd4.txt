@@ -1,0 +1,6 @@
+```json
+{
+  "label": "True",
+  "rationale": "Post 2 reiterates and strongly supports the broad conclusion of Post 1, which is that removing individual incentives for effort (e.g., financial reward) leads to a decrease in productivity, and uses the same example of the Pilgrims to illustrate this point."
+}
+```

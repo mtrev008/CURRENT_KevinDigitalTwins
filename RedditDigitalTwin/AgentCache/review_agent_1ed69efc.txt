@@ -1,0 +1,1 @@
+{"agree": true, "label": "True", "critique": "Post 2 explicitly agrees with Post 1's premise that complex consent scripts are not necessary for sober adults, calling the opposing idea a strawman. It then elaborates on the distinction regarding capacity to consent when intoxicated, which does not contradict Post 1's point about sober individuals."}

@@ -1,0 +1,20 @@
+<think>
+Alright, let's tackle this. The user wants to know if the LLM-generated text and the user-authored text are making the same key points broadly. 
+
+First, I'll look at the user's text. They mention Clinton getting half of white blue-collar voters and almost all non-white blue-collar workers. They also state that Trump's support among blue-collar voters is a myth, linking to a FiveThirtyEight article. So their main points are Clinton's strong blue-collar support and debunking Trump's supposed backing from that group.
+
+Now, the LLM-generated text. It talks about Sanders supporters likely voting for Clinton in the general election. Then it says Trump needs a significant number of those supporters to switch because Clinton already has appeal among blue-collar voters, especially non-white ones. The key here is Clinton's existing blue-collar support and the challenge for Trump to sway voters away from her.
+
+Comparing both: The user emphasizes Clinton's blue-collar support and dismisses Trump's as a myth. The LLM also highlights Clinton's existing appeal to blue-collar voters, particularly non-white, and the difficulty Trump faces in pulling enough voters. Both are stressing Clinton's strength with blue-collar groups and questioning Trump's ability to make inroads there. The broad points align—Clinton's solid blue-collar base and the skepticism about Trump's support. Minor differences in focus (Sanders supporters vs. direct polling) don't change the core message. So, True.
+</think>
+True  
+
+**Reasoning:**  
+- **User's key points:** Clinton has strong blue-collar support (especially non-white workers), and Trump's blue-collar support is overstated/mythical.  
+- **LLM's key points:** Clinton has existing appeal to blue-collar voters (especially non-white ones), and Trump faces significant challenges in pulling enough voters to overcome her base.  
+
+Both texts broadly agree on:  
+1. **Clinton's strength** with blue-collar voters (explicitly mentioning non-white workers).  
+2. **Trump's struggle** to meaningfully cut into this support (user calls it a "myth," LLM says he needs "significant" defections but faces obstacles).  
+
+Differences in emphasis (Sanders supporters vs. direct polling) are secondary to the shared core argument about Clinton's blue-collar base and Trump's limited appeal to this group.

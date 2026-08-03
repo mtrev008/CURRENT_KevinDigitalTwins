@@ -1,0 +1,6 @@
+```json
+{
+  "label": "True",
+  "rationale": "Both posts convey the same core message: that the common understanding of *Citizens United* is a misconception, specifically that it did not address or allow unlimited direct corporate campaign donations, but rather focused on independent expenditures, and that direct corporate contributions remain banned or limited."
+}
+```

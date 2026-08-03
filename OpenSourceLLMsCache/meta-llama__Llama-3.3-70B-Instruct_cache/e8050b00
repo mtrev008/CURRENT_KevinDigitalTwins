@@ -1,0 +1,6 @@
+```json
+{
+  "label": "True",
+  "explanation": "The other annotator correctly identifies the broad key points of both texts, which is the criticism of lacking substance in political communication. The user-authored text implies that Bush's statement was forgettable, while the LLM-generated text expresses a desire for genuine responses over scripted ones. Both texts convey a similar sentiment about the inadequacy of political rhetoric."
+}
+```

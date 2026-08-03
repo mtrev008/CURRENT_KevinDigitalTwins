@@ -1,0 +1,1 @@
+{"independent_label": "True", "agree": true, "label": "True", "critique": "Both posts argue that blaming the sequestration on a single individual is an oversimplification because the legislation was a bipartisan effort involving the entire Congress. They share the same broad conclusion."}

@@ -1,0 +1,1 @@
+{"independent_label": "True", "agree": true, "label": "True", "critique": "Both posts express the broad conclusion that knowing the name of MLK's killer is not essential knowledge and distracts from what truly matters, which is understanding the issues and legacy."}

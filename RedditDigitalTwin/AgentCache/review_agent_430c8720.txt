@@ -1,0 +1,1 @@
+{"independent_label": "True", "agree": true, "label": "True", "critique": "Post 2 directly reaffirms the central premise of Post 1: that Fox and CNN represent essentially the same viewpoint and that one must look beyond them to achieve a truly broad perspective."}

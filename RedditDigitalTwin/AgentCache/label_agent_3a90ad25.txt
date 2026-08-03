@@ -1,0 +1,6 @@
+```json
+{
+  "label": "True",
+  "rationale": "Post 1 expresses a desire for a clear policy ('red line') and disappointment when it wasn't enforced. Post 2 elaborates on the importance of having a clear policy and the negative consequences of having 'no policy'. Both posts advocate for the existence of a clear policy, making them broadly aligned."
+}
+```

@@ -1,0 +1,27 @@
+<think>
+Hmm, the user wants me to determine whether the LLM-generated text and the user-authored text make broadly the same key points. I need to focus only on the broad key points, ignoring differences in wording, examples, tone, detail, or reasoning.
+
+Looking at the user-authored text: The user argues that the federal government has a lower standard of guilt than most states. They claim there's no evidence beyond witness testimony that Brown had his hands up, and that forensics disprove this notion. They acknowledge bias exists but only in those who ignore established facts.
+
+Now examining the LLM-generated text: It emphasizes that the grand jury's role is to determine probable cause based on all evidence. It notes that grand juries nearly always indict in non-police cases but handle police cases differently due to distinct legal frameworks around use of force. It mentions that witness testimony about hands-up surrender was contradicted by forensic evidence and recantations. It argues against claiming bias simply because this case is an outlier, stating the grand jury seriously evaluated evidence rather than rubber-stamping.
+
+Comparing the key points:
+- Both texts agree witness testimony about hands-up surrender was contradicted by forensic evidence
+- Both argue against claims of bias by emphasizing the evidence evaluation
+- Both acknowledge police cases operate under different legal standards
+- Both support the grand jury's decision based on comprehensive evidence review
+
+The core arguments align despite different phrasing: forensic evidence disproved hands-up claims, police cases have distinct legal standards, and bias accusations ignore the evidence. The LLM text expands on grand jury processes while the user focuses on guilt standards, but the fundamental positions on evidence and bias match.
+
+Therefore, the broad key points are indeed the same. I should respond with "True".
+</think>
+True  
+
+**Reasoning:**  
+Both texts broadly agree on these key points:  
+1. **Forensic evidence disproved witness claims** about Brown having his hands up.  
+2. **The grand jury's decision was justified** based on comprehensive evidence review, not bias.  
+3. **Police-involved cases operate under distinct legal standards** (use-of-force laws) compared to civilian cases.  
+4. **Accusations of bias** ignore the specific evidence evaluated in this case.  
+
+Differences in tone, examples (e.g., federal vs. state standards), or emphasis on grand jury procedures do not negate these shared core arguments. Both texts defend the grand jury's outcome by prioritizing evidence over narratives.

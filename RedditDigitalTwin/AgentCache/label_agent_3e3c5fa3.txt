@@ -1,0 +1,3 @@
+```json
+{"label":"True","rationale":"Both posts advocate for the US to maintain a strong and committed stance against North Korea. While Post 2 explicitly rejects Post 1's comparison to Cuba, this is a disagreement on a specific analogy/reasoning point, not a disagreement with the broad conclusion that the US needs to show commitment and avoid leniency regarding North Korea's actions."}
+```

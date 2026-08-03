@@ -1,0 +1,6 @@
+```json
+{
+  "label": "True",
+  "explanation": "The other annotator's reasoning is sound, as both texts convey the idea that the Second Amendment protects an individual's right to bear arms, rather than limiting it to those in a militia. The user-authored text implies this by stating that Congress can't restrict gun ownership, while the LLM-generated text explicitly states that the right is 'of the people,' not 'of the militia.' The broad key points of both texts align in asserting the individual right to bear arms, despite differences in wording and reasoning."
+}
+```

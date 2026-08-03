@@ -1,0 +1,1 @@
+{"agree": true, "label": "True", "critique": "Post 2 agrees with and elaborates on the points made in Post 1, specifically regarding the preference for the depth of Das Kapital over the Manifesto and the distinction between Marxism and Leninism."}

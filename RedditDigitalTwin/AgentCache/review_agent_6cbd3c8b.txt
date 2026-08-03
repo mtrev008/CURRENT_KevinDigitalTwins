@@ -1,0 +1,8 @@
+```json
+{
+  "independent_label": "True",
+  "agree": true,
+  "label": "True",
+  "critique": "Post 1 clarifies the scope of 'ruling elite' to include both government and private entities. Post 2 then discusses the negative actions and systemic outcomes of 'those in power,' which implicitly refers to the government component of the 'ruling elite.' Post 2 does not contradict Post 1's definition but rather elaborates on the behavior of entities within that defined scope. Thus, it does not clearly disagree with Post 1's statement."
+}
+```

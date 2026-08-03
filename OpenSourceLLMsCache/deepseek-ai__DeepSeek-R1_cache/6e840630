@@ -1,0 +1,10 @@
+<think>
+Alright, let me tackle this annotation problem. The user wants to know if the LLM-generated text and the user-authored text are making the same key points broadly, ignoring minor differences in wording or examples.
+
+First, I'll look at the user's text. They mention that normally, they wouldn't tell someone what to do with their body, but in a life-or-death situation where another person might die, they feel morally obligated to intervene, even if it's a lesser evil. The core idea here is prioritizing life over bodily autonomy in extreme cases.
+
+Now, the LLM's response agrees that society has the right to prevent disconnecting someone if it causes death. It emphasizes valuing human life when the sacrifice is temporary and not extremely harmful, like being hooked up for nine months. The LLM argues that temporary impositions to save a life outweigh bodily autonomy in such specific scenarios.
+
+Comparing both, the user talks about moral obligation to prevent death, calling it a lesser evil. The LLM frames it as society's right to intervene to protect life, stressing temporary and non-extreme harm. Both agree that saving a life takes precedence over bodily autonomy in dire situations, even if the wording differs. The other annotator labeled it as "True," and after analyzing, I agree because the central argument in both texts aligns on this key point.
+</think>
+{"True": "Both texts prioritize preserving human life over bodily autonomy in specific life-or-death scenarios involving temporary imposition."}

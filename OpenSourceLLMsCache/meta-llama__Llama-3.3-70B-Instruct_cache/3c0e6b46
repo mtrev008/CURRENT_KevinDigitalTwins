@@ -1,0 +1,6 @@
+```json
+{
+  "label": "True",
+  "explanation": "Both texts identify capacity and scalability as the primary technical failures of healthcare.gov, noting that the system's complexity and the need to integrate with downstream/government applications created a significant infrastructure challenge. The user-authored text and the LLM-generated text both emphasize the importance of capacity and scalability in the context of healthcare.gov, despite some differences in specific examples and wording."
+}
+```

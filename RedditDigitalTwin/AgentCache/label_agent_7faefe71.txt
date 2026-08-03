@@ -1,0 +1,6 @@
+```json
+{
+  "label": "True",
+  "rationale": "Post 1 concludes that 'congress can't restrict gun ownership.' Post 2 supports this by arguing that the right to bear arms belongs 'of the people,' not exclusively 'of the militia,' and that the prefatory clause is not a restriction. This interpretation in Post 2 directly reinforces the broad, unrestricted nature of gun ownership rights asserted in Post 1."
+}
+```

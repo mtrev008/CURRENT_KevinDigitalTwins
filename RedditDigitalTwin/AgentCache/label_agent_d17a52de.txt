@@ -1,0 +1,6 @@
+```json
+{
+  "label": "True",
+  "rationale": "Both posts express the same broad conclusion: rejecting sweeping generalizations about people from the Middle East/Arabs and emphasizing diversity of thought within the region, rather than monolithic views."
+}
+```

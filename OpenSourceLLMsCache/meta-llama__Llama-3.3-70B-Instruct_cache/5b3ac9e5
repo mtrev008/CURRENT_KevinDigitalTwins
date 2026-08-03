@@ -1,0 +1,8 @@
+```json
+{
+  "agree": false,
+  "critique": "The other annotator focused on the tone, wording, and details of the texts, rather than the broad key points. They correctly identified the difference in tone and style, but missed the fact that the LLM text does not make any serious key points about the topic.",
+  "decision": "The LLM-generated text does not make any serious key points about the topic, while the user-authored text discusses the popularity of a candidate in a specific state and the potential for a state to flip parties. Therefore, the two texts are not making the same broad key points.",
+  "label": "False"
+}
+```

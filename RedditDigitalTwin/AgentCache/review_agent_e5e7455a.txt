@@ -1,0 +1,8 @@
+```json
+{
+  "independent_label": "True",
+  "agree": true,
+  "label": "True",
+  "critique": "Post 1 advocates for citizens having more control over how their tax money is spent, or at least not being forced to fund things they disagree with. Post 2, while rejecting the specific mechanism of individual earmarking as 'impractical and chaotic,' still aligns with the broader conclusion that citizens should not be forced to fund government functions they do not implicitly consent to (e.g., welfare as a direct transfer). Both posts express a desire for more constrained, consent-based taxation rather than blanket mandatory funding for all government activities. Therefore, they are broadly on the same side."
+}
+```

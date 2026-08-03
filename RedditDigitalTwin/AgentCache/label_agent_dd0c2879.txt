@@ -1,0 +1,6 @@
+```json
+{
+  "label": "True",
+  "rationale": "Both posts express the broad conclusion that Social Security should remain a mandatory safety net and that efforts should focus on reforming its solvency rather than making it an optional system."
+}
+```

@@ -1,0 +1,1 @@
+{"independent_label": "False", "agree": true, "label": "False", "critique": "Post 2 fundamentally disagrees with Post 1's broad conclusion that military spending is excessive and should be reduced to fund social programs. Post 2 defends strong defense against various threats and rejects the reallocation of funds to government social programs."}

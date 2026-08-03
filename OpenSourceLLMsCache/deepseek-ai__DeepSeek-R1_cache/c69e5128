@@ -1,0 +1,10 @@
+<think>
+Alright, let's tackle this annotation task. The user wants to know if the LLM-generated text and the user-authored text are making the same broad key points. The other annotator said "False" because they believe the LLM focuses on the capacity to consent while intoxicated, which the user didn't address. 
+
+First, I'll look at the user's text. They mention that a simple "Would you like to have sex?" suffices for a sober person and criticize the need for overly complex scripts. Their main point seems to be against absurdly detailed consent questions, arguing that simplicity is rational.
+
+Now, the LLM's response. It starts by dismissing a script like "Would you like to have sex?" as a strawman. The core argument here is about the capacity to consent, especially when someone is intoxicated. The LLM emphasizes that intoxication can invalidate consent regardless of verbal agreement, using the Ohio case as an example. The key point is assessing the person's state to meaningfully consent.
+
+Comparing both, the user's focus is on rejecting complicated consent protocols for sober individuals. The LLM shifts the discussion to incapacity due to intoxication, which the user didn't mention. The user's text doesn't touch on intoxication or legal aspects of consent capacity. Therefore, while both agree that simple consent is sufficient for sober adults, the LLM introduces a different key point about impaired consent, which the user's text doesn't address. Hence, the broad key points diverge.
+</think>
+{"False": "The user's text focuses solely on rejecting complex consent scripts for sober adults, while the LLM shifts the core argument to establishing incapacity to consent due to intoxication as the critical issue, a point absent from the user's text."}

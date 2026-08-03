@@ -1,0 +1,8 @@
+```json
+{
+  "independent_label": "True",
+  "agree": true,
+  "label": "True",
+  "critique": "Both posts broadly conclude that long-term unemployment is primarily due to issues in the labor market (lack of suitable jobs, mismatch between seekers and positions, weak demand) rather than a widespread unwillingness of people to work or their preference for unemployment benefits. Post 2 reinforces the main points of Post 1."
+}
+```

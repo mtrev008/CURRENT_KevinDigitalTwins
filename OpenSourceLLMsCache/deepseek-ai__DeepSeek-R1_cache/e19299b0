@@ -1,0 +1,15 @@
+<think>
+Alright, let's tackle this annotation problem step by step. The user wants to know if the LLM-generated text and the user-authored text are making the same key points broadly, ignoring minor differences in wording or examples.
+
+First, I'll look at the user's text. The main points here are:
+1. Clinton is getting half of white blue-collar voters and nearly all non-white blue-collar workers.
+2. Trump's support among blue-collar voters is a myth, backed by a link to a FiveThirtyEight article.
+
+Now, the LLM-generated text focuses on:
+1. High percentage of Sanders supporters will vote for Clinton in the general election.
+2. Trump needs a significant number of Sanders supporters to switch to overcome Clinton's base, especially her appeal to blue-collar voters, particularly non-white ones.
+3. It's uncertain if enough Sanders supporters would switch to Trump to swing the election.
+
+Comparing both, the core themes are Clinton's strength with blue-collar voters (especially non-white) and skepticism about Trump's ability to capture that demographic. The LLM text adds details about Sanders supporters not switching in significant numbers, but the central argument aligns with debunking Trump's blue-collar support. The other annotator labeled it as True because both texts converge on Clinton's blue-collar support and challenge Trump's narrative. I agree with this assessment.
+</think>
+{"True": "Both texts assert Clinton's strong blue-collar support (especially among non-whites) and challenge the narrative of Trump's dominance with this group."}

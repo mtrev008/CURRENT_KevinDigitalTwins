@@ -1,0 +1,3 @@
+```json
+{"label":"True","rationale":"Post 1 defines 'the ruling elite' as encompassing both government and private entities. Post 2 then elaborates on the negative actions and systemic outcomes of 'those in power,' particularly focusing on government's expansion of reach and erosion of liberties. Post 2 does not disagree with Post 1's definition; rather, it provides a specific example and elaboration of the kind of critique that would apply to 'the ruling elite' mentioned in Post 1. The general topic of criticizing powerful entities is consistent between both posts."}
+```

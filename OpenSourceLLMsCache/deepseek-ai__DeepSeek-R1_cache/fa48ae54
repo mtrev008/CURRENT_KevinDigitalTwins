@@ -1,0 +1,12 @@
+<think>
+Alright, let me tackle this annotation problem. The user wants to know if the LLM-generated text and the user-authored text are making the same key points broadly. 
+
+First, looking at the user's text: "That already happens." It's a simple statement acknowledging an existing situation without elaborating on any implications or consequences. 
+
+The LLM's text, on the other hand, discusses the negative effects of invoking divine mandates in policy decisions—specifically how it shuts down debate and prevents accountability. 
+
+The other annotator labeled this as False because the user's text is just an assertion of existence, while the LLM's text argues about consequences. 
+
+I agree with that assessment. The core point of the user's text is the existence of a situation, whereas the LLM focuses on the implications of that situation. Even though both touch on the same general topic (divine mandates in policy), their key points differ: existence vs. consequences. The differences in scope and focus make the broad key points distinct.
+</think>
+{"False": "The user text merely acknowledges an existing situation ('That already happens'), while the LLM text argues a specific negative consequence of that situation ('shuts down debate, prevents accountability'). The core point of the LLM text (the harmful effect) is absent from the user text."}

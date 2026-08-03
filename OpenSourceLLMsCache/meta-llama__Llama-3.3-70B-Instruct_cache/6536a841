@@ -1,0 +1,6 @@
+```json
+{
+  "label": "True",
+  "explanation": "The annotator's reasoning is sound. Both texts broadly argue that high healthcare spending in the US is a positive aspect, with the user-authored text framing it as inclusive of various costs and the LLM-generated text linking it to the quality of care. Both also express opposition to government-mandated or socialist healthcare systems, with the user-authored text suggesting a move away from such systems and the LLM-generated text criticizing Obamacare for limiting choice and forcing expensive coverage. The key points of valuing high spending as indicative of quality or investment and opposing socialist-style healthcare systems are common to both, despite differences in detail and emphasis."
+}
+```

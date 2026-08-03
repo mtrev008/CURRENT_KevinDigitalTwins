@@ -1,0 +1,12 @@
+<think>
+Alright, let me tackle this annotation problem. The user wants to know if the LLM-generated text and the user-authored text are making the same broad key points, ignoring minor differences in wording or examples. 
+
+First, I'll look at the user's text. They mention that if the Trump Corp employee is doing campaign work during her corporate job, that's likely a violation. They also clarify they're not presuming guilt since they lack details about her specific situation. The key points here are: potential violation if corporate-paid work includes campaign activities, and no presumption of guilt without evidence.
+
+Now, the LLM-generated text focuses on the implication that a corporate employee's salary used for campaign work would be an illegal corporate contribution. It also states they're not making a definitive judgment but comparing potential violations based on the given premise. The core ideas are: corporate salary for campaign work equals violation, and no definitive guilt claim.
+
+Comparing both, the main arguments align: both discuss the potential illegality of corporate-funded campaign work and avoid asserting actual guilt. The other annotator labeled this as "True," noting both texts highlight the violation possibility without definitive judgment. 
+
+Minor differences exist—like the user mentioning "spare time volunteering" as possibly okay, while the LLM doesn't—but these aren't key points per the user's focus on broad strokes. The core message matches: conditional violation scenario + lack of presumption. So I agree with the other annotator's "True" assessment.
+</think>
+{"True": "Both texts discuss the potential campaign finance violation if a corporate employee's salary funds campaign work, while explicitly stating they are not presuming guilt or making definitive judgments based on limited information."}

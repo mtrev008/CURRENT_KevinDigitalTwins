@@ -1,0 +1,6 @@
+```json
+{
+  "label": "True",
+  "explanation": "The other annotator's reasoning is too narrow, focusing on specific details rather than broad key points. Both texts express a dissatisfaction with insincere or unmemorable political speech, with the user text implying that Bush's speech was forgettable and the LLM text expressing a preference for genuine answers over 'canned' soundbites. At a broad level, both texts are making the same key point about the importance of authenticity in political speech."
+}
+```

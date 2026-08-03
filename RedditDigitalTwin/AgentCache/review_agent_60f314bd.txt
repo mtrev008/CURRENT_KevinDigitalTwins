@@ -1,0 +1,1 @@
+{"independent_label": "False", "agree": true, "label": "False", "critique": "Post 1 and Post 2 are in direct opposition. Post 1 makes a partisan attack, while Post 2 rejects that attack as 'meaningless bullshit' and tells the first person they are wrong. They do not share the same broad conclusion or position."}

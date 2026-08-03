@@ -1,0 +1,1 @@
+{"agree": true, "label": "True", "critique": "Both posts share the same broad conclusion that long-term unemployment is primarily caused by labor market conditions and a lack of suitable job openings, rather than a lack of desire to work or the incentive provided by unemployment benefits."}

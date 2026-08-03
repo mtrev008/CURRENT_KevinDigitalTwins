@@ -1,0 +1,6 @@
+```json
+{
+  "label": "True",
+  "explanation": "The other annotator correctly identifies that both texts convey the idea that a Republican-controlled Congress would be resistant to a $15 minimum wage proposal, regardless of the proposer. The user-authored text implies this through a rhetorical question, while the LLM-generated text states it more explicitly. The broad key point of congressional resistance to the proposal is the same in both texts."
+}
+```

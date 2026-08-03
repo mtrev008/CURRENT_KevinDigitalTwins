@@ -1,0 +1,6 @@
+```json
+{
+  "label": "True",
+  "explanation": "The annotator correctly identifies the broad key points as China's mixed economy and the constant role of government despite technological changes. Although the LLM-generated text provides additional context and examples, the core thematic alignments with the user-authored text are maintained. The user-authored text argues that China's economy combines state intervention and capitalism, and that the role of government should remain constant. The LLM-generated text similarly describes China's economy as a managed market economy and asserts that the fundamental purpose of government remains the same despite changes in technology and society."
+}
+```

@@ -1,0 +1,1 @@
+{"independent_label": "True", "agree": true, "label": "True", "critique": "Post 1 suggests that a ballot initiative satisfies the desire for legal weed, and Post 2 agrees with and expands on this, explaining how it removes the incentive to vote for a specific candidate (Johnson) whose main appeal is that issue. They share the same core conclusion."}

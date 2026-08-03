@@ -1,0 +1,8 @@
+```json
+{
+  "independent_label": "True",
+  "agree": true,
+  "label": "True",
+  "critique": "Both posts share the broad conclusion that 'socialist style' healthcare or government mandates (like Obamacare) are detrimental, reduce choice, and are less desirable than a market-driven system that allows for higher quality care and individual freedom, even if it entails higher overall spending."
+}
+```

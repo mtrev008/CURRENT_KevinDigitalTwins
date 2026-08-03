@@ -1,0 +1,3 @@
+```json
+{"label":"True","rationale":"Both posts argue against blaming sequestration solely on one individual or party, emphasizing its bipartisan nature and the legislative process involving multiple actors."}
+```
