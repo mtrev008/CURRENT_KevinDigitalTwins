@@ -4,13 +4,16 @@ from google.genai import types
 import hashlib
 import json
 
-def InitGoogleGemini(folder='', free_tier=False):
+def InitGoogleGemini(folder='', free_tier=False, new_api=True):
     "Retrieve my API key and initialize Gemini with it"
 
     global client
     folder = os.path.dirname(os.path.abspath(__file__)) + '/' # Folder of this script
     if free_tier:
         with open(folder + 'MyPersonalKeyAPI/free_secret', 'r') as f: # Path to the free tier API key
+            api_key = f.readline()
+    elif new_api:
+        with open(folder + 'MyPersonalKeyAPI/new_secret', 'r') as f: # Path to the new API key
             api_key = f.readline()
     else:
         with open(folder + 'MyPersonalKeyAPI/secret', 'r') as f: # Path to the API key

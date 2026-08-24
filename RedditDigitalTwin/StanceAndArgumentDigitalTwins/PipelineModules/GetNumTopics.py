@@ -13,21 +13,21 @@ def GetNumTopicsPerPost(user, posts, force=False, debug=False):
     curr_user_posts_num_topics = {}
 
     # Iterate through each users posts
-    for i, post in enumerate(posts[:5]):
+    for i, post in enumerate(posts):
         if debug:
             print(f"Post {i}...")
 
         # Get the X # of topics per post per user
         num_topics_prompt = ""
-        num_topics_prompt += "I will provide you a Reddit comment. You will tell me how many topics are explicitly mentioned within the comment. "
-        num_topics_prompt += "Format your answer as a single number with no other output. If the comment does not directly mention any specific topics, output 0. "
-        num_topics_prompt += "The comment is:\n"
+        num_topics_prompt += "I will provide you a Reddit post. You will tell me how many topics are explicitly mentioned within the post. "
+        num_topics_prompt += "Format your answer as a single number with no other output. If the post does not directly mention any specific topics, output 0. "
+        num_topics_prompt += "The post is:\n"
         num_topics_prompt += f'"""{post}"""'
 
         if debug: 
             print("Prompt:", num_topics_prompt)
 
-        num_topics = gemini.AskGoogleGemini(num_topics_prompt, force=False)
+        num_topics = gemini.AskGoogleGemini(num_topics_prompt, force=force)
         try:
             num_topics = int(num_topics)
         except:

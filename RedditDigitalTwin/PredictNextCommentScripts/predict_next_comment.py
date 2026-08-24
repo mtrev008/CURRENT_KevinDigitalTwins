@@ -119,26 +119,26 @@ def main():
         ##########################################################################
 
 
-    # DELETE THIS
-    # Test with a random comment from the longest thread
-    # longestTread = GetLongestThread(allThreads)
-    # comment = longestTread.comments[61]
-    # commentChain = longestTread.GetCommentChainAboveGivenComment(comment)
-    # commentChain = commentChain[:12] # DELETE LATER (only for testing)
+        # DELETE THIS
+        # Test with a random comment from the longest thread
+        # longestTread = GetLongestThread(allThreads)
+        # comment = longestTread.comments[61]
+        # commentChain = longestTread.GetCommentChainAboveGivenComment(comment)
+        # commentChain = commentChain[:12] # DELETE LATER (only for testing)
 
-    # # Print the comment chain in chronological order:
-    # # First the parent comment (AKA the submission)
-    # print("user:", longestTread.user)
-    # print("Post title:", longestTread.title)
-    # print("Post body:", longestTread.body)
-    # print('--'*40)
-    # for i, comment in enumerate(commentChain):
-    #     print(f"Comment #{i+1}:")
-    #     print(f"User: {comment.user}")
-    #     print()
-    #     print(comment.body)
-    #     print('--'*40)
-    # quit()
+        # # Print the comment chain in chronological order:
+        # # First the parent comment (AKA the submission)
+        # print("user:", longestTread.user)
+        # print("Post title:", longestTread.title)
+        # print("Post body:", longestTread.body)
+        # print('--'*40)
+        # for i, comment in enumerate(commentChain):
+        #     print(f"Comment #{i+1}:")
+        #     print(f"User: {comment.user}")
+        #     print()
+        #     print(comment.body)
+        #     print('--'*40)
+        # quit()
 
         initial_post = thread.title + thread.body
 

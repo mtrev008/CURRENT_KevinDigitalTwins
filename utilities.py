@@ -2,7 +2,8 @@ import os
 import pandas as pd
 import polars as pl
 import ast
-from sentence_transformers import SentenceTransformer # Assigns numerical values to text to help with paraphrasing/finding meaning within a sentence (text -> vector)
+# Uncomment this if needed
+# from sentence_transformers import SentenceTransformer # Assigns numerical values to text to help with paraphrasing/finding meaning within a sentence (text -> vector)
 from sklearn.metrics.pairwise import cosine_similarity # Uses the numerical values assigned to compare them  and guage if sentences have the same meaning!!
 import numpy as np
 from sklearn.metrics import precision_score, recall_score, f1_score, balanced_accuracy_score
@@ -132,22 +133,23 @@ def get_submissions(numRows=None) -> pd.DataFrame:
     
     return pd.read_csv(filepath) # Return full df
 
-def get_cosine_similarity(sentences: list[str]):
-    """Calculate the cosine similarity between two sentences """
+# Uncomment if needed
+# def get_cosine_similarity(sentences: list[str]):
+#     """Calculate the cosine similarity between two sentences """
 
-    model = SentenceTransformer('all-MiniLM-L6-v2')
-    # model = SentenceTransformer('all-mpnet-base-v2')
+#     model = SentenceTransformer('all-MiniLM-L6-v2')
+#     # model = SentenceTransformer('all-mpnet-base-v2')
 
-    sentenceEmbeddings = model.encode(sentences)
-    return cosine_similarity([sentenceEmbeddings[0]], [sentenceEmbeddings[1]])[0][0]
+#     sentenceEmbeddings = model.encode(sentences)
+#     return cosine_similarity([sentenceEmbeddings[0]], [sentenceEmbeddings[1]])[0][0]
 
-def get_euclidean_distance(sentences: list[str]):
-    """Gets the euclidean distance between two texts"""
+# def get_euclidean_distance(sentences: list[str]):
+#     """Gets the euclidean distance between two texts"""
 
-    model = SentenceTransformer('all-MiniLM-L6-v2')
+#     model = SentenceTransformer('all-MiniLM-L6-v2')
 
-    sentenceEmbeddings = model.encode(sentences)
-    return np.linalg.norm(sentenceEmbeddings[0] - sentenceEmbeddings[1])
+#     sentenceEmbeddings = model.encode(sentences)
+#     return np.linalg.norm(sentenceEmbeddings[0] - sentenceEmbeddings[1])
 
 def get_jaccard_similarity(sentences: list[str]):
     """Gets the jaccard similarity between two texts"""

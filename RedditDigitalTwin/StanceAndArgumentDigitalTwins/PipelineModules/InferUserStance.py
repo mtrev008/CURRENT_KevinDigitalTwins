@@ -8,11 +8,12 @@ import GoogleGemini as gemini
 # Init Google Gemini
 gemini.InitGoogleGemini()
 
-def InferUserStanceOnHiddenTopic(posts_topics_positions, force=False, debug=False):
+def InferUserStanceOnHiddenTopic(user, posts_topics_positions, context_type="max context", post_contexts=None, force=False, debug=False):
     """Sets up the prompt for getting a user's position about a randomly hidden topic.
-    Param: posts_topics_positions = {"post": {"topic": position, ...}, ...}"""
+    Param: posts_topics_positions = {"post": {"topic": position, ...}, ...}
+    post_context = 'posts with comment chains' OR 'posts and comments' OR 'posts only'. """
 
-    random.seed(2) 
+    random.seed(3) # Originally 2 
 
     # Get posts that have at least one topic
     valid_posts = []
@@ -34,30 +35,56 @@ def InferUserStanceOnHiddenTopic(posts_topics_positions, force=False, debug=Fals
     # Get true hidden position
     hidden_position = posts_topics_positions[hidden_post][hidden_topic]
 
+    # TODO: write posts and comments chains if statement, make the prompt setup like the predict_next_comment.py setup
+    if context_type == "posts with comment chains":
+        prompt = "You are a Reddit user who has participated in the following political discussion threads.\n"
 
-    # prompt_TEMP = "You are a Reddit user who has previously made the following posts: "
-    # prompt_TEMP += "" # INSERT all posts that are not on the specified topic
-    # for post in posts_topics_positions.keys():
-    #     prompt += ''
+        for post in posts_topics_positions.keys():
+            if hidden_topic in posts_topics_positions[post]:
+                continue
 
-    # prompt_TEMP += "You have also made the following comments: "
-    # prompt_TEMP += "" # INSERT all comments that are not on the specified topic
-    # prompt_TEMP += 'What is your position on [TOPIC]? Answer either "support", "oppose", or "neutral", with no other output.'
+            context = post_contexts[post]
+            thread = context["thread"]
+            comment_chain = context["comment_chain"]
 
-    # TESTING (DELETE THIS LINE)
-        
-    # TODO: skip posts on the topic at hand
-    prompt = ""
-    prompt += "You are a Reddit user who has previously made the following comments: "
-    for post in posts_topics_positions.keys():
-        if hidden_topic in posts_topics_positions[post]:
-            continue
-        prompt += f'"""{post}"""\n'
+            prompt += f'\nThe title of the thread is: """{thread.title}""".\n'
+            prompt += f'The first post in the thread is: """{thread.body}""".\n'
+
+            for comment in comment_chain:
+                if comment.body == hidden_post:
+                    continue
+
+                if comment.user == user:
+                    prompt += f'You replied with this comment: """{comment.body}""".\n'
+                else:
+                    prompt += f'A different user replied with this comment: """{comment.body}""".\n'
+
+    # If the post context is posts and comments as separate lists (no conversational context)
+    elif context_type == "posts and comments":
+        prompt = "You are a Reddit user who has previously written the following posts and comments:\n"
+
+        for post in posts_topics_positions.keys():
+            if hidden_topic in posts_topics_positions[post]:
+                continue
+
+            prompt += f'"""{post}"""\n'
+
+    elif context_type == "posts only":
+        prompt = "You are a Reddit user who has previously written the following posts:\n"
+
+        for post in posts_topics_positions.keys():
+            if hidden_topic in posts_topics_positions[post]:
+                continue
+
+            prompt += f'"""{post}"""\n'
+
+    else:
+        raise ValueError(f"Unknown context type: {context_type}")
 
     # prompt += f'What is your viewpoint on {hidden_topic}? Answer either "support", "oppose", or "neutral", with no other output.'
     # prompt += f'What is your stance towards {hidden_topic}? Answer either "In Favor", "Against", or "Neutral", with no other output.'
-    prompt += f'What is your stance towards {hidden_topic}? Answer either "support", "oppose", or "neutral", with no other output.'
-
+    # prompt += f'What is your stance towards {hidden_topic}? Answer either "support", "oppose", or "neutral", with no other output.' # This is the working version
+    prompt += f'What is your stance on {hidden_topic}? Answer either "support", "oppose", or "no stance", with no other output.'
 
     if debug:
         print("Prompt:", prompt)
@@ -65,27 +92,23 @@ def InferUserStanceOnHiddenTopic(posts_topics_positions, force=False, debug=Fals
     predicted_position = gemini.AskGoogleGemini(prompt, force=force)
     predicted_position = str(predicted_position).strip().lower()
 
-    if debug:
-        print("Hidden post:", hidden_post)
-        print("Hidden topic:", hidden_topic)
+    if hidden_position == 1:
+        hidden_position = "support"
+    elif hidden_position == -1:
+        hidden_position  = "oppose"
+    else:
+        hidden_position = "no stance"
 
-        if hidden_position == 1:
-            print("True position: support")
-            hidden_position = "support"
-        elif hidden_position == -1:
-            print("True position: oppose")
-            hidden_position  = "oppose"
-        else:
-            print("True position: neutral")
-            hidden_position = "neutral"
-
-
-        print("Predicted position:", predicted_position)
+    # if debug:
+    print("Hidden post:", hidden_post)
+    print("Hidden topic:", hidden_topic)
+    print("True position:", hidden_position)
+    print("Predicted position:", predicted_position)
 
     return hidden_post, hidden_topic, hidden_position, predicted_position
 
 
-
+# Temporary testing function
 def TEMP_InferUserPositionOnHiddenTopic(posts_topics_positions, randomize=True, force=False, debug=False):
     """Sets up the prompt for getting a user's position about a randomly hidden topic.
     Param: posts_topics_positions = {"post": {"topic": position, ...}, ...}"""
