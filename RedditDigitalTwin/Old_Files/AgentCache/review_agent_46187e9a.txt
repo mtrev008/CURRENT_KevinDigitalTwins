@@ -1,0 +1,1 @@
+{"independent_label": "True", "agree": true, "label": "True", "critique": "Both posts broadly agree that the GOP establishment will likely seek to exert more control over future primaries, moving towards more closed or managed systems, to prevent unpredictable outcomes and ensure more palatable candidates."}

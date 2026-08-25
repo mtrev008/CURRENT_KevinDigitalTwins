@@ -1,0 +1,6 @@
+```json
+{
+  "label": "True",
+  "rationale": "Post 1 defends voting for a major party candidate (Obama) by stating it's an informed choice based on preference, not a result of being 'blinded.' Post 2 argues against voting for third-party candidates in the current election because they 'can't win,' implicitly supporting a vote for a major party candidate who 'can actually lead the country.' Both posts broadly align in favoring a major party vote over a third-party vote for the immediate election, making Post 2 not a disagreement but rather a reinforcing argument for the practicality of voting for a major party candidate."
+}
+```

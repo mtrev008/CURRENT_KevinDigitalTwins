@@ -1,0 +1,6 @@
+```json
+{
+  "label": "True",
+  "rationale": "Both posts express a strong desire for deeper political thought and discourse, moving beyond superficial engagement with politics. Post 1 explicitly states its goal is to create an 'opportunity for deeper political thought & discourse,' and Post 2 criticizes a proposal for being a 'dangerous oversimplification' that narrows political imagination and prevents thinking about 'underlying philosophies' rather than just 'policies,' thus reinforcing the need for deeper engagement."
+}
+```

@@ -1,0 +1,1 @@
+{"independent_label": "True", "agree": true, "label": "True", "critique": "Post 1 characterizes an argument as 'spin,' while Post 2 provides a detailed rebuttal explaining why that same argument is a 'distorted view.' Both posts share the same broad conclusion that the information being discussed is manipulative or inaccurate."}

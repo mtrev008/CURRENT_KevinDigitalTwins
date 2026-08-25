@@ -1,0 +1,1 @@
+{"independent_label": "True", "agree": true, "label": "True", "critique": "Both posts discuss the underrepresentation of women in politics and support the idea that gender balance and diversity in political representation are important and currently lacking."}

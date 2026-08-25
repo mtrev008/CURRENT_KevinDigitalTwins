@@ -1,0 +1,1 @@
+{"independent_label": "True", "agree": true, "label": "True", "critique": "Both posts express the same underlying sentiment: a dismissive challenge to another person's contribution, implying that the person has no substance to their argument and is merely posturing. Post 2 acts as a logical extension or explicit articulation of the skepticism found in Post 1."}

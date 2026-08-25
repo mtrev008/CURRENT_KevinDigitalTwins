@@ -1,0 +1,6 @@
+```json
+{
+  "label": "False",
+  "rationale": "Post 1 broadly concludes that the opposing argument (which it frames as advocating for absurd consent protocols for sober people) is irrational. Post 2 directly rejects Post 1's premise, stating that Post 1 is arguing against a 'ridiculous strawman' and 'deliberately missing' the actual point, which is about capacity to consent in cases of intoxication. Therefore, Post 2 does not represent the broad conclusion or overall position of Post 1; instead, it refutes Post 1's characterization of the debate."
+}
+```

@@ -1,0 +1,1 @@
+{"label": "True", "rationale": "Both posts express the same underlying position that ideological principles should not be compromised for pragmatism, with Post 2 applying Post 1's general stance against compromise to a specific ideological label."}

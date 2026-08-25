@@ -1,0 +1,6 @@
+```json
+{
+  "label": "True",
+  "rationale": "Post 1 asks for evidence regarding what happened in previous government shutdowns, linking to an article about their effects. Post 2 discusses the negative impact of government shutdowns on the military, criticizing government mismanagement. While Post 1 is a question and Post 2 is an opinion, they both broadly address the topic of government shutdowns and their negative consequences, particularly regarding the military. Post 2 does not clearly disagree with the implied broad topic or concern of Post 1."
+}
+```

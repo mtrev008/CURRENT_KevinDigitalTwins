@@ -1,0 +1,1 @@
+{"independent_label": "True", "agree": true, "label": "True", "critique": "Both posts share the same underlying argument: that a separate ballot initiative for marijuana legalization removes the incentive for certain voters to support a specific candidate (like Gary Johnson) solely on that issue. Post 2 directly affirms and expands upon the premise in Post 1."}

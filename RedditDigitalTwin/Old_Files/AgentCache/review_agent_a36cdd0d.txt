@@ -1,0 +1,1 @@
+{"independent_label": "True", "agree": true, "label": "True", "critique": "Both posts argue against blaming sequestration solely on one individual, emphasizing its bipartisan nature and the involvement of both chambers of Congress. Post 2 elaborates on the mechanism but supports the broad conclusion of Post 1 that it was not a unilateral act."}

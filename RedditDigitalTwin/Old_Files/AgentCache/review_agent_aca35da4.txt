@@ -1,0 +1,1 @@
+{"independent_label": "False", "agree": true, "label": "False", "critique": "Post 2 directly challenges a core implication made in Post 1, specifically questioning the evidence for the 'racial/religious obstruction' that Post 1 implies had an effect on opposition to Obama. This is a clear disagreement with a broad conclusion of Post 1."}

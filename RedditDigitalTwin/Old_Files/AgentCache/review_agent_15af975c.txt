@@ -1,0 +1,1 @@
+{"agree": true, "label": "True", "critique": "Both posts argue in favor of supporting a major party candidate over a third-party candidate, dismissing third-party voting as either a misunderstanding of voter preference or a wasted effort."}

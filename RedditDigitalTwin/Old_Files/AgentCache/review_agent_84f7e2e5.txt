@@ -1,0 +1,1 @@
+{"independent_label": "True", "agree": true, "label": "True", "critique": "Both posts broadly question the justification and fairness of the current system where less populous states have disproportionately more voting power per citizen. Post 2 elaborates on the challenge raised by Post 1."}

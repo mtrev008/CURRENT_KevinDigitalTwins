@@ -1,0 +1,1 @@
+{"agree": true, "label": "True", "critique": "Post 1 and Post 2 are broadly in agreement that the government is a primary entity involved in the suppression of speech. Post 2 elaborates on the nature of this suppression (censorship vs physical violence), but it does not disagree with Post 1's suggestion that the government belongs on a list of potential attackers of rights."}

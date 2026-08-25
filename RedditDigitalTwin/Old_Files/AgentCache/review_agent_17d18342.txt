@@ -1,0 +1,1 @@
+{"independent_label": "True", "agree": true, "label": "True", "critique": "Post 1 asks if Trump can siphon votes from both parties to win, and Post 2 explores a specific strategy for how he could siphon votes from the economic left. Both posts share the premise that gaining cross-party support is a potential path for his victory."}

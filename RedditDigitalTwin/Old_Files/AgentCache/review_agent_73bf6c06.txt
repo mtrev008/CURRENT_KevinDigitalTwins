@@ -1,0 +1,1 @@
+{"independent_label": "True", "agree": true, "label": "True", "critique": "Post 2 agrees with the main points of Post 1, specifically the distinction between Marxism and Leninism and the preference for the analytical depth of Das Kapital over the Communist Manifesto."}

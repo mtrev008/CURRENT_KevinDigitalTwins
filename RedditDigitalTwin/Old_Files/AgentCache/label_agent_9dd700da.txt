@@ -1,0 +1,6 @@
+```json
+{
+  "label": "False",
+  "rationale": "Post 1 proposes that citizens should have direct control or choice over how their tax dollars are spent, specifically to avoid funding things they don't support (e.g., Planned Parenthood, corporate welfare). Post 2 explicitly rejects the idea of 'individually earmarking my tax dollars,' calling it 'impractical and chaotic,' which is the core mechanism Post 1 advocates. While Post 2 shares a sentiment about not wanting to fund certain things like welfare, its fundamental stance on the practicality and desirability of individual tax spending choice directly contradicts Post 1's broad conclusion regarding citizen control over tax allocation."
+}
+```

@@ -1,0 +1,8 @@
+```json
+{
+  "independent_label": "True",
+  "agree": true,
+  "label": "True",
+  "critique": "Both posts converge on the idea that the primary issue with Healthcare.gov was the initial capacity and scalability problem. Post 1 explicitly states 'The real issue here is capacity & scalability' and that they 'did not correctly predict how many simultaneous connections.' Post 2 reinforces this by stating 'the initial *capacity* problem was a massive barrier' and elaborates on the complexity that made capacity a unique challenge. Post 2 does not disagree with Post 1's broad conclusion."
+}
+```

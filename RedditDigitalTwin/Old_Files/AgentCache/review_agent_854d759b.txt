@@ -1,0 +1,8 @@
+```json
+{
+  "independent_label": "True",
+  "agree": true,
+  "label": "True",
+  "critique": "Post 1 states that the 'spin machine is going full speed,' indicating a belief that information is being distorted. Post 2 directly supports this by starting with 'That's a pretty distorted view' and then provides specific examples and counter-arguments to debunk what it considers to be manipulative or disingenuous claims. Both posts are broadly on the same side, identifying and critiquing a 'distorted view' or 'spin.'"
+}
+```

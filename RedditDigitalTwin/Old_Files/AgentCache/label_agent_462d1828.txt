@@ -1,0 +1,6 @@
+```json
+{
+  "label": "True",
+  "rationale": "Post 1 uses a rhetorical question to express strong disapproval of a policy perceived as 'letting criminals go free.' Post 2 articulates that a specific policy ('path to citizenship') is precisely what many consider to be 'letting criminals go free' and links opposition to this policy to 'upholding the rule of law.' While Post 2 is more explanatory in nature, it does not disagree with Post 1's underlying premise or sentiment. Instead, it provides context and justification for the exact perspective expressed rhetorically in Post 1, thereby broadly supporting the same conclusion: that certain policies are akin to 'letting criminals go free' and are therefore objectionable or wrong."
+}
+```

@@ -1,0 +1,1 @@
+{"agree": true, "label": "True", "critique": "Both posts argue that high US healthcare spending is a positive indicator of quality or innovation and both strongly oppose socialized medicine and the ACA (Obamacare) in favor of market-based approaches."}

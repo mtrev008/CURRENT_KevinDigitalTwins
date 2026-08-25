@@ -1,0 +1,1 @@
+{"independent_label": "True", "agree": true, "label": "True", "critique": "Both posts broadly criticize the use of personal attacks and dismissive language in discussion, arguing that it's counterproductive and inappropriate. Post 2 elaborates on the negative consequences of such language, aligning with the sentiment of Post 1 rather than disagreeing with it."}

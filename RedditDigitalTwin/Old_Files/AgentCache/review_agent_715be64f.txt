@@ -1,0 +1,3 @@
+```json
+{"independent_label": "True", "agree": true, "label": "True", "critique": "Post 1 and Post 2 are broadly aligned in their subject matter (the impact of government shutdowns on the military) and their critical stance toward government management. Post 1 uses a rhetorical question to suggest that previous shutdowns did not have the catastrophic effects claimed by others, while Post 2 criticizes the government's failure to prioritize military pay during shutdowns. Since Post 2 does not clearly disagree with Post 1 and both express a pro-military, anti-government-mismanagement sentiment, they meet the criteria for a True label."}
+```

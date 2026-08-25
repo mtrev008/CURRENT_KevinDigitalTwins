@@ -1,0 +1,1 @@
+{"independent_label": "True", "agree": true, "label": "True", "critique": "Both posts share the broad conclusion that World War II functioned as a massive and effective jobs program, with Post 2 explicitly acknowledging the point made in Post 1 and reinforcing the idea that the war effort was a successful instance of public works/spending."}

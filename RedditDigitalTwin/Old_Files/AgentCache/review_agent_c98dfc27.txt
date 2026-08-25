@@ -1,0 +1,1 @@
+{"independent_label": "True", "agree": true, "label": "True", "critique": "Both posts share the same broad conclusion: that high long-term unemployment is caused by structural labor market issues (mismatch between seekers and jobs) and economic reality, rather than a lack of desire to work or an over-reliance on unemployment benefits."}

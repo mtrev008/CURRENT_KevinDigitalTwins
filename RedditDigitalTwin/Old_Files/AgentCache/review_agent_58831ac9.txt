@@ -1,0 +1,1 @@
+{"independent_label": "True", "agree": true, "label": "True", "critique": "Both posts reject broad generalizations about an entire group, emphasizing that not all members share the same extreme views. Post 2 reinforces Post 1's stance against painting an entire region with a broad brush."}

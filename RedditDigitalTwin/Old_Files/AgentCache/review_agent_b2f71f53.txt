@@ -1,0 +1,8 @@
+```json
+{
+  "independent_label": "True",
+  "agree": true,
+  "label": "True",
+  "critique": "Post 2 clarifies and supports the underlying sentiment of Post 1, identifying 'a path to citizenship' as the specific policy many consider 'letting criminals go free' or rewarding illegal behavior. Both posts are broadly on the same side, expressing opposition to policies perceived as such."
+}
+```

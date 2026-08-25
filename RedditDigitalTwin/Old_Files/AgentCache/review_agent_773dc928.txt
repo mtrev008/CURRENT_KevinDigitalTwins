@@ -1,0 +1,1 @@
+{"independent_label": "True", "agree": true, "label": "True", "critique": "Both posts argue for the preservation and reform of Social Security as a mandatory safety net, specifically rejecting the idea of making it an optional or opt-in/out system."}

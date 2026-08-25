@@ -1,0 +1,6 @@
+```json
+{
+  "label": "True",
+  "rationale": "Despite Post 2's initial phrase 'I disagree with your premise regarding Bernie,' the arguments it presents strongly align with Post 1's broad conclusion. Both posts argue that Bernie Sanders used the Democratic party for convenience without genuine long-term commitment, and more broadly, that individuals or candidates who are not deeply committed to a political party should not dictate its direction or leadership. Both advocate for a higher level of commitment (e.g., joining, registering, working within the party over time) for those who wish to influence a party's future. The core message about party integrity and the role of committed members versus 'fair-weather supporters' is consistent across both posts."
+}
+```

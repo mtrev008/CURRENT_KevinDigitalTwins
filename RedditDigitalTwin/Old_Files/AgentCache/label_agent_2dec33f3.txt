@@ -1,0 +1,6 @@
+```json
+{
+  "label": "True",
+  "rationale": "Post 1 uses a rhetorical question to express the broad conclusion that 'letting criminals go free' is an undesirable outcome or policy. Post 2 directly addresses this sentiment by stating that a 'path to citizenship' is precisely what many consider 'letting criminals go free' and links opposition to it with 'upholding the rule of law.' While Post 1 is a direct, emotional protest and Post 2 is an explanatory statement about a widely held view, Post 2 does not disagree with Post 1's underlying principle. Instead, it provides specific context and justification for the very sentiment expressed in Post 1, effectively reinforcing the main takeaway that certain policies are perceived as letting criminals go free and are therefore objectionable."
+}
+```

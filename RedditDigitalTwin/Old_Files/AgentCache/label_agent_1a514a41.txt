@@ -1,0 +1,6 @@
+```json
+{
+  "label": "True",
+  "rationale": "Post 2 is a homophone of Post 1 ('You too!' vs 'Ewe two!') and conveys the exact same broad message and intent, likely a playful or informal acknowledgement."
+}
+```

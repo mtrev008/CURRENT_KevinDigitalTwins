@@ -1,0 +1,6 @@
+```json
+{
+  "label": "False",
+  "rationale": "Post 1 argues for significantly reducing military spending to fund social programs and reduce taxes, implying current spending is excessive and driven by misplaced fears. Post 2 directly refutes the premise that threats are minimal (citing cyber threats, terrorism, hostile regimes) and explicitly disagrees with funneling any potential military savings into government-run social programs, advocating instead for the money to remain with individuals. These are fundamental disagreements on both the necessity of current defense levels and the preferred allocation of funds."
+}
+```

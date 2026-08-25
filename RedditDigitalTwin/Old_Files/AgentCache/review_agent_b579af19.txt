@@ -1,0 +1,1 @@
+{"agree": true, "label": "True", "critique": "Both posts express the same perspective: that while they are not certain of the facts, if a corporate employee is paid by the corporation to work on a campaign, it would constitute a violation. Neither post asserts guilt definitively, and both focus on the conditional nature of the potential violation."}

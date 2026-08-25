@@ -1,0 +1,8 @@
+```json
+{
+  "independent_label": "True",
+  "agree": false,
+  "label": "False",
+  "critique": "While both posts start with an affirmative ('Yup'/'Yep'), Post 2 explicitly acknowledges a correction ('thanks for catching that!') and an error ('My brain was a year ahead. Edited.'). This implies that the statement Post 1 affirmed (if it was part of an ongoing conversation that led to the edit) was incorrect. Therefore, Post 2 is agreeing with a *correction* that inherently contradicts the original premise Post 1 might have been affirming. In this context, they do not agree on the underlying fact, as Post 2 validates a change from an assumed previous state."
+}
+```

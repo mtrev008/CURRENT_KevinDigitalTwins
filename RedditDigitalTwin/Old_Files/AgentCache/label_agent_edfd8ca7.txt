@@ -1,0 +1,6 @@
+```json
+{
+  "label": "True",
+  "rationale": "Post 2 accepts and builds upon Post 1's explanation for the initial alliance (the Cold War angle). It then poses a follow-up question regarding the continuation of the alliance, specifically whether it's due to inertia or current strategic interests, without disagreeing with Post 1's broader explanation of the alliance's origins and ongoing complexities."
+}
+```

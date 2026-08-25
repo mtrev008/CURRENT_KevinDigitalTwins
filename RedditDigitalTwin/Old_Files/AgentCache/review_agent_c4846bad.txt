@@ -1,0 +1,8 @@
+```json
+{
+  "independent_label": "True",
+  "agree": true,
+  "label": "True",
+  "critique": "Post 1 asks for examples related to government shutdowns. Post 2 discusses a specific and critical impact of government shutdowns (failure to pay military personnel) and uses it to criticize government mismanagement. This fits within the broad discussion of government shutdowns and their consequences initiated by Post 1."
+}
+```

@@ -1,0 +1,8 @@
+```json
+{
+  "independent_label": "True",
+  "agree": true,
+  "label": "True",
+  "critique": "Post 1 states 'That already happens,' which is an assertion of fact. Post 2 describes a situation that could easily be what Post 1 refers to. Post 2 does not disagree with Post 1's factual statement; rather, it elaborates on the negative implications of such a practice. Since Post 2 does not clearly disagree with Post 1, the label is True."
+}
+```

@@ -1,0 +1,8 @@
+```json
+{
+  "independent_label": "True",
+  "agree": false,
+  "label": "True",
+  "critique": "Post 1 presents a serious, albeit speculative, political analysis and prediction. Post 2 employs extreme sarcasm and absurd imagery (unicorns and leprechauns) to mock the feasibility or seriousness of a plan or outcome. If Post 2 were a response to Post 1, it would be a clear dismissal of the realism and seriousness of Post 1's prediction, thus expressing strong disagreement."
+}
+```

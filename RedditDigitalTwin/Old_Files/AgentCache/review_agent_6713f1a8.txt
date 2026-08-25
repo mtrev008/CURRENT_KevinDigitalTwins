@@ -1,0 +1,8 @@
+```json
+{
+  "independent_label": "True",
+  "agree": true,
+  "label": "True",
+  "critique": "Post 2, despite starting with 'I disagree with your premise regarding Bernie,' actually reinforces and elaborates on the broad conclusion of Post 1. Both posts argue that individuals who are not deeply committed, long-term members of a political party should not be able to dictate that party's direction or choose its nominees. They both use Bernie Sanders as an example of an outsider who leveraged a party without sufficient commitment, and stress the importance of party commitment for internal influence. The core message regarding 'fair-weather supporters' and the integrity of party nomination processes is consistent across both posts."
+}
+```

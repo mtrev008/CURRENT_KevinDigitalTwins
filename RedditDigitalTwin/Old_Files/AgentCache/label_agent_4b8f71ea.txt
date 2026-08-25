@@ -1,0 +1,1 @@
+{"label": "True", "rationale": "Both posts critique a proposal for political reform (likely replacing candidate names with policy points) on the basis that it oversimplifies politics and fails to engage with the underlying philosophical worldviews that make policies coherent."}

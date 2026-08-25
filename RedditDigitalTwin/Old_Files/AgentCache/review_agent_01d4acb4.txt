@@ -1,0 +1,1 @@
+{"independent_label": "True", "agree": true, "label": "True", "critique": "Both posts share the same fundamental perspective: they distinguish original Marxism from Leninism, prefer the theoretical depth of *Das Kapital* over the *Communist Manifesto*, and acknowledge the difficulties of implementation while remaining committed to the theory."}

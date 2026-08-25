@@ -1,0 +1,1 @@
+{"independent_label": "True", "agree": true, "label": "True", "critique": "Both posts express the broad conclusion that political parties should be primarily influenced by long-term, committed members rather than 'fair-weather' supporters or outsider candidates who have not demonstrated sustained commitment."}

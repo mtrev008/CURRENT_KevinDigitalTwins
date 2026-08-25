@@ -1,0 +1,6 @@
+```json
+{
+  "label": "True",
+  "rationale": "Post 2 is a phonetic match and expresses the identical sentiment as Post 1, despite the pun in Post 1. They convey the same overall message."
+}
+```

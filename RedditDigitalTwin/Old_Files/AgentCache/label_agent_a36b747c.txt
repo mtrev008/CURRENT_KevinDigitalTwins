@@ -1,0 +1,6 @@
+```json
+{
+  "label": "True",
+  "rationale": "Both posts convey the sentiment that one should not easily compromise or abandon their core position or ideals. Post 1 explicitly states that compromise is 'selling out' and shouldn't happen lightly. Post 2 critiques a 'socialist' who would 'set aside' socialist ideals for pragmatism, arguing that a true socialist would be primarily driven by those ideals. This aligns with Post 1's stance against easy compromise of one's position."
+}
+```

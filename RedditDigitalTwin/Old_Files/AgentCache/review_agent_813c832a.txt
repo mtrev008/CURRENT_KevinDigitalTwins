@@ -1,0 +1,1 @@
+{"agree": true, "label": "True", "critique": "Both posts express the same broad conclusion that the President possesses authority in certain circumstances, specifically rejecting an absolute 'no' position."}

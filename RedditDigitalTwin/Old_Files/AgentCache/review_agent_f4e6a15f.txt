@@ -1,0 +1,8 @@
+```json
+{
+  "independent_label": "True",
+  "agree": true,
+  "label": "True",
+  "critique": "Post 1 states that WW2 was far more significant than the New Deal as a jobs program. Post 2 elaborates on the success of the WW2 jobs program, stating it 'absolutely did pull us out of the Depression and set up the post-war boom,' and contrasts this with the New Deal's 'effectiveness' being 'a whole other debate.' Both posts broadly agree on the significant positive impact of the WW2 jobs program, with Post 2 reinforcing and expanding on the conclusion implied in Post 1 regarding WW2's economic effect. There is no clear disagreement on the broad conclusion that WW2 was a highly effective jobs program."
+}
+```

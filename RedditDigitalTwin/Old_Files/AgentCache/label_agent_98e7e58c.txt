@@ -1,0 +1,6 @@
+```json
+{
+  "label": "False",
+  "rationale": "Post 1 discusses Donald Trump's polarizing nature and his role in starting a necessary discussion. Post 2 discusses the frustration of legal immigrants with others bypassing the system. The broad conclusions and topics of the two posts are entirely unrelated."
+}
+```

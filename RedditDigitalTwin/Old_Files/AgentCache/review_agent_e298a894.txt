@@ -1,0 +1,1 @@
+{"independent_label": "True", "agree": true, "label": "True", "critique": "Both posts are part of a discussion regarding gender representation and behavior in politics. They both conclude that the current state is not yet balanced and that a more diverse representation is the ideal or expected direction."}

@@ -1,0 +1,1 @@
+{"independent_label": "True", "agree": true, "label": "True", "critique": "Both posts express the same conclusion regarding the Citizens United ruling: that it focused on independent expenditures rather than direct campaign contributions, which remain restricted. Post 2 reinforces and expands upon the points made in Post 1."}

@@ -1,0 +1,1 @@
+{"independent_label": "True", "agree": true, "label": "True", "critique": "Both posts convey the same core message: if Jesus was not divine but made claims of divinity, he must have been mentally disturbed (insane/delusional). Post 2 expands on this reasoning and provides historical context for such labels, but its broad conclusion directly supports Post 1's statement."}

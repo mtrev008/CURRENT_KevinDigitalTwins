@@ -1,0 +1,1 @@
+{"independent_label": "True", "agree": true, "label": "True", "critique": "Post 1 is a homophonic pun on the phrase 'You too!', which is exactly what Post 2 says. They convey the same message."}

@@ -1,0 +1,6 @@
+```json
+{
+  "label": "True",
+  "rationale": "Both posts convey the broad conclusion that Trump's business ventures have not outperformed a passive market investment, especially when considering his starting capital. Post 2 provides more detailed analysis and corroborates Post 1's main point that he hasn't consistently beaten the market and that a simpler investment strategy would have likely yielded better results."
+}
+```

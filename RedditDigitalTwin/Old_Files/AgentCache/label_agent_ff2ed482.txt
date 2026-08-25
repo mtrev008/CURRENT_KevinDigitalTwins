@@ -1,0 +1,3 @@
+```json
+{"label":"True","rationale":"Both posts advocate for the US to maintain a strong, committed stance against North Korea and not to back down or ease pressure. While Post 2 explicitly rejects Post 1's analogy to Cuba and its suggested reasons (political stubbornness, fear of losing votes) for maintaining the stance, this disagreement is about the *reasoning* and *framing*, not the ultimate *broad conclusion* that the US should remain committed to a tough approach towards North Korea. Post 2 reinforces the need for this commitment, albeit based on strategic imperatives rather than political inertia, which aligns with the instruction to focus on the broad conclusion and not narrow differences in reasoning."}
+```

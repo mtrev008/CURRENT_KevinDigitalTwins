@@ -1,0 +1,8 @@
+```json
+{
+  "independent_label": "True",
+  "agree": true,
+  "label": "True",
+  "critique": "Both posts convey the broad conclusion that unemployment, particularly long-term unemployment, is primarily a result of a weak labor market and a mismatch between job seekers and available, viable positions, rather than individuals being unwilling to work or preferring unemployment benefits."
+}
+```

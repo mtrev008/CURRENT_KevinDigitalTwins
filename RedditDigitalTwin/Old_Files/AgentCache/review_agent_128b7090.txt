@@ -1,0 +1,8 @@
+```json
+{
+  "independent_label": "True",
+  "agree": true,
+  "label": "True",
+  "critique": "Post 1 uses a rhetorical question to express opposition to a policy that it equates to 'letting criminals go free.' Post 2 explicitly identifies 'a path to citizenship' as what many consider 'letting criminals go free' or 'rewarding illegal behavior,' and frames the opposing stance as 'upholding the rule of law.' Both posts share the broad conclusion that certain actions (like a path to citizenship for undocumented immigrants) are unacceptable because they are akin to letting criminals go free and undermine the rule of law. They are broadly on the same side."
+}
+```

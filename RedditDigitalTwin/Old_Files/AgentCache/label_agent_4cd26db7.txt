@@ -1,0 +1,6 @@
+```json
+{
+  "label": "True",
+  "rationale": "Post 1 defends voting for a major party candidate (Obama) based on preference and knowing stances, rejecting the idea of being 'blinded' or that third parties are superior. Post 2 criticizes voting for third-party candidates as a 'wasted vote' due to their inability to win and advocates for voting for someone who 'can actually lead.' Both posts broadly conclude that voting for a major party candidate is the correct approach in the given election context, even if their specific reasoning or focus differs."
+}
+```
