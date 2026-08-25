@@ -8,83 +8,95 @@ import GoogleGemini as gemini
 # Init Google Gemini
 gemini.InitGoogleGemini()
 
-def InferUserStanceOnHiddenTopic(user, posts_topics_positions, context_type="max context", post_contexts=None, force=False, debug=False):
+def InferUserStanceOnHiddenTopic(user, posts_topics_positions, curr_user_posts_topics, context_type="posts with comment chains", post_contexts=None, force=False, debug=False):
     """Sets up the prompt for getting a user's position about a randomly hidden topic.
     Param: posts_topics_positions = {"post": {"topic": position, ...}, ...}
     post_context = 'posts with comment chains' OR 'posts and comments' OR 'posts only'. """
 
-    random.seed(3) # Originally 2 
-
-    # Get posts that have at least one topic
-    valid_posts = []
-
-    for post, topics_positions in posts_topics_positions.items():
-        if len(topics_positions) > 0:
-            valid_posts.append(post)
-
-    if len(valid_posts) == 0:
+    # TODO: Delete this, since we already check this in an earlier function
+    if len(posts_topics_positions) == 0:
         print("Skipping user because there are no extracted topics.")
         return None, None, None, None
 
-    # Randomly choose one post
-    hidden_post = random.choice(valid_posts)
-
-    # Randomly choose one topic from that post
-    hidden_topic = random.choice(list(posts_topics_positions[hidden_post].keys()))
+    # Real stance extraction has already randomly selected the single target topic, just get the selected post+topic
+    hidden_post = next(iter(posts_topics_positions))
+    hidden_topic = next(iter(posts_topics_positions[hidden_post]))
 
     # Get true hidden position
     hidden_position = posts_topics_positions[hidden_post][hidden_topic]
 
-    # TODO: write posts and comments chains if statement, make the prompt setup like the predict_next_comment.py setup
+    # If post context is posts with comment chains (conversational context); similar prompt setup as predict_next_comment.py
     if context_type == "posts with comment chains":
         prompt = "You are a Reddit user who has participated in the following political discussion threads.\n"
+        threads = {}
 
-        for post in posts_topics_positions.keys():
-            if hidden_topic in posts_topics_positions[post]:
+        # Skip posts about target topic
+        for post in curr_user_posts_topics.keys():
+            if hidden_topic in curr_user_posts_topics[post]:
                 continue
 
             context = post_contexts[post]
             thread = context["thread"]
             comment_chain = context["comment_chain"]
 
-            prompt += f'\nThe title of the thread is: """{thread.title}""".\n'
-            prompt += f'The first post in the thread is: """{thread.body}""".\n'
+            if thread.id not in threads:
+                threads[thread.id] = {"thread": thread, "comment_chain": {}}
 
             for comment in comment_chain:
-                if comment.body == hidden_post:
+                # Exclude any target topic comment written by the selected user,
+                if (comment.user == user and hidden_topic in curr_user_posts_topics.get(comment.body, [])):
                     continue
 
+                threads[thread.id]["comment_chain"][comment.id] = comment
+
+        for context in threads.values():
+            thread = context["thread"]
+            comment_chain = context["comment_chain"].values()
+
+            prompt += f'\nThe title of a thread is: """{thread.title}""".\n'
+            if len(thread.body)==0:
+                prompt += 'The first post in the thread is empty.\n'
+            elif thread.user == user:
+                prompt += f'You posted the first post in the thread: """{thread.body}""".\n'
+            else:
+                prompt += f'A different user posted the first post in the thread: """{thread.body}""".\n'
+
+            for comment in comment_chain:
                 if comment.user == user:
                     prompt += f'You replied with this comment: """{comment.body}""".\n'
                 else:
                     prompt += f'A different user replied with this comment: """{comment.body}""".\n'
 
-    # If the post context is posts and comments as separate lists (no conversational context)
+    # If the post context is posts and comments as a list (no conversational context)
     elif context_type == "posts and comments":
         prompt = "You are a Reddit user who has previously written the following posts and comments:\n"
 
-        for post in posts_topics_positions.keys():
-            if hidden_topic in posts_topics_positions[post]:
+        for post in curr_user_posts_topics.keys():
+            # Skip the posts about the target topic
+            if hidden_topic in curr_user_posts_topics[post]:
                 continue
 
             prompt += f'"""{post}"""\n'
 
+    # If the post context is posts only
     elif context_type == "posts only":
         prompt = "You are a Reddit user who has previously written the following posts:\n"
 
-        for post in posts_topics_positions.keys():
-            if hidden_topic in posts_topics_positions[post]:
+        # Skips posts about target topic
+        for post in curr_user_posts_topics.keys():
+            if hidden_topic in curr_user_posts_topics[post]:
                 continue
 
             prompt += f'"""{post}"""\n'
 
+    # Check if input is valid
     else:
-        raise ValueError(f"Unknown context type: {context_type}")
+        print(f"Unknown context type: {context_type}")
 
     # prompt += f'What is your viewpoint on {hidden_topic}? Answer either "support", "oppose", or "neutral", with no other output.'
     # prompt += f'What is your stance towards {hidden_topic}? Answer either "In Favor", "Against", or "Neutral", with no other output.'
     # prompt += f'What is your stance towards {hidden_topic}? Answer either "support", "oppose", or "neutral", with no other output.' # This is the working version
-    prompt += f'What is your stance on {hidden_topic}? Answer either "support", "oppose", or "no stance", with no other output.'
+    prompt += f'What is your stance on {hidden_topic}? Answer only "support" or "oppose", with no other output.'
 
     if debug:
         print("Prompt:", prompt)
@@ -96,11 +108,16 @@ def InferUserStanceOnHiddenTopic(user, posts_topics_positions, context_type="max
         hidden_position = "support"
     elif hidden_position == -1:
         hidden_position  = "oppose"
-    else:
-        hidden_position = "no stance"
+
+    retries = 0
+    while predicted_position not in ("support", "oppose") and retries <= 3:
+        print(f"Retry #{retries}: Prompting Gemini again\n")
+        predicted_position = gemini.AskGoogleGemini(prompt, force=True)
+        predicted_position = str(predicted_position).strip().lower()
+        retries += 1
 
     # if debug:
-    print("Hidden post:", hidden_post)
+    print("\nHidden post:", hidden_post)
     print("Hidden topic:", hidden_topic)
     print("True position:", hidden_position)
     print("Predicted position:", predicted_position)

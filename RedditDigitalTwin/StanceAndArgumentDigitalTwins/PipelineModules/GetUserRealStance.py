@@ -1,5 +1,6 @@
 import pandas as pd
 import json
+import random
 import sys
 sys.path.append('../')
 import GoogleGemini as gemini
@@ -11,47 +12,46 @@ def ExtractRealUserStanceAboutTopics(key, val, curr_user_posts_topics, force=Fal
     """Get the position of a user on one topic at a time (-1 = oppose, 1 = support, 0 = not specified).
     Returns: posts_topics_positions = {"post": {"topic": position, ...}, ...}"""
 
-    posts_topics_positions = {} # {"post": {"topic": position, ...}, ...}
-
-    for i, (post, topics) in enumerate(curr_user_posts_topics.items()): # curr_user_posts_topics = {"post": ["topic", "topic", ...], ...}
-        if debug:
-            print(f"\nExtracting opinions for post {i}...")
-
-        topics_positions = {} # {"topic": position, ...} where (position = -1/0/1)
-
+    topic_posts = {}
+    for post, topics in curr_user_posts_topics.items():
         for topic in topics:
-            user_position_prompt = ""
-            user_position_prompt += "I will provide you a Reddit post, you will tell me if the post text explicitly supports, opposes, or "
-            user_position_prompt += f"does not specify any stance towards {topic}. "
-            user_position_prompt += 'Format your answer as either "support", "oppose", or "no stance" with no other output. '
-            # user_position_prompt += "I will provide you a Reddit comment, you will tell me if the comment text is explicitly in favor, against, or "
-            # user_position_prompt += f"does not specify any stance towards {topic}. "
-            # user_position_prompt += f"If there is a slight negative tone, classify it as 'Against'. "
-            # # user_position_prompt += f"neutral {topic}. "
-            # user_position_prompt += 'Format your answer as either "In Favor", "Against", or "Neutral" with no other output. '
-            user_position_prompt += "The post is: "
-            user_position_prompt += f'"""{post}"""'
-            if debug:
-                print("Prompt:", user_position_prompt)
+            topic_posts.setdefault(topic, []).append(post)
 
-            response = gemini.AskGoogleGemini(user_position_prompt, force=force)
-            
-            if("support" in response.lower()):
-                position = 1
-            elif("oppose" in response.lower()):
-                position = -1
-            else:
-                position = 0
+    # Shuffle all possible topics we can choose from
+    topic_candidates = list(topic_posts)
+    random.shuffle(topic_candidates)
 
-            if debug:
-                print("Output:", position)
+    # Check each shuffled topic until the user has an explicit stance
+    for i, topic in enumerate(topic_candidates):
+        # Get every post with the topic
+        posts = topic_posts[topic]
+        if debug:
+            print(f"\nExtracting opinion for topic candidate {i}...")
 
-            if position == 0:
-                continue
+        user_position_prompt = ""
+        user_position_prompt += "I will provide you all of a Reddit user's posts about a political topic. "
+        user_position_prompt += "Based on all of the posts, tell me if the user explicitly supports, opposes, or "
+        user_position_prompt += f"does not specify any stance towards {topic}. "
+        user_position_prompt += 'Format your answer as either "support", "oppose", or "no stance" with no other output. '
+        user_position_prompt += "The posts are:\n"
+        for post in posts:
+            user_position_prompt += f'"""{post}"""\n'
+        if debug:
+            print("Prompt:", user_position_prompt)
 
-            topics_positions[topic] = position
+        response = gemini.AskGoogleGemini(user_position_prompt, force=force)
 
-        if len(topics_positions) > 0:
-            posts_topics_positions[post] = topics_positions
+        if debug:
+            print("Output:", response)
 
-    return posts_topics_positions
+        if("support" in response.lower()):
+            position = 1
+        elif("oppose" in response.lower()):
+            position = -1
+        else:
+            position = 0
+
+        if position != 0:
+            return {posts[0]: {topic: position}}
+
+    return {}
