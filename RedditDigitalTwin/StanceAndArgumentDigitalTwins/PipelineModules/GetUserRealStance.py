@@ -31,7 +31,12 @@ def ExtractRealUserStanceAboutTopics(key, val, curr_user_posts_topics, force=Fal
         user_position_prompt = ""
         user_position_prompt += "I will provide you all of a Reddit user's posts about a political topic. "
         user_position_prompt += "Based on all of the posts, tell me if the user explicitly supports, opposes, or "
-        user_position_prompt += f"does not specify any stance towards {topic}. "
+        # Gets 85/100 correct
+        # user_position_prompt += f"does not specify any stance towards {topic}. "
+        # Gets 88/100 correct
+        user_position_prompt += f'does not have an explicit stance on "{topic}". '
+        # Gets 87/100 correct
+        # user_position_prompt += f'does not express any stance on "{topic}". '
         user_position_prompt += 'Format your answer as either "support", "oppose", or "no stance" with no other output. '
         user_position_prompt += "The posts are:\n"
         for post in posts:

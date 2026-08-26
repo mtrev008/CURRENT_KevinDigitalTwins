@@ -7,7 +7,7 @@ import GoogleGemini as gemini
 # Init Google Gemini
 gemini.InitGoogleGemini()
 
-def GetNumTopicsPerPost(user, posts, num_retries=3, force=False, debug=False):
+def GetNumTopicsPerPost(user, posts, num_retries=1, force=False, debug=False):
     """Takes in a key, val (user, all user posts)"""
 
     curr_user_posts_num_topics = {}
@@ -36,9 +36,11 @@ def GetNumTopicsPerPost(user, posts, num_retries=3, force=False, debug=False):
                 break
             except:
                 print(f"Could not parse number of topics. Output was: {num_topics}")
+                # Quit loop if we reach max number of retries
                 if retries == num_retries:
                     num_topics = 0
                     break
+                print(f"\nRetry #{retries}: Prompting Gemini again\n")
                 num_topics = gemini.AskGoogleGemini(num_topics_prompt, force=True)
                 retries+=1
             

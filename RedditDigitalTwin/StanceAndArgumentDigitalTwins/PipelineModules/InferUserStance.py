@@ -13,11 +13,6 @@ def InferUserStanceOnHiddenTopic(user, posts_topics_positions, curr_user_posts_t
     Param: posts_topics_positions = {"post": {"topic": position, ...}, ...}
     post_context = 'posts with comment chains' OR 'posts and comments' OR 'posts only'. """
 
-    # TODO: Delete this, since we already check this in an earlier function
-    if len(posts_topics_positions) == 0:
-        print("Skipping user because there are no extracted topics.")
-        return None, None, None, None
-
     # Real stance extraction has already randomly selected the single target topic, just get the selected post+topic
     hidden_post = next(iter(posts_topics_positions))
     hidden_topic = next(iter(posts_topics_positions[hidden_post]))
@@ -52,15 +47,24 @@ def InferUserStanceOnHiddenTopic(user, posts_topics_positions, curr_user_posts_t
         for context in threads.values():
             thread = context["thread"]
             comment_chain = context["comment_chain"].values()
+            opener_text = thread.title + " " + thread.body
+
+            # Check whether the title and/or post body are about the target topic
+            user_target_topic_opener = (thread.user == user and hidden_topic in curr_user_posts_topics.get(opener_text, []))
 
             prompt += f'\nThe title of a thread is: """{thread.title}""".\n'
+
+            # Check if the actual post body is empty
             if len(thread.body)==0:
                 prompt += 'The first post in the thread is empty.\n'
-            elif thread.user == user:
+
+            # Check if the user's post is about the target topic
+            elif thread.user == user and not user_target_topic_opener:
                 prompt += f'You posted the first post in the thread: """{thread.body}""".\n'
             else:
                 prompt += f'A different user posted the first post in the thread: """{thread.body}""".\n'
 
+            # Iterate over each comment, check if it was written by the user or not
             for comment in comment_chain:
                 if comment.user == user:
                     prompt += f'You replied with this comment: """{comment.body}""".\n'
@@ -72,7 +76,7 @@ def InferUserStanceOnHiddenTopic(user, posts_topics_positions, curr_user_posts_t
         prompt = "You are a Reddit user who has previously written the following posts and comments:\n"
 
         for post in curr_user_posts_topics.keys():
-            # Skip the posts about the target topic
+            # Skip posts about the target topic
             if hidden_topic in curr_user_posts_topics[post]:
                 continue
 
@@ -96,7 +100,8 @@ def InferUserStanceOnHiddenTopic(user, posts_topics_positions, curr_user_posts_t
     # prompt += f'What is your viewpoint on {hidden_topic}? Answer either "support", "oppose", or "neutral", with no other output.'
     # prompt += f'What is your stance towards {hidden_topic}? Answer either "In Favor", "Against", or "Neutral", with no other output.'
     # prompt += f'What is your stance towards {hidden_topic}? Answer either "support", "oppose", or "neutral", with no other output.' # This is the working version
-    prompt += f'What is your stance on {hidden_topic}? Answer only "support" or "oppose", with no other output.'
+    # prompt += f'What is your stance on {hidden_topic}? Answer only "support" or "oppose", with no other output.' # Previous run
+    prompt += f'What is your stance on "{hidden_topic}"? Answer only "support" or "oppose", with no other output.'
 
     if debug:
         print("Prompt:", prompt)

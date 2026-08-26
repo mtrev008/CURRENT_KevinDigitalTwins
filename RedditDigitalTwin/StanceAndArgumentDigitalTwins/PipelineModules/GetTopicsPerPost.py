@@ -24,11 +24,11 @@ def GetTopicsPerPost(curr_user_posts_num_topics, force=False, debug=False):
         # Get the X # of topics per post per user
         extract_topics_prompt = ""
         if topic_count == 1:
-            extract_topics_prompt += "I will provide you a Reddit post, you will tell me what is the 1 political topic that the post talks about. "
+            extract_topics_prompt += "I will provide you a Reddit post, you will tell me what is the 1 topic that the post talks about. " # I had "political topic" before
             extract_topics_prompt += "Format your answer as a valid JSON list of the 1 topic as a string with no other output. "
             
         elif topic_count > 1:
-            extract_topics_prompt += f"I will provide you a Reddit post, you will tell me what are the {topic_count} political topics that the post talks about. "
+            extract_topics_prompt += f"I will provide you a Reddit post, you will tell me what are the {topic_count} topics that the post talks about. "
             extract_topics_prompt += "Format your answer as a valid JSON list of the topics as strings with no other output. "
         extract_topics_prompt += "The post is:\n"
         extract_topics_prompt += f'"""{post}"""'
@@ -38,14 +38,14 @@ def GetTopicsPerPost(curr_user_posts_num_topics, force=False, debug=False):
 
         topics_output = gemini.AskGoogleGemini(extract_topics_prompt, force=force)
         
-        retries = 0
+        retries = 1
         while True:
             try:
                 topics_list = json.loads(topics_output)
                 break
             except Exception as e:
                 print(f"{e}\nOutput: {topics_output}")
-                if retries >= 3:
+                if retries >= 1:
                     topics_list = []
                     break
                 retries += 1

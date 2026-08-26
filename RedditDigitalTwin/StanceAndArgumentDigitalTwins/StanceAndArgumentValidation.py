@@ -63,39 +63,40 @@ def main():
     # Select a random {num_users} # of authors with at least {threshold_min_posts} # of posts and {threshold_min_comments} # of comments
     selected_authors_cache = cache_folder + f"selected_authors_below_{threshold_max_posts_and_comments}_posts_and_comments_seed_2.parquet"
 
+    eligible_post_counts = (
+        pl.scan_parquet(posts_path)
+        .select(["author", "selftext"])
+        .filter(pl.col("selftext").is_not_null())
+        .filter(pl.col("selftext").is_in(exclude_posts).not_())
+        .filter(pl.col("author") != "[deleted]")
+        .group_by("author")
+        .agg(pl.len().alias("num_posts"))
+        .filter(pl.col("num_posts") >= threshold_min_posts)
+    )
+
+    eligible_comment_counts = (
+        pl.scan_parquet(comments_path)
+        .select(["author", "body"])
+        .filter(pl.col("body").is_not_null())
+        .filter(pl.col("body").is_in(exclude_posts).not_())
+        .filter(pl.col("author") != "[deleted]")
+        .group_by("author")
+        .agg(pl.len().alias("num_comments"))
+        .filter(pl.col("num_comments") >= threshold_min_comments)
+    )
+
+    eligible_authors_DF = (
+        eligible_post_counts
+        .join(eligible_comment_counts, on="author", how="inner")
+        .filter(pl.col("num_posts") + pl.col("num_comments") < threshold_max_posts_and_comments)
+        .sort("author")
+        .collect(engine="streaming")
+    )
+
     if os.path.isfile(selected_authors_cache):
         sampled_authors_names_DF = pl.read_parquet(selected_authors_cache)
 
     else:
-        eligible_post_counts = (
-            pl.scan_parquet(posts_path)
-            .select(["author", "selftext"])
-            .filter(pl.col("selftext").is_not_null())
-            .filter(pl.col("selftext").is_in(exclude_posts).not_())
-            .filter(pl.col("author") != "[deleted]")
-            .group_by("author")
-            .agg(pl.len().alias("num_posts"))
-            .filter(pl.col("num_posts") >= threshold_min_posts)
-        )
-
-        eligible_comment_counts = (
-            pl.scan_parquet(comments_path)
-            .select(["author", "body"])
-            .filter(pl.col("body").is_not_null())
-            .filter(pl.col("body").is_in(exclude_posts).not_())
-            .filter(pl.col("author") != "[deleted]")
-            .group_by("author")
-            .agg(pl.len().alias("num_comments"))
-            .filter(pl.col("num_comments") >= threshold_min_comments)
-        )
-
-        eligible_authors_DF = (
-            eligible_post_counts
-            .join(eligible_comment_counts, on="author", how="inner")
-            .filter(pl.col("num_posts") + pl.col("num_comments") < threshold_max_posts_and_comments)
-            .sort("author")
-            .collect(engine="streaming")
-        )
 
         sampled_authors_names_DF = (
             eligible_authors_DF
@@ -106,6 +107,13 @@ def main():
         sampled_authors_names_DF.write_parquet(selected_authors_cache)
 
     author_names = sampled_authors_names_DF["author"].to_list()
+    replacement_authors = (
+        eligible_authors_DF
+        .filter(pl.col("author").is_in(author_names).not_())
+        .sample(fraction=1.0, shuffle=True, seed=2)
+        ["author"]
+        .to_list()
+    )
 
     ################################################################################
     # DELETE THIS BLOCK WHEN THE ORIGINAL THREE USERS NO LONGER NEED TO BE INCLUDED
@@ -157,9 +165,9 @@ def main():
             # Get all posts by this selected user
             author_postsDF = (
                 pl.scan_parquet(posts_path)
+                .filter(pl.col("author") == user)
                 .filter(pl.col("selftext").is_not_null())
                 .filter(pl.col("selftext").is_in(exclude_posts).not_())
-                .filter(pl.col("author") == user)
                 .select(["author", "id", "title", "selftext"])
                 .collect(engine="streaming")
             )
@@ -174,13 +182,13 @@ def main():
             # Get all comments written by this selected user
             author_commentsDF = (
                 pl.scan_parquet(comments_path)
+                .filter(pl.col("author") == user)
                 .with_columns(
                     pl.col("link_id").str.slice(3).alias("link_id"),
                     pl.col("parent_id").str.slice(3).alias("parent_id")
                 )
                 .filter(pl.col("body").is_not_null())
                 .filter(pl.col("body").is_in(exclude_posts).not_())
-                .filter(pl.col("author") == user)
                 .select(["author", "id", "parent_id", "link_id", "body"])
                 .collect(engine="streaming")
             )
@@ -466,13 +474,17 @@ def main():
 
         ###### Step 1: Get the number of topics per posts (single integer)
         # curr_user_posts_num_topics = {"post": num_topics, ...}
+        startTime = time.time()
         curr_user_posts_num_topics = GetNumTopicsPerPost(user, history_text, debug=False)
+        print(f"\nFinished getting number of topics in {round(time.time() - startTime, 2)} seconds.")
 
         print("**"*40)
 
         ###### Step 2: Get the actual topic(s) per post using the number of topics found in Step 1
         # curr_user_posts_topics = {"post": ["topic", "topic", ...], ...}
-        curr_user_posts_topics = GetTopicsPerPost(curr_user_posts_num_topics, debug=True)
+        startTime = time.time()
+        curr_user_posts_topics = GetTopicsPerPost(curr_user_posts_num_topics, debug=False)
+        print(f"\nFinished getting topics in {round(time.time() - startTime, 2)} seconds.")
 
         print("**"*40)
 
@@ -480,30 +492,45 @@ def main():
         # TODO: DO NOT include topics here that the user is "not specified" towards.
         # TODO 2: ONLY call this function if the user has at least 2 unique topics that they either support or oppose.
         # posts_topics_positions = {"post": {"topic": position, ...}, ...}
-        posts_topics_positions = ExtractRealUserStanceAboutTopics(user, history, curr_user_posts_topics, force=False, debug=True)
+        startTime = time.time()
+        posts_topics_positions = ExtractRealUserStanceAboutTopics(user, history, curr_user_posts_topics, force=False, debug=False)
+        print(f"\nFinished extracting stance in {round(time.time() - startTime, 2)}")
+
+        if len(posts_topics_positions) == 0:
+            # Check if there are no users left to sample from
+            if len(replacement_authors) == 0:
+                raise RuntimeError("No eligible replacement users are left.")
+
+            replacement_user = replacement_authors.pop() 
+            author_names.append(replacement_user)
+            print(f"Skipping user because no stance was found. Randomly selected replacement user '{replacement_user}'.")
+            continue
 
         print("**"*40)
 
         ###### Step 4: Ask another LLM to predict the user's viewpoint on a topic
-
-        hidden_post, hidden_topic, hidden_opinion, predicted_opinion = InferUserStanceOnHiddenTopic(user, posts_topics_positions, curr_user_posts_topics, context_type, history_context, force=False, debug=True) # Set force_random to True to randomize selection
+        startTime = time.time()
+        hidden_post, hidden_topic, hidden_stance, predicted_stance = InferUserStanceOnHiddenTopic(user, posts_topics_positions, curr_user_posts_topics, context_type, history_context, force=False, debug=True) # Set force_random to True to randomize selection
+        print(f"\nFinished inferring stance in {round(time.time() - startTime, 2)}")
 
         if hidden_post is None:
             continue
 
         print('\n' + '**'*40)
 
-        if hidden_opinion == predicted_opinion: # DELETE THIS LATER
+        if hidden_stance.lower() == predicted_stance.lower(): # DELETE THIS LATER
             num_correct +=1
 
         num_posts_list.append(len(history))
 
-        if hidden_opinion == predicted_opinion:
+        if hidden_stance == predicted_stance:
             correct_list.append(1)
         else:
+            print("=="*40)
+            print("\n\nINCORRECT MATCH\n\n")
             correct_list.append(0)
 
-        rounds += 1 # DELETE THIS
+        rounds += 1 # Total number of rounds/users we ran
 
         ###### Step 5: Extract a user's real arguments, only include topics with support or oppose and that have a supporting argument
 
