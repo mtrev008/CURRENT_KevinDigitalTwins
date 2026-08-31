@@ -139,9 +139,20 @@ def main():
 
     all_user_post_topics_opinions = {} # Initialize empty final dict
 
-    rounds = 0 # DELETE THIS
+    # Keep track of correct rounds
+    rounds = {
+        "posts with comment chains": 0,
+        "posts only": 0,
+        "posts and comments": 0
+    } 
+    
     tested_rounds = 0
-    num_correct = 0 # DELETE THIS
+    num_correct = {
+        "posts with comment chains": 0,
+        "posts only": 0,
+        "posts and comments": 0
+    } 
+
     arguments_correct = 0 # DELETE THIS
     argument_rounds = 0 # DELETE THIS
 
@@ -152,14 +163,16 @@ def main():
     for i, user in enumerate(author_names):
         print(f"\nTesting user: '{user}' ({i}/{len(author_names)} users)...\n")
 
-        tested_rounds += 1 # DELETE THIS
+        tested_rounds += 1 # Keep track of rounds tested
 
+        # See if user has already been checked
         user_cache_path = cache_folder + user + ".parquet"
 
         if os.path.isfile(user_cache_path):
             user_cache_DF = pl.read_parquet(user_cache_path)
 
         else:
+            # If user does not exist in cache, retrieve user's post history
             startTime = time.time()
 
             # Get all posts by this selected user
@@ -460,119 +473,138 @@ def main():
         history_posts_only = [row["title"] + ' ' + row["selftext"] for row in author_postsDF.iter_rows(named=True)]
 
         # SWITCH HISTORY DEPENDING ON THE DESIRED INPUT CONTEXT
-        history = history_context
-        # history = history_raw
-        # history = history_posts_only
 
-        # Topic extraction expects only the text of each user-authored history item.
-        history_text = list(history) if isinstance(history, dict) else history
+        post_history_list = [history_context] # history_posts_only, history_raw] , history_comments_only  # TODO: Make this into a dictionary with history as key and context_type as val
+        user_results = []
 
-        # context_type = "posts only"
-        context_type = "posts with comment chains"
+        for history in post_history_list:
+            if history == history_posts_only:
+                context_type = "posts only"
+            elif history == history_raw:
+                context_type = "posts and comments" 
+            elif history == history_context:
+                context_type = "posts with comment chains"
 
-        print(f"User '{user}' has {len(history)} history items...")
+            # Topic extraction expects only the text of each user-authored history item
+            history_text = list(history) if isinstance(history, dict) else history
 
-        ###### Step 1: Get the number of topics per posts (single integer)
-        # curr_user_posts_num_topics = {"post": num_topics, ...}
-        startTime = time.time()
-        curr_user_posts_num_topics = GetNumTopicsPerPost(user, history_text, debug=False)
-        print(f"\nFinished getting number of topics in {round(time.time() - startTime, 2)} seconds.")
+            print(f"User '{user}' has {len(history)} history items...")
 
-        print("**"*40)
+            ###### Step 1: Get the number of topics per posts (single integer)
+            # curr_user_posts_num_topics = {"post": num_topics, ...}
+            startTime = time.time()
+            curr_user_posts_num_topics = GetNumTopicsPerPost(user, history_text, debug=False)
+            print(f"\nFinished getting number of topics in {round(time.time() - startTime, 2)} seconds.")
 
-        ###### Step 2: Get the actual topic(s) per post using the number of topics found in Step 1
-        # curr_user_posts_topics = {"post": ["topic", "topic", ...], ...}
-        startTime = time.time()
-        curr_user_posts_topics = GetTopicsPerPost(curr_user_posts_num_topics, debug=False)
-        print(f"\nFinished getting topics in {round(time.time() - startTime, 2)} seconds.")
+            print("**"*40)
 
-        print("**"*40)
+            ###### Step 2: Get the actual topic(s) per post using the number of topics found in Step 1
+            # curr_user_posts_topics = {"post": ["topic", "topic", ...], ...}
+            startTime = time.time()
+            curr_user_posts_topics = GetTopicsPerPost(curr_user_posts_num_topics, debug=False)
+            print(f"\nFinished getting topics in {round(time.time() - startTime, 2)} seconds.")
 
-        ###### Step 3: Get the positions of the user about every topic in every comment
-        # TODO: DO NOT include topics here that the user is "not specified" towards.
-        # TODO 2: ONLY call this function if the user has at least 2 unique topics that they either support or oppose.
-        # posts_topics_positions = {"post": {"topic": position, ...}, ...}
-        startTime = time.time()
-        posts_topics_positions = ExtractRealUserStanceAboutTopics(user, history, curr_user_posts_topics, force=False, debug=False)
-        print(f"\nFinished extracting stance in {round(time.time() - startTime, 2)}")
+            print("**"*40)
 
-        if len(posts_topics_positions) == 0:
-            # Check if there are no users left to sample from
-            if len(replacement_authors) == 0:
-                raise RuntimeError("No eligible replacement users are left.")
+            ###### Step 3: Get the positions of the user about every topic in every comment
+            # TODO 2: ONLY call this function if the user has at least 2 unique topics that they either support or oppose.
+            # posts_topics_positions = {"post": {"topic": position, ...}, ...}
+            startTime = time.time()
+            posts_topics_positions = ExtractRealUserStanceAboutTopics(user, history, curr_user_posts_topics, force=False, debug=False)
+            print(f"\nFinished extracting stance in {round(time.time() - startTime, 2)}")
 
-            replacement_user = replacement_authors.pop() 
-            author_names.append(replacement_user)
-            print(f"Skipping user because no stance was found. Randomly selected replacement user '{replacement_user}'.")
+            if len(posts_topics_positions) == 0:
+                if len(replacement_authors) == 0:
+                    raise RuntimeError("No eligible replacement users are left.")
+
+                replacement_user = replacement_authors.pop()
+                author_names.append(replacement_user)
+                print(f"Skipping user because no stance was found. Randomly selected replacement user '{replacement_user}'.")
+                break
+
+            print("**"*40)
+
+            ###### Step 4: Ask another LLM to predict the user's viewpoint on a topic
+            startTime = time.time()
+            hidden_post, hidden_topic, hidden_stance, predicted_stance = InferUserStanceOnHiddenTopic(user, posts_topics_positions, curr_user_posts_topics, context_type, history_context, force=False, debug=False) # Set force_random to True to randomize selection
+            print(f"\nFinished inferring stance in {round(time.time() - startTime, 2)}")
+
+            # Check if there are no more users to sample from
+            if hidden_post is None:
+                if len(replacement_authors) == 0:
+                    raise RuntimeError("No eligible replacement users are left.")
+
+                replacement_user = replacement_authors.pop()
+                author_names.append(replacement_user)
+                print(f"Skipping user because no hidden prediction was found. Randomly selected replacement user '{replacement_user}'.")
+                break
+
+            print('\n' + '**'*40)
+
+            user_results.append((context_type, len(history), hidden_stance, predicted_stance))
+
+            ###### Step 5: Extract a user's real arguments, only include topics with support or oppose and that have a supporting argument
+
+
+            ###### Step 6: Infer user's arguments
+
+            # print("Inferring user arguments...")
+
+
+            # hidden_post, hidden_topic, hidden_opinion, predicted_argument, argument_match = InferUserArgumentOnHiddenTopic(posts_topics_positions, debug=True)
+
+            # if hidden_post is None:
+            #     continue
+
+            # argument_rounds += 1
+
+            # # print("True:", hidden_opinion)
+            # # print("Reasoning:", predicted_reasoning)
+            # # print("Reasoning match:", reasoning_match)
+
+            # if argument_match == "yes":
+            #     print("\n" + "="*80)
+            #     print("ARGUMENT MATCH FOUND")
+            #     print("="*80)
+
+            #     print("Topic:", hidden_topic)
+            #     print("True stance:", hidden_opinion)
+            #     print("Argument match:", argument_match)
+
+            #     print("\nUSER REAL COMMENT:")
+            #     print(hidden_post)
+
+            #     print("\nLLM PREDICTED ARGUMENT:")
+            #     print(predicted_argument)
+
+            #     print("="*80 + "\n")
+            #     arguments_correct += 1
+
+            # continue # DELETE THIS
+
+        if len(user_results) != len(post_history_list):
             continue
 
-        print("**"*40)
+        for context_type, history_length, hidden_stance, predicted_stance in user_results:
+            if hidden_stance.lower() == predicted_stance.lower(): # DELETE THIS LATER
+                num_correct[context_type] +=1
 
-        ###### Step 4: Ask another LLM to predict the user's viewpoint on a topic
-        startTime = time.time()
-        hidden_post, hidden_topic, hidden_stance, predicted_stance = InferUserStanceOnHiddenTopic(user, posts_topics_positions, curr_user_posts_topics, context_type, history_context, force=False, debug=True) # Set force_random to True to randomize selection
-        print(f"\nFinished inferring stance in {round(time.time() - startTime, 2)}")
+            num_posts_list.append(history_length)
 
-        if hidden_post is None:
-            continue
+            if hidden_stance == predicted_stance:
+                correct_list.append(1)
+            else:
+                print("\nINCORRECT MATCH\n")
+                print("\nHidden post:", hidden_post)
+                print("Hidden topic:", hidden_topic)
+                print("True position:", hidden_stance)
+                print("Predicted position:", predicted_stance)
+                correct_list.append(0)
 
-        print('\n' + '**'*40)
+            rounds[context_type] += 1 # Total number of rounds/users we ran
 
-        if hidden_stance.lower() == predicted_stance.lower(): # DELETE THIS LATER
-            num_correct +=1
-
-        num_posts_list.append(len(history))
-
-        if hidden_stance == predicted_stance:
-            correct_list.append(1)
-        else:
-            print("=="*40)
-            print("\n\nINCORRECT MATCH\n\n")
-            correct_list.append(0)
-
-        rounds += 1 # Total number of rounds/users we ran
-
-        ###### Step 5: Extract a user's real arguments, only include topics with support or oppose and that have a supporting argument
-
-
-        ###### Step 6: Infer user's arguments
-
-        # print("Inferring user arguments...")
-
-
-        # hidden_post, hidden_topic, hidden_opinion, predicted_argument, argument_match = InferUserArgumentOnHiddenTopic(posts_topics_positions, debug=True)
-
-        # if hidden_post is None:
-        #     continue
-
-        # argument_rounds += 1
-
-        # # print("True:", hidden_opinion)
-        # # print("Reasoning:", predicted_reasoning)
-        # # print("Reasoning match:", reasoning_match)
-
-        # if argument_match == "yes":
-        #     print("\n" + "="*80)
-        #     print("ARGUMENT MATCH FOUND")
-        #     print("="*80)
-
-        #     print("Topic:", hidden_topic)
-        #     print("True stance:", hidden_opinion)
-        #     print("Argument match:", argument_match)
-
-        #     print("\nUSER REAL COMMENT:")
-        #     print(hidden_post)
-
-        #     print("\nLLM PREDICTED ARGUMENT:")
-        #     print(predicted_argument)
-
-        #     print("="*80 + "\n")
-        #     arguments_correct += 1
-
-        # continue # DELETE THIS
-
-    print(f"Num correct: {num_correct}/{rounds}") # DELETE THIS
-    quit() # DELETE THIS
+    for context_type in num_correct:
+        print(f"{context_type}: {num_correct[context_type]}/{rounds[context_type]}") # DELETE THIS
 
     print(f"Num args correct: {arguments_correct}/{argument_rounds}")
 

@@ -101,7 +101,9 @@ def InferUserStanceOnHiddenTopic(user, posts_topics_positions, curr_user_posts_t
     # prompt += f'What is your stance towards {hidden_topic}? Answer either "In Favor", "Against", or "Neutral", with no other output.'
     # prompt += f'What is your stance towards {hidden_topic}? Answer either "support", "oppose", or "neutral", with no other output.' # This is the working version
     # prompt += f'What is your stance on {hidden_topic}? Answer only "support" or "oppose", with no other output.' # Previous run
-    prompt += f'What is your stance on "{hidden_topic}"? Answer only "support" or "oppose", with no other output.'
+    # prompt += f'What is your stance on "{hidden_topic} as this user"? Format your answer as "support" or "oppose" with no other output.' 
+    # Gets 90/100 
+    prompt += f'As this user, what is your stance on "{hidden_topic}"? Format your answer as "support" or "oppose" with no other output.' #Answer only "support" or "oppose", with no other output.'
 
     if debug:
         print("Prompt:", prompt)
@@ -116,16 +118,17 @@ def InferUserStanceOnHiddenTopic(user, posts_topics_positions, curr_user_posts_t
 
     retries = 0
     while predicted_position not in ("support", "oppose") and retries <= 3:
+        print("\nGemini output:", predicted_position)
         print(f"Retry #{retries}: Prompting Gemini again\n")
         predicted_position = gemini.AskGoogleGemini(prompt, force=True)
         predicted_position = str(predicted_position).strip().lower()
         retries += 1
 
-    # if debug:
-    print("\nHidden post:", hidden_post)
-    print("Hidden topic:", hidden_topic)
-    print("True position:", hidden_position)
-    print("Predicted position:", predicted_position)
+    if debug:
+        print("\nHidden post:", hidden_post)
+        print("Hidden topic:", hidden_topic)
+        print("True position:", hidden_position)
+        print("Predicted position:", predicted_position)
 
     return hidden_post, hidden_topic, hidden_position, predicted_position
 

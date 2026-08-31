@@ -38,14 +38,16 @@ def GetTopicsPerPost(curr_user_posts_num_topics, force=False, debug=False):
 
         topics_output = gemini.AskGoogleGemini(extract_topics_prompt, force=force)
         
-        retries = 1
+        retries = 0
+        max_retries = 3
         while True:
             try:
                 topics_list = json.loads(topics_output)
                 break
             except Exception as e:
                 print(f"{e}\nOutput: {topics_output}")
-                if retries >= 1:
+                # Check if we exceeded number of max_retries
+                if retries > max_retries:
                     topics_list = []
                     break
                 retries += 1
