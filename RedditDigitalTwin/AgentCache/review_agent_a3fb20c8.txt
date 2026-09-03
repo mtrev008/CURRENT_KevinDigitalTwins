@@ -1,1 +1,0 @@
-{"independent_label": "True", "agree": true, "label": "True", "critique": "Both posts express the same broad conclusion: that despite feelings of powerlessness or futility in the political process, individuals should remain engaged and participate as part of a collective effort to effect change."}

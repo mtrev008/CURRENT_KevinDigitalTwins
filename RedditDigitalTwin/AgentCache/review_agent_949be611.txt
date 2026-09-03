@@ -1,1 +1,0 @@
-{"agree": true, "label": "True", "critique": "Both posts argue that the removal of financial incentives leads to a decrease in productivity and cite the historical example of the Pilgrims' transition from communal to private land ownership to support their point."}

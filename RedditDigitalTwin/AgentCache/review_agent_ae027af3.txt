@@ -1,1 +1,0 @@
-{"agree": true, "label": "True", "critique": "Post 2 explicitly agrees with the central premise of Post 1, that Fox and CNN represent the same narrow mainstream viewpoint and that one must look outside of them for actual variety."}

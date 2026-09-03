@@ -1,6 +1,0 @@
-```json
-{
-  "label": "True",
-  "rationale": "Post 1 asks if Trump can do anything to siphon enough votes from both parties to win/spoil an election. Post 2 responds by proposing a specific hypothetical strategy (a hard pivot to economic left issues) that *could* allow him to appeal to a segment of the 'economic left' to expand his base, thereby directly addressing the possibility raised in Post 1, even if it's presented as a 'long shot.' It explores a 'yes' answer rather than disagreeing with the premise."
-}
-```

@@ -1,6 +1,0 @@
-```json
-{
-  "label": "True",
-  "rationale": "Both posts discuss the scenario where a corporate employee is paid by the corporation for campaign work, concluding that this would likely constitute a campaign finance violation. Post 2 elaborates on the type of violation (illegal corporate contribution, FEC violation) but does not disagree with Post 1's broad conclusion that such an action is 'probably a violation' and potentially serious."
-}
-```

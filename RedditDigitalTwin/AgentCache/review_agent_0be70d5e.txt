@@ -1,1 +1,0 @@
-{"independent_label": "True", "agree": true, "label": "True", "critique": "Post 1 asks if Trump can siphon votes from both parties to win, and Post 2 explores a specific strategy for how he could do exactly that by targeting the economic left. Post 2 supports the premise and provides a detailed scenario for the possibility raised in Post 1, so it does not disagree."}

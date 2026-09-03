@@ -1,6 +1,0 @@
-```json
-{
-  "label": "True",
-  "rationale": "Both posts share the broad conclusion that individual ownership and the concept of 'earning' remain relevant in an automated world, and they both dismiss the threat of revolution from those who do not contribute or earn, expressing confidence in defending their property/position."
-}
-```

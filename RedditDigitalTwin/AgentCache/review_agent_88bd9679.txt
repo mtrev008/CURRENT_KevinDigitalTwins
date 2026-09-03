@@ -1,1 +1,0 @@
-{"independent_label": "True", "agree": true, "label": "True", "critique": "Both posts express broad agreement. Post 1 says 'Yup', indicating affirmation. Post 2 starts with 'Yep', also indicating affirmation, and then provides context for a correction. Post 2 does not disagree with Post 1; it builds upon or confirms the sentiment of agreement."}

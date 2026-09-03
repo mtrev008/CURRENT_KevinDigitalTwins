@@ -1,1 +1,0 @@
-{"independent_label": "False", "agree": true, "label": "False", "critique": "Post 1 discusses the author's academic background and research interests. Post 2 explains specific economic concepts and terminology. The posts address completely different topics and do not share a broad conclusion or overall position."}

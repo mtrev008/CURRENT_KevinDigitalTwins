@@ -1,1 +1,0 @@
-{"agree": true, "label": "True", "critique": "Post 2 directly addresses and explores the possibility raised in Post 1, providing a theoretical strategy for how Trump could siphon votes from the left."}

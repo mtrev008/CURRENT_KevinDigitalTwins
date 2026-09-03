@@ -1,1 +1,0 @@
-{"independent_label": "True", "agree": true, "label": "True", "critique": "Both posts express the same broad conclusion: Fox and CNN are fundamentally similar and do not represent a broad spectrum of viewpoints, and one must look to other sources to find truly diverse perspectives."}

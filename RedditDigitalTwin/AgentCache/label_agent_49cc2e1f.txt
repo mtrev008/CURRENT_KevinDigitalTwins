@@ -1,6 +1,0 @@
-```json
-{
-  "label": "True",
-  "rationale": "Post 2 reiterates Post 1's main point that Fox and CNN are not truly different viewpoints, referring to them as 'different flavors of the same corporate ice cream.' Post 2 then supports Post 1's implicit call to look beyond mainstream sources for a broader spectrum of views by mentioning specific examples like Al Jazeera and Breitbart, and explicitly stating it's 'pushing beyond the mainstream bubble.'"
-}
-```

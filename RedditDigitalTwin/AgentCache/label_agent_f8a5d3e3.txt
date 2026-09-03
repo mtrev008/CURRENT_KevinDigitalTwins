@@ -1,3 +1,0 @@
-```json
-{"label": "False", "rationale": "Post 2 explicitly rejects the central mechanism proposed in Post 1 (individual earmarking of taxes), calling it 'impractical and chaotic.' While both posts express skepticism toward certain government spending, they advocate for fundamentally different structural solutions."}
-```

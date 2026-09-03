@@ -1,6 +1,0 @@
-```json
-{
-  "label": "True",
-  "rationale": "Both posts convey the broad conclusion that personal attacks, insults, or dismissive language in discourse are problematic and undesirable. Post 1 states they deserve downvotes, while Post 2 explains they alienate the audience and shut down discussion, advocating for focusing on ideas instead of people."
-}
-```

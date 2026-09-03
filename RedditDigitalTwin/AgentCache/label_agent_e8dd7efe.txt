@@ -1,6 +1,0 @@
-```json
-{
-  "label": "True",
-  "rationale": "Both posts convey the broad conclusion that the fear and national discussion surrounding Islamic terrorism are disproportionate to the actual threat level, especially when compared to other forms of violence and crime in the United States. Post 2 explicitly reiterates this main takeaway."
-}
-```

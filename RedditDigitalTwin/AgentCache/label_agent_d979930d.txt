@@ -1,6 +1,0 @@
-```json
-{
-  "label": "True",
-  "rationale": "Post 2 broadly agrees with Post 1 on both main points. Regarding China's economy, both posts emphasize the significant role of capitalist principles and market economy, despite state intervention. Regarding government roles, both posts assert that fundamental societal needs or government roles should remain constant, with technology adapting within those unchanging core purposes."
-}
-```

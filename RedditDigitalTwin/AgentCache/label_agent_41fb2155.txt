@@ -1,6 +1,0 @@
-```json
-{
-  "label": "True",
-  "rationale": "Post 2 strongly reinforces and elaborates on the core argument of Post 1, which is that the military should not engage in political decision-making, rule-making, or governance, and that civilian control is crucial to prevent tyranny and maintain a republic. Post 2 explicitly agrees with the 'danger of the military deciding its own policy' and provides further examples and reasoning to support this shared broad conclusion."
-}
-```

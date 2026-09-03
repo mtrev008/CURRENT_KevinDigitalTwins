@@ -1,1 +1,0 @@
-{"independent_label": "True", "agree": true, "label": "True", "critique": "Both posts express the same overall position: that knowing the name of MLK's assassin is a trivial detail and far less important than understanding his legacy and the broader civil rights movement."}

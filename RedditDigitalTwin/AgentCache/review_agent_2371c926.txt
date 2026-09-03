@@ -1,3 +1,0 @@
-```json
-{"independent_label": "True", "agree": true, "label": "True", "critique": "Both posts share the broad conclusion that political actors should remain committed to their core ideals rather than 'selling out' or settling for pragmatic moderation. Post 1 explicitly argues against compromise, and Post 2 argues that a 'true' socialist would not set aside their ideals for the sake of pragmatism or moderation. While Post 2 characterizes the interlocutor's position as 'pragmatism,' it ultimately reinforces the same underlying principle that ideological consistency is preferable to compromising those ideals."}
-```

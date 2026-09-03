@@ -1,1 +1,0 @@
-{"independent_label": "True", "agree": true, "label": "True", "critique": "Post 2 elaborates on the negative systemic outcomes of the 'ruling elite' or those in power mentioned in Post 1. It does not disagree with Post 1; instead, it provides a deeper critique of the group defined in Post 1."}

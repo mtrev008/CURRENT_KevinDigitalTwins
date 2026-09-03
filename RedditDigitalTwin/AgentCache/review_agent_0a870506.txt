@@ -1,3 +1,0 @@
-```json
-{"independent_label": "True", "agree": true, "label": "True", "critique": "Both posts characterize an underlying argument (not explicitly provided, but inferred) as being dishonest or misleading. Post 1 uses the term 'spin machine,' while Post 2 uses terms like 'distorted view' and 'disingenuous.' Since they both align in calling out the same perceived misinformation or biased framing, they share the same broad conclusion."}
-```

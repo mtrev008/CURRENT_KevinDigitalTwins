@@ -1,1 +1,0 @@
-{"agree": true, "label": "True", "critique": "Both posts agree that World War II was a highly effective jobs program that significantly impacted the economy, with Post 1 explicitly stating it was far more impactful than the New Deal and Post 2 stating it pulled the country out of the Depression."}

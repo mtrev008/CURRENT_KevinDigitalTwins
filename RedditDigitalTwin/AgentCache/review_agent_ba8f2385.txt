@@ -1,8 +1,0 @@
-```json
-{
-  "independent_label": "True",
-  "agree": true,
-  "label": "True",
-  "critique": "Post 1 clarifies the scope of 'the ruling elite' as government or private. Post 2 then elaborates on a critical view of 'those in power' (which aligns with the government aspect of the ruling elite). Post 2 does not disagree with Post 1; instead, it expands on the implicit negative sentiment towards those in power that Post 1 introduces."
-}
-```

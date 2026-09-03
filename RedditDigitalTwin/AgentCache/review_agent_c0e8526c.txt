@@ -1,8 +1,0 @@
-```json
-{
-  "independent_label": "True",
-  "agree": true,
-  "label": "True",
-  "critique": "Both posts share the same broad conclusion: despite feelings of powerlessness, individual participation (like voting and being informed) is important as part of a collective effort to effect change. Post 2 elaborates on *why* it matters, reinforcing the core message of Post 1 rather than disagreeing with it."
-}
-```

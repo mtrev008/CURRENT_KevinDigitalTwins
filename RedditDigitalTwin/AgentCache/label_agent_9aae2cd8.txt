@@ -1,6 +1,0 @@
-```json
-{
-  "label": "False",
-  "rationale": "Post 1 proposes that citizens should choose what their tax money is spent on, implying a form of individual earmarking. Post 2 explicitly rejects this idea, stating that 'My \"choice\" isn't about individually earmarking my tax dollars, which I agree would be impractical and chaotic.' This is a direct disagreement with the broad conclusion of Post 1 regarding the mechanism of citizen choice in tax allocation."
-}
-```

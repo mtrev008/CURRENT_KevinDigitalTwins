@@ -1,8 +1,0 @@
-```json
-{
-  "independent_label": "True",
-  "agree": true,
-  "label": "True",
-  "critique": "Both Post 1 and Post 2 express the broad conclusion that the current government is illegitimate, tyrannical, unconstitutional, and that taxation is a form of theft. They both argue that citizens do not truly consent to the government's actions and that the system is broken. Post 2 reinforces and elaborates on the core anti-government and anti-taxation stance present throughout Post 1."
-}
-```

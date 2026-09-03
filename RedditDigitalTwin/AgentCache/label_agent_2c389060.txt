@@ -1,6 +1,0 @@
-```json
-{
-  "label": "True",
-  "rationale": "Post 1 states 'That already happens,' which, given the context provided by Post 2, can be interpreted as an acknowledgment that the practice of claiming divine mandate for policy decisions (and its consequences) is already occurring. Post 2 then elaborates on why this practice is problematic, describing its negative effects on debate and accountability. Post 2 does not disagree with Post 1; rather, it provides an explanation and a strong opinion on a situation Post 1 confirms exists. They are broadly on the same side in acknowledging and implicitly or explicitly criticizing the practice."
-}
-```

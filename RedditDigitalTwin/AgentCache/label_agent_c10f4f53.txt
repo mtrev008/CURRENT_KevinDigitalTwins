@@ -1,1 +1,0 @@
-{"label": "True", "rationale": "Post 1 expresses affirmation ('Yup'). Post 2 also starts with an affirmation ('Yep') and then provides context about a correction, implying agreement with the corrected information. There is no disagreement between the two posts; both convey an affirmative stance."}

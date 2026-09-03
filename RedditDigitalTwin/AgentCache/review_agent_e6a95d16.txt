@@ -1,1 +1,0 @@
-{"independent_label": "True", "agree": true, "label": "True", "critique": "Post 2 directly supports the conclusion in Post 1 that knowing the name of MLK's assassin is trivial and unimportant compared to understanding the broader historical and civic context. Both posts align on the core position."}

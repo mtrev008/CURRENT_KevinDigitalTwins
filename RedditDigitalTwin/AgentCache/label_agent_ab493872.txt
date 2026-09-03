@@ -1,6 +1,0 @@
-```json
-{
-  "label": "True",
-  "rationale": "Both posts convey the broad conclusion that civil forfeiture is fundamentally about property rights and is distinct from the drug war issue. Post 2 elaborates on the ideological implications but fully supports Post 1's main point."
-}
-```

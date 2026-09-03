@@ -1,1 +1,0 @@
-{"independent_label": "False", "agree": true, "label": "False", "critique": "Post 2 directly challenges and questions the implication made in Post 1 that Obama's race/religion contributed to political opposition. It asks for evidence to support this implied 'racial/religious obstruction,' thereby disagreeing with Post 1's broad conclusion."}

@@ -1,1 +1,0 @@
-{"agree": true, "label": "True", "critique": "Both posts share the same underlying perspective that ideological integrity is compromised by pragmatism or moderation. Post 2 applies Post 1's general stance against compromise to a specific ideological context."}

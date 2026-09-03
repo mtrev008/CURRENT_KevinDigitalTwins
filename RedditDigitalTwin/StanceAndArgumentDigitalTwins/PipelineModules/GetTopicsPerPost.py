@@ -15,7 +15,8 @@ def GetTopicsPerPost(curr_user_posts_num_topics, force=False, debug=False):
     # Label each post with a topic out of list of topics per user
     for i, (post, topic_count) in enumerate(curr_user_posts_num_topics.items()):
         if topic_count == 0:
-            print(f"Skipping post {i}... No topics found. ")
+            if debug:
+                print(f"Skipping post {i}... No topics found. ")
             continue
 
         if debug:

@@ -1,6 +1,0 @@
-```json
-{
-  "label": "False",
-  "rationale": "Post 1 is a question challenging the purpose of a previous comment made by an unspecified third party. Post 2 is an accusation directed at the author of Post 1, claiming they cannot explain something and are acting superior. Post 2 does not represent the broad conclusion or overall position of Post 1; instead, it is a confrontational response to Post 1."
-}
-```

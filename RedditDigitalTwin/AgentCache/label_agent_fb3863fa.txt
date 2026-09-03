@@ -1,1 +1,0 @@
-{"label": "True", "rationale": "Both posts support the broad conclusion that voting for a major party candidate is preferable to voting for a third-party candidate, dismissing the arguments often used to justify third-party votes."}

@@ -1,6 +1,0 @@
-```json
-{
-  "label": "True",
-  "rationale": "Post 2 explicitly states that it is summarizing Post 1's implied points regarding Obama's moderation and the role of race/religion in opposition to him, stating 'My summary was accurate.' Although Post 2 then challenges these points, it accurately represents the broad conclusions Post 1 put forward."
-}
-```

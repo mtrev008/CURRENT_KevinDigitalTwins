@@ -1,8 +1,0 @@
-```json
-{
-  "independent_label": "True",
-  "agree": true,
-  "label": "True",
-  "critique": "Post 2 strongly supports and expands upon the core argument of Post 1: that a ballot initiative addressing a key issue (like legal weed) can remove an incentive for voters to support a particular candidate whose main appeal rested on that issue. Post 2 elaborates on how this allows voters to 'come home' to major parties, directly aligning with Post 1's implicit conclusion."
-}
-```

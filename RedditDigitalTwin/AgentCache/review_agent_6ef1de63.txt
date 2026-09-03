@@ -1,1 +1,0 @@
-{"independent_label": "True", "agree": true, "label": "True", "critique": "Post 2 largely agrees with and elaborates on the main points from Post 1, particularly the distinction between Marxism and Leninism and the value of deeper theoretical works like Das Kapital. There is no clear disagreement on the broad conclusion or overall position."}

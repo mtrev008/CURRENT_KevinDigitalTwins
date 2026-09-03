@@ -1,6 +1,0 @@
-```json
-{
-  "label": "True",
-  "rationale": "Post 2 largely agrees with Post 1's main points, affirming the distinction between Marxism and Leninism, acknowledging the preference for deeper economic analysis like Das Kapital over the Manifesto, and recognizing the challenge of implementation."
-}
-```

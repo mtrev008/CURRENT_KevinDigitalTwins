@@ -1,8 +1,0 @@
-```json
-{
-  "independent_label": "True",
-  "agree": true,
-  "label": "True",
-  "critique": "Both posts express the broad conclusion that political parties should be influenced by committed, long-term members rather than 'outsiders' or 'fair-weather supporters' who only engage when a specific candidate appears. Post 2 expands on this idea, particularly concerning open primaries, but does not disagree with Post 1's main point about the importance of commitment to a party."
-}
-```

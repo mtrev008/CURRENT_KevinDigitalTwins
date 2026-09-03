@@ -1,1 +1,0 @@
-{"independent_label": "True", "agree": true, "label": "True", "critique": "Post 2 elaborates on and defends the position in Post 1 by emphasizing the role of forensic evidence over witness testimony and dismissing claims of bias when 'established facts' (as determined by a grand jury) are considered, specifically in the context of a controversial police shooting case."}

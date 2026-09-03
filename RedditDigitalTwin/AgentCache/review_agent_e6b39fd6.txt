@@ -1,1 +1,0 @@
-{"independent_label": "True", "agree": true, "label": "True", "critique": "Post 2 directly elaborates on and confirms the premise of Post 1, explaining how a ballot initiative on legalizing marijuana can reduce the incentive for voters to support a candidate (like Johnson) whose primary appeal for them is that stance. They share the same broad conclusion."}

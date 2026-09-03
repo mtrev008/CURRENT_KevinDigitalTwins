@@ -1,6 +1,0 @@
-```json
-{
-  "label": "False",
-  "rationale": "Post 1 argues against the idea that liberal policies like free healthcare and education are fascist, defining fascism with specific extreme elements like eugenics and emphasizing individual freedom in capitalism. Post 2 directly refutes this, arguing that these liberal policies are precisely how fascism (or totalitarian control) begins, by forcing people into state-controlled systems, subjugating individuals, and prioritizing national interest over individual freedom, thus connecting them to the core tenets of fascism described in Post 1's definition. They represent opposing conclusions on the central topic."
-}
-```

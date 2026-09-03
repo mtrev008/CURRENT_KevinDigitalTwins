@@ -1,1 +1,0 @@
-{"independent_label": "True", "agree": true, "label": "True", "critique": "Post 2 strongly reinforces and elaborates on the central clarification made in Post 1 regarding what *Citizens United* did and did not do concerning campaign donations versus independent expenditures. Both posts agree on the common misconception about CU's impact on direct contributions."}

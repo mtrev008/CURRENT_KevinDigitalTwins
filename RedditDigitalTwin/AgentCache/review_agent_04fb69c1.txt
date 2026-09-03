@@ -1,8 +1,0 @@
-```json
-{
-  "independent_label": "False",
-  "agree": false,
-  "label": "True",
-  "critique": "Post 1 is a question seeking factual evidence regarding specific occurrences during past government shutdowns. It does not present a broad conclusion or overall position itself, but rather prompts for information. Post 2, on the other hand, expresses a clear opinion and conclusion about government mismanagement during shutdowns, specifically concerning military pay. As Post 1 is a query for data and not a statement of position, Post 2 cannot represent its broad conclusion."
-}
-```

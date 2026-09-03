@@ -1,1 +1,0 @@
-{"independent_label": "False", "agree": true, "label": "False", "critique": "Post 1 is an extremely short, context-dependent clarification about 'the majority' and does not express a broad conclusion or overall position that Post 2 could represent. Post 2 is a detailed analysis of specific voter preferences and migration patterns."}

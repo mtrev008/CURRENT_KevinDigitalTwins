@@ -1,1 +1,0 @@
-{"agree": true, "label": "True", "critique": "Both posts argue against an opt-out or optional Social Security system, maintaining that it must remain a mandatory social safety net and that the focus should be on reforming the existing system to ensure solvency."}

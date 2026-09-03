@@ -1,1 +1,0 @@
-{"agree": true, "label": "True", "critique": "Post 2 supports the broad conclusion of Post 1 by noting that both candidates would have faced the same Republican-controlled Congress and that feasibility for both was limited."}

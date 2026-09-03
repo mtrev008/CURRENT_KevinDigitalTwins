@@ -1,1 +1,0 @@
-{"agree": true, "label": "True", "critique": "Both posts express the same underlying viewpoint that certain immigration policies are equivalent to letting criminals go free. Post 2 provides context and explanation for the sentiment expressed sarcastically in Post 1."}

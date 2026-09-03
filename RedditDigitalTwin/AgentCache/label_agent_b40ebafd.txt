@@ -1,6 +1,0 @@
-```json
-{
-  "label": "True",
-  "rationale": "Post 1 states the US needs to show commitment to defeating North Korea and notes the difficulty of changing the status quo. Post 2 elaborates on this commitment (denuclearization, non-proliferation) and argues strongly against changing the status quo (lifting sanctions) without concessions. While Post 2 refutes the specific Cuba analogy from Post 1, it does so to reinforce the broader position that the US should maintain a firm stance against North Korea, thus not clearly disagreeing with Post 1's overall call for commitment and caution regarding policy changes."
-}
-```

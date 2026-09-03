@@ -1,8 +1,0 @@
-```json
-{
-  "independent_label": "True",
-  "agree": true,
-  "label": "True",
-  "critique": "Post 1 implicitly challenges a narrow interpretation of free speech that might exclude government or limit 'attack' to physical violence. Post 2 directly addresses and refutes such a narrow interpretation, explicitly stating that free speech protects against government censorship and suppression of ideas, not just physical assault. Both posts are broadly aligned on the idea that free speech protection extends to government actions and is not merely about physical attacks."
-}
-```

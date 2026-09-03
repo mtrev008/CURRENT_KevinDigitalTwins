@@ -1,1 +1,0 @@
-{"independent_label": "True", "agree": true, "label": "True", "critique": "Both posts express agreement and a positive reaction to a previous speaker's points. Post 1 is a brief expression of approval, and Post 2 provides more detailed agreement and constructive discussion on the same topic. Since Post 2 does not disagree with Post 1, the label is True."}

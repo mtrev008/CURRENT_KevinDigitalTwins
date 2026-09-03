@@ -1,6 +1,0 @@
-```json
-{
-  "label": "True",
-  "rationale": "Post 1 states the president has authority. Post 2, despite its initial 'No,' explicitly rejects the idea that the president *never* has authority, stating that 'in an actual imminent threat scenario, the President *does* have the authority.' While Post 2 adds nuance about it not being a 'blank check,' its broad conclusion aligns with Post 1 that such authority exists."
-}
-```

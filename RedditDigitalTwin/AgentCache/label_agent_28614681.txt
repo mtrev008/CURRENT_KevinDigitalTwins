@@ -1,3 +1,0 @@
-```json
-{"label": "True", "rationale": "Both posts express a shared sense of disappointment with Obama's first term from a progressive perspective, focusing on his failure to meet high expectations and his tendency toward compromise over bold action."}
-```

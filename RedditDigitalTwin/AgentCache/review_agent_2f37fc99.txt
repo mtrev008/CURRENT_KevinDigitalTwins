@@ -1,3 +1,0 @@
-```json
-{"independent_label": "False", "agree": true, "label": "False", "critique": "Post 1 explicitly agrees that military spending is too high ('I agree we spend too much') and suggests cutting it. Post 2 shifts the focus, arguing for the necessity of a strong defense for deterrence and protection of interests, and states the problem is 'priorities' rather than just the 'amount.' Most importantly, Post 1 points to factions that could trim military spending to afford social programs or reduce taxes, while Post 2 vehemently opposes using any saved money for social programs, calling them 'coercion and theft.' They represent different arguments and priorities."}
-```

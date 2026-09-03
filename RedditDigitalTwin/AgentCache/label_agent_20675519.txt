@@ -1,1 +1,0 @@
-{"label": "True", "rationale": "Both posts identify capacity issues and the inherent complexity of the healthcare.gov system as the primary reasons for its failure, rather than just simple incompetence."}

@@ -1,8 +1,0 @@
-```json
-{
-  "independent_label": "True",
-  "agree": false,
-  "label": "False",
-  "critique": "Post 1 defines 'the ruling elite' broadly as 'whether government or private.' Post 2 then focuses exclusively on the actions and systemic outcomes of 'those in power' within the government, discussing 'expansion of government reach' and the 'systemic outcomes' of government. It entirely omits any mention or elaboration of the 'private' component of the ruling elite as defined in Post 1. While government is part of Post 1's definition, Post 2 significantly narrows the scope, making it an incomplete or divergent elaboration rather than a direct continuation of the full concept presented in Post 1."
-}
-```

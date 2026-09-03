@@ -1,1 +1,0 @@
-{"label": "False", "rationale": "Post 1 describes the author's academic background and interests. Post 2 clarifies specific economic terminology. The two posts discuss entirely different subjects, and Post 2 does not represent a conclusion or overall position related to Post 1."}

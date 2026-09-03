@@ -1,8 +1,0 @@
-```json
-{
-  "independent_label": "True",
-  "agree": true,
-  "label": "True",
-  "critique": "Post 1 is a pun for 'You too!', which Post 2 states directly. They convey the exact same sentiment and broad conclusion."
-}
-```

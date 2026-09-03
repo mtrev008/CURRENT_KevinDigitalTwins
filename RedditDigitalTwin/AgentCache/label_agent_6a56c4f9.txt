@@ -1,6 +1,0 @@
-```json
-{
-  "label": "True",
-  "rationale": "Both posts convey the same broad conclusion: despite feelings of powerlessness, individual engagement (like voting and being informed) is crucial as part of a collective effort to effect change."
-}
-```

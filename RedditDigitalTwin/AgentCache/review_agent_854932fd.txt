@@ -1,1 +1,0 @@
-{"independent_label": "True", "agree": true, "label": "True", "critique": "Both posts agree that the President possesses legal authority in certain contexts. Post 2 specifically argues against those saying 'No' and explicitly states that the President 'does have the authority to act' in specific scenarios, which aligns with the broad conclusion of Post 1."}

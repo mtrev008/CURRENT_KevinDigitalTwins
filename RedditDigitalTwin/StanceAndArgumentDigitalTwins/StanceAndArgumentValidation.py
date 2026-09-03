@@ -8,6 +8,7 @@ from PipelineModules.GetNumTopics import GetNumTopicsPerPost
 from PipelineModules.GetTopicsPerPost import GetTopicsPerPost
 from PipelineModules.GetUserRealStance import ExtractRealUserStanceAboutTopics
 from PipelineModules.InferUserStance import InferUserStanceOnHiddenTopic
+from PipelineModules.GetRealUserArguments import ExtractRealUserArgumentsAboutTopics
 from PipelineModules.InferUserArgument import InferUserArgumentOnHiddenTopic
 import numpy as np
 from utilities import Comment, Thread
@@ -158,6 +159,7 @@ def main():
 
     num_posts_list = []
     correct_list = []
+    argument_results = [] # DELETE THIS
 
     # Iterate through all users
     for i, user in enumerate(author_names):
@@ -474,7 +476,8 @@ def main():
 
         # SWITCH HISTORY DEPENDING ON THE DESIRED INPUT CONTEXT
 
-        post_history_list = [history_context] # history_posts_only, history_raw] , history_comments_only  # TODO: Make this into a dictionary with history as key and context_type as val
+        post_history_list = [history_context] #[history_posts_only, history_context, history_raw] #, history_comments_only  # TODO: Make this into a dictionary with history as key and context_type as val
+
         user_results = []
 
         for history in post_history_list:
@@ -489,6 +492,7 @@ def main():
             history_text = list(history) if isinstance(history, dict) else history
 
             print(f"User '{user}' has {len(history)} history items...")
+            print(f"Testing {context_type}...")
 
             ###### Step 1: Get the number of topics per posts (single integer)
             # curr_user_posts_num_topics = {"post": num_topics, ...}
@@ -544,14 +548,32 @@ def main():
             user_results.append((context_type, len(history), hidden_stance, predicted_stance))
 
             ###### Step 5: Extract a user's real arguments, only include topics with support or oppose and that have a supporting argument
+            # Skip argument evaluation for this context if we inferred stance incorrectly
+            if hidden_stance.lower() != predicted_stance.lower():
+                continue
 
+            startTime = time.time()
+            posts_topics_arguments = ExtractRealUserArgumentsAboutTopics(user, history, curr_user_posts_topics, posts_topics_positions, force=False, debug=False)
+            print(f"\nFinished extracting arguments in {round(time.time() - startTime, 2)}")
+
+            if not posts_topics_arguments:
+                print("Skipping argument evaluation because no valid argument was extracted.")
+                continue
+
+            print(f'User posts about {hidden_topic}: \n{[post for post, topics in curr_user_posts_topics.items() if hidden_topic in topics]}')
+            print(f"\nUser stance: {hidden_stance}")
+            print(f'\nExtracted argument: {posts_topics_arguments[hidden_post][hidden_topic]["argument"]}')
 
             ###### Step 6: Infer user's arguments
 
-            # print("Inferring user arguments...")
+            print("Inferring user arguments...")
 
+            hidden_post, hidden_topic, hidden_opinion, predicted_argument = InferUserArgumentOnHiddenTopic(user, posts_topics_positions, curr_user_posts_topics, context_type, history_context, debug=False)
 
-            # hidden_post, hidden_topic, hidden_opinion, predicted_argument, argument_match = InferUserArgumentOnHiddenTopic(posts_topics_positions, debug=True)
+            print("\nPredicted argument:", predicted_argument)
+
+            argument_results.append({"user": user, "target_topic": hidden_topic, "stance": hidden_opinion, "extracted_argument": json.dumps(posts_topics_arguments[hidden_post][hidden_topic]["argument"]), "predicted_argument": predicted_argument}) # DELETE THIS
+            pl.DataFrame(argument_results).write_csv("argument_validation_results.csv") # DELETE THIS; currently outputs runs to CSV
 
             # if hidden_post is None:
             #     continue
@@ -586,12 +608,13 @@ def main():
             continue
 
         for context_type, history_length, hidden_stance, predicted_stance in user_results:
+            # Count total number of times we were correct
             if hidden_stance.lower() == predicted_stance.lower(): # DELETE THIS LATER
                 num_correct[context_type] +=1
 
             num_posts_list.append(history_length)
 
-            if hidden_stance == predicted_stance:
+            if hidden_stance.lower() == predicted_stance.lower():
                 correct_list.append(1)
             else:
                 print("\nINCORRECT MATCH\n")
@@ -607,6 +630,8 @@ def main():
         print(f"{context_type}: {num_correct[context_type]}/{rounds[context_type]}") # DELETE THIS
 
     print(f"Num args correct: {arguments_correct}/{argument_rounds}")
+
+
 
     ######## Plot # of correct vs # of posts ########################
     import matplotlib.pyplot as plt
@@ -633,7 +658,6 @@ def main():
 
     quit()
 
-    # TODO: check whether the opinion is correct (use both human annotation and standard metric)
 
 
     # Filter down users to users with > 1 topic

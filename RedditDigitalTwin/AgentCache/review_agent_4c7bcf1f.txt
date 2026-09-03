@@ -1,1 +1,0 @@
-{"agree": true, "label": "True", "critique": "Both posts are in complete agreement regarding the central point: Citizens United addressed independent expenditures/paid advocacy, not direct campaign contributions, which remain restricted."}

@@ -1,8 +1,0 @@
-```json
-{
-  "independent_label": "True",
-  "agree": true,
-  "label": "True",
-  "critique": "Despite Post 2 opening with 'I disagree with your premise regarding Bernie,' its subsequent arguments align closely with the broad conclusion of Post 1. Both posts argue that individuals who are not long-term, committed members of a political party (like Bernie Sanders, in their example) should not be able to 'parachute in' and dictate the party's future or nominee. Both emphasize the importance of commitment and sustained engagement within a party to influence its direction. They share the same overall opinion and main takeaway, making the label True."
-}
-```

@@ -1,1 +1,0 @@
-{"independent_label": "True", "agree": true, "label": "True", "critique": "Both posts share the same broad conclusions: 1) China's economic success is attributed to capitalist elements despite state intervention, and 2) the fundamental role or purpose of government remains constant regardless of technological shifts. They are clearly on the same side of the argument."}

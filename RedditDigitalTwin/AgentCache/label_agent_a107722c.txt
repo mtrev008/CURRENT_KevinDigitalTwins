@@ -1,6 +1,0 @@
-```json
-{
-  "label": "True",
-  "rationale": "Post 1 states 'We're in agreement then,' indicating a shared broad conclusion or position. Post 2 proceeds to express specific opinions and agreements regarding campaign financing, which do not contradict Post 1's assertion of agreement. Post 2 does not disagree with Post 1; instead, it provides context for what that agreement might entail from its perspective."
-}
-```

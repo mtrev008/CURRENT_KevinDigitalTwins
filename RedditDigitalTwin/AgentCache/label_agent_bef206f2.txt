@@ -1,6 +1,0 @@
-```json
-{
-  "label": "False",
-  "rationale": "Post 1 accuses the interlocutor (Post 2's author) of committing a straw man and being a hypocrite, and critiques their tone. Post 2 directly counters these accusations, claiming that Post 1's author is the one committing the straw man and being hypocritical, and justifies its own tone as a response to Post 1's behavior. This represents a clear disagreement on the core conclusions and accusations."
-}
-```

@@ -1,1 +1,0 @@
-{"independent_label": "True", "agree": true, "label": "True", "critique": "Both posts express dissatisfaction with political communication. Post 1 notes that Bush's speech was unmemorable, while Post 2 criticizes 'canned' soundbites in favor of genuine answers. Post 2 does not disagree with Post 1 and shares a common theme regarding the poor quality of political discourse."}

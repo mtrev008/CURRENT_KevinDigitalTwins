@@ -1,8 +1,0 @@
-```json
-{
-  "independent_label": "True",
-  "agree": true,
-  "label": "True",
-  "critique": "Both posts argue against an opt-in/opt-out Social Security system, emphasizing its role as a mandatory safety net for all Americans and advocating for reforms to ensure its solvency rather than abandoning its core structure."
-}
-```

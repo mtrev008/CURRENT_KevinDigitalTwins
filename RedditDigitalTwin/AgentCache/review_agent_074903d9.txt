@@ -1,1 +1,0 @@
-{"independent_label": "True", "agree": true, "label": "True", "critique": "Both posts argue that the specific legal outcome (the non-indictment in the Darren Wilson/Michael Brown case) was supported by forensic evidence and that claims of bias are misplaced because they ignore the factual record in favor of a narrative."}

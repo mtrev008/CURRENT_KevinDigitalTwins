@@ -1,6 +1,0 @@
-```json
-{
-  "label": "True",
-  "rationale": "Both posts convey the broad conclusion that Trump's strategy is to target specific segments of the electorate, rather than attempting to win over everyone. Post 1 highlights that he isn't trying to win 'young college student Democrats,' while Post 2 explains he's appealing to 'older voters, including independents or even disaffected Democrats' and 'not trying to win over everyone.' These positions are consistent, emphasizing a selective electoral approach."
-}
-```

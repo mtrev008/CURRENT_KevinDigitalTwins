@@ -1,1 +1,0 @@
-{"independent_label": "False", "agree": true, "label": "False", "critique": "Post 1 states a belief that a state can flip red due to specific political conditions. Post 2 sarcastically dismisses such an idea as fantastical and requiring a 'miracle', thereby clearly disagreeing with the feasibility of Post 1's conclusion."}

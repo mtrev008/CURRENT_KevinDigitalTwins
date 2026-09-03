@@ -1,1 +1,0 @@
-{"independent_label": "True", "agree": true, "label": "True", "critique": "Both posts express the same broad conclusion: they oppose socialized healthcare (specifically Obamacare/ACA), defend high US healthcare spending as being beneficial for quality or research, and advocate for market-based approaches over government mandates."}

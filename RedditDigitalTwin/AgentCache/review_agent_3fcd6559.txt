@@ -1,8 +1,0 @@
-```json
-{
-  "independent_label": "True",
-  "agree": true,
-  "label": "True",
-  "critique": "Post 2 reiterates and elaborates on the broad conclusion of Post 1, which is that removing personal incentives for harder work (e.g., in a communal or socialist system) leads to a decrease in productivity as people will only do the bare minimum. Both posts explicitly use the historical example of the Pilgrims to support this point. There is no disagreement with the main takeaway."
-}
-```

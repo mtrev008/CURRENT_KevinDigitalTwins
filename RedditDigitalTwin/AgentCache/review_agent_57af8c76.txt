@@ -1,1 +1,0 @@
-{"agree": true, "label": "True", "critique": "Post 2 does not disagree with Post 1. Both express dissatisfaction with current political communication styles, with Post 1 noting unmemorable speech and Post 2 advocating for authenticity over canned responses."}

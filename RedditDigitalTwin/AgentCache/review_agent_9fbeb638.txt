@@ -1,1 +1,0 @@
-{"independent_label": "False", "agree": false, "label": "True", "critique": "Post 1 discusses the historical political association of 'technocrat' with left-wing governance. Post 2, while acknowledging the prior statement, shifts the focus to discussing the implications and value of 'technocrat' (efficiency vs. human factors, neutrality), which is a different broad conclusion."}

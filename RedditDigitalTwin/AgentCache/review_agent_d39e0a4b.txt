@@ -1,3 +1,0 @@
-```json
-{"independent_label": "False", "agree": false, "label": "False", "critique": "Post 2 explicitly disagrees with the core proposal made in Post 1. Post 1's broad conclusion is that citizens should have the individual choice to earmark their taxes for specific programs ('citizens choose what decisions to spend on'). Post 2 specifically rejects this idea, stating that individually earmarking tax dollars would be 'impractical and chaotic.' While both posts share a general libertarian skepticism toward certain types of government spending (like welfare), they advocate for fundamentally different solutions: Post 1 focuses on individual earmarking, whereas Post 2 focuses on restricting the government's core functions to public goods only."}
-```

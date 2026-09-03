@@ -1,1 +1,0 @@
-{"independent_label": "True", "agree": true, "label": "True", "critique": "Both posts broadly agree that poorly executed satire is indistinguishable from genuinely bad ideas, and Post 2 elaborates on why this is problematic."}

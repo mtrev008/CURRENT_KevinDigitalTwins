@@ -1,8 +1,6 @@
 # PipelineModules/InferUserArgument.py
-
 import pandas as pd
 import json
-import random
 import sys
 sys.path.append('../')
 import GoogleGemini as gemini
@@ -11,83 +9,109 @@ import GoogleGemini as gemini
 gemini.InitGoogleGemini()
 
 
-def CleanJsonResponse(response):
-    response = response.strip()
-
-    if response.startswith("```json"):
-        response = response.replace("```json", "", 1).strip()
-
-    if response.startswith("```"):
-        response = response.replace("```", "", 1).strip()
-
-    if response.endswith("```"):
-        response = response[:-3].strip()
-
-    return response
-
-
-def InferUserArgumentOnHiddenTopic(posts_topics_positions, force=False, debug=False):
-    """Predicts the argument a user would make for their real stance on a hidden topic, then 
+def InferUserArgumentOnHiddenTopic(user, posts_topics_positions, curr_user_posts_topics, context_type="posts with comment chains", post_contexts=None, force=False, debug=False):
+    """Predicts the argument a user would make for their real stance on a hidden topic, then
     checks whether the predicted argument matches the user's actual argument.
 
     posts_topics_positions = {"post": {"topic": position, ...}, ...}
     position: 1 = support, -1 = oppose, 0 = neutral """
 
-    random.seed(2)
-
-    # Get posts that have at least one real non-neutral stance
-    valid_posts = []
-
-    for post, topics_positions in posts_topics_positions.items():
-        real_stance_topics = []
-
-        for topic, position in topics_positions.items():
-            if position == 1 or position == -1:
-                real_stance_topics.append(topic)
-
-        if len(real_stance_topics) > 0:
-            valid_posts.append(post)
-
-    if len(valid_posts) == 0:
-        print("Skipping user because there are no real non-neutral stances.")
-        return None, None, None, None, None
-
-    # Randomly choose one post
-    hidden_post = random.choice(valid_posts)
-
-    # Randomly choose one real non-neutral topic from that post
-    valid_topics = []
-
-    for topic, position in posts_topics_positions[hidden_post].items():
-        if position == 1 or position == -1:
-            valid_topics.append(topic)
-
-    hidden_topic = random.choice(valid_topics)
+    # Real stance extraction has already selected the single target topic
+    hidden_post = next(iter(posts_topics_positions))
+    hidden_topic = next(iter(posts_topics_positions[hidden_post]))
 
     # Get true hidden position
     hidden_position = posts_topics_positions[hidden_post][hidden_topic]
 
     if hidden_position == 1:
         hidden_position = "support"
-    elif hidden_position == -1:
-        hidden_position = "oppose"
     else:
-        hidden_position = "neutral"
+        hidden_position = "oppose"
 
     # Ask digital twin for the argument GIVEN the real stance
-    prompt = ""
-    prompt += "You are a Reddit user who has previously made the following comments:\n"
 
-    for post in posts_topics_positions.keys():
-        if hidden_topic in posts_topics_positions[post]:
-            continue
+    # If post context is posts with comment chains (conversational context); similar prompt setup as predict_next_comment.py
+    if context_type == "posts with comment chains":
+        prompt = "You are a Reddit user who has participated in the following political discussion threads.\n"
+        threads = {}
 
-        prompt += f'"""{post}"""\n\n'
+        # Skip posts about target topic
+        for post in curr_user_posts_topics.keys():
+            if hidden_topic in curr_user_posts_topics[post]:
+                continue
+
+            context = post_contexts[post]
+            thread = context["thread"]
+            comment_chain = context["comment_chain"]
+
+            if thread.id not in threads:
+                threads[thread.id] = {"thread": thread, "comment_chain": {}}
+
+            for comment in comment_chain:
+                # Exclude any target topic comment written by the selected user,
+                if (comment.user == user and hidden_topic in curr_user_posts_topics.get(comment.body, [])):
+                    continue
+
+                threads[thread.id]["comment_chain"][comment.id] = comment
+
+        for context in threads.values():
+            thread = context["thread"]
+            comment_chain = context["comment_chain"].values()
+            opener_text = thread.title + " " + thread.body
+
+            # Check whether the title and/or post body are about the target topic
+            user_target_topic_opener = (thread.user == user and hidden_topic in curr_user_posts_topics.get(opener_text, []))
+
+            prompt += f'\nThe title of a thread is: """{thread.title}""".\n'
+
+            # Check if the actual post body is empty
+            if len(thread.body)==0:
+                prompt += 'The first post in the thread is empty.\n'
+
+            # Check if the user's post is about the target topic
+            elif thread.user == user and not user_target_topic_opener:
+                prompt += f'You posted the first post in the thread: """{thread.body}""".\n'
+            else:
+                prompt += f'A different user posted the first post in the thread: """{thread.body}""".\n'
+
+            # Iterate over each comment, check if it was written by the user or not
+            for comment in comment_chain:
+                if comment.user == user:
+                    prompt += f'You replied with this comment: """{comment.body}""".\n'
+                else:
+                    prompt += f'A different user replied with this comment: """{comment.body}""".\n'
+
+    # If the post context is posts and comments as a list (no conversational context)
+    elif context_type == "posts and comments":
+        prompt = "You are a Reddit user who has previously written the following posts and comments:\n"
+
+        for post in curr_user_posts_topics.keys():
+            # Skip posts about the target topic
+            if hidden_topic in curr_user_posts_topics[post]:
+                continue
+
+            prompt += f'"""{post}"""\n'
+
+    # If the post context is posts only
+    elif context_type == "posts only":
+        prompt = "You are a Reddit user who has previously written the following posts:\n"
+
+        # Skips posts about target topic
+        for post in curr_user_posts_topics.keys():
+            if hidden_topic in curr_user_posts_topics[post]:
+                continue
+
+            prompt += f'"""{post}"""\n'
+
+    # Check if input is valid
+    else:
+        print(f"Unknown context type: {context_type}")
 
     prompt += f'Your stance towards {hidden_topic} is "{hidden_position}". '
-    prompt += f'Based on your previous comments, what argument would you make to {hidden_position} {hidden_topic}? '
+    prompt += f'Based on your previous posts, what argument would you make to {hidden_position} {hidden_topic}? '
     prompt += 'Focus on the claim and supporting reason. '
-    prompt += 'Answer as a valid JSON object with the key "argument" with no other output.'
+    prompt += 'Answer with your argument and no other output. '
+    # prompt += 'Answer as a valid JSON object with the key "argument" with no other output.'
 
     # if debug:
     #     print("Argument prediction prompt:", prompt)
@@ -95,49 +119,51 @@ def InferUserArgumentOnHiddenTopic(posts_topics_positions, force=False, debug=Fa
     argument_response = gemini.AskGoogleGemini(prompt, force=force)
 
     try:
-        cleaned_argument_response = CleanJsonResponse(argument_response)
-        argument_json = json.loads(cleaned_argument_response)
-        predicted_argument = argument_json["argument"]
+        predicted_argument = str(argument_response)
+        # argument_json = json.loads(argument_response)
+        # predicted_argument = argument_json["argument"]
     except Exception as e:
         print(f'{e}\nOutput:{argument_response}')
         predicted_argument = argument_response
 
+
+    # DELETE THIS SECTION; it's bad slop
     # Ask another LLM if the predicted argument matches the real user's argument
-    argument_validation_prompt = f"""Topic: "{hidden_topic}"
+    # argument_validation_prompt = f"""Topic: "{hidden_topic}"
 
-        User stance: "{hidden_position}"
+    #     User stance: "{hidden_position}"
 
-        Actual user comment:
-        "{hidden_post}"
+    #     Actual user comment:
+    #     "{hidden_post}"
 
-        Digital twin predicted argument:
-        "{predicted_argument}"
+    #     Digital twin predicted argument:
+    #     "{predicted_argument}"
 
-        Are the user and the digital twin making the same argument to {hidden_position} {hidden_topic}?
+    #     Are the user and the digital twin making the same argument to {hidden_position} {hidden_topic}?
 
-        Reply as valid JSON:
-        {{
-            "match": "yes|partial|no",
-            "explanation": "brief explanation"
-        }}
-        """
+    #     Reply as valid JSON:
+    #     {{
+    #         "match": "yes|partial|no",
+    #         "explanation": "brief explanation"
+    #     }}
+    #     """
 
     # if debug:
     #     print("Argument validation prompt:", argument_validation_prompt)
 
-    argument_validation_response = gemini.AskGoogleGemini(argument_validation_prompt, force=force)
+    # argument_validation_response = gemini.AskGoogleGemini(argument_validation_prompt, force=force)
 
-    try:
-        cleaned_validation_response = CleanJsonResponse(argument_validation_response)
-        argument_validation_json = json.loads(cleaned_validation_response)
-        argument_match = argument_validation_json["match"]
-        argument_match_explanation = argument_validation_json["explanation"]
-    except Exception as e:
-        print(f'{e}\nOutput:{argument_validation_response}')
-        argument_match = argument_validation_response
-        argument_match_explanation = argument_validation_response
+    # try:
+    #     argument_validation_json = json.loads(argument_validation_response)
+    #     argument_match = argument_validation_json["match"]
+    #     argument_match_explanation = argument_validation_json["explanation"]
+    # except Exception as e:
+    #     print(f'{e}\nOutput:{argument_validation_response}')
+    #     argument_match = argument_validation_response
+    #     argument_match_explanation = argument_validation_response
 
-    argument_match = str(argument_match).strip().lower()
+    # argument_match = str(argument_match).strip().lower()
+    #############################
 
     # if debug:
     #     print("Hidden post:", hidden_post)
@@ -147,4 +173,4 @@ def InferUserArgumentOnHiddenTopic(posts_topics_positions, force=False, debug=Fa
     #     print("Argument match:", argument_match)
     #     print("Argument match explanation:", argument_match_explanation)
 
-    return hidden_post, hidden_topic, hidden_position, predicted_argument, argument_match
+    return hidden_post, hidden_topic, hidden_position, predicted_argument

@@ -1,3 +1,0 @@
-```json
-{"label":"True","rationale":"Both posts emphasize that the core problem with healthcare.gov was an initial capacity and scalability issue, rather than just design flaws or lack of testing time. Post 2 states, 'the initial *capacity* problem was a massive barrier that prevented people from even getting far enough to encounter some of those deeper design flaws,' which aligns with Post 1's conclusion that 'The real issue here is capacity & scalability.'"}
-```

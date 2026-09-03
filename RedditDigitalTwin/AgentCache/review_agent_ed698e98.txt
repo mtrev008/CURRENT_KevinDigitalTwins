@@ -1,8 +1,0 @@
-```json
-{
-  "independent_label": "True",
-  "agree": true,
-  "label": "True",
-  "critique": "Both posts broadly conclude that productivity will decrease if incentives for hard work are removed or diminished. Both also use the historical example of the Pilgrims to support this point. The core argument and overall position are consistent between the two posts."
-}
-```

@@ -1,6 +1,0 @@
-```json
-{
-  "label": "False",
-  "rationale": "Post 1 describes the author's academic interests and background, while Post 2 provides clarification on economic concepts like the 'Bowley ratio' and 'labor returns'. They discuss entirely different subjects and do not share a broad conclusion or overall position."
-}
-```

@@ -1,6 +1,0 @@
-```json
-{
-  "label": "True",
-  "rationale": "Both posts convey the broad conclusion that sequestration was not the sole responsibility of one person, but rather a bipartisan effort or one that required involvement from multiple parties in Congress. Post 2 provides additional context and reasoning but supports the main takeaway of Post 1."
-}
-```

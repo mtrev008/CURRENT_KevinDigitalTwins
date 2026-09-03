@@ -1,8 +1,0 @@
-```json
-{
-  "independent_label": "True",
-  "agree": true,
-  "label": "True",
-  "critique": "Post 1 critiques the 'proposal' (implied to be limiting the ballot to policy points) as impractical and having 'severe negative implications.' Post 2, in response, also strongly criticizes 'limiting the ballot to a dozen or so policy points' as a 'dangerous oversimplification' that narrows political imagination. Both posts express a negative overall opinion about this specific method for encouraging deeper political thought."
-}
-```

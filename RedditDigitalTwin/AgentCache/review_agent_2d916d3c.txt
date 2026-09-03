@@ -1,1 +1,0 @@
-{"independent_label": "True", "agree": true, "label": "True", "critique": "Both posts agree that World War 2 was a highly effective economic/jobs driver that significantly impacted the US economy, with Post 1 explicitly stating it was much larger than the New Deal and Post 2 stating it was what pulled the country out of the Depression."}

@@ -1,6 +1,0 @@
-```json
-{
-  "label": "True",
-  "rationale": "Post 1 uses sarcasm to express concern about the extreme and dehumanizing nature of a person's rhetoric regarding immigration. Post 2 explicitly confirms this concern, stating that while the literal words might be hyperbolic, the 'spirit' of the rhetoric is dehumanizing and genuinely makes them fear what the person would do, which aligns with the core sentiment of Post 1. They both convey a critical view of the rhetoric and its potential implications."
-}
-```

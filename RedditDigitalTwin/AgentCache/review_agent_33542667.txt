@@ -1,8 +1,0 @@
-```json
-{
-  "independent_label": "False",
-  "agree": false,
-  "label": "False",
-  "critique": "Post 1 expresses strong hatred for 'birthers.' Post 2 states agreement and finding common ground, but specifically attributes it to the topic of 'thermite,' not 'birthers.' Therefore, Post 2 does not represent the broad conclusion or overall position expressed in Post 1, as it shifts the topic of agreement."
-}
-```

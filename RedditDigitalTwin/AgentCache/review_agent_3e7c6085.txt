@@ -1,3 +1,0 @@
-```json
-{"independent_label": "True", "agree": true, "label": "True", "critique": "Both posts express the same fundamental position: that contemporary political discourse is shallow and that the solution lies in moving toward a deeper, more philosophical or axiomatic understanding of politics rather than focusing on surface-level policies or labels. While they are part of a back-and-forth discussion and may differ on specific methods (e.g., Post 1 emphasizes education/lobbying while Post 2 critiques ballot structures), their overall takeaway regarding the need for philosophical depth is consistent."}
-```

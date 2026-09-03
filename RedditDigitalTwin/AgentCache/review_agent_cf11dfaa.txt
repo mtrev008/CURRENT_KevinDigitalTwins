@@ -1,1 +1,0 @@
-{"independent_label": "True", "agree": true, "label": "True", "critique": "Both posts express the broad conclusion that sequestration cannot be solely blamed on one individual or party because it was a bipartisan legislative act. Post 2 elaborates on and reinforces the main point made in Post 1."}

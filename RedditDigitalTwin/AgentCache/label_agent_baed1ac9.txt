@@ -1,3 +1,0 @@
-```json
-{"label": "False", "rationale": "Post 1 makes a serious, albeit speculative, political prediction about a state flipping red. Post 2 uses extreme sarcasm and absurd imagery (unicorns and leprechauns) to mock the feasibility of a plan or outcome. This constitutes a clear and strong disagreement with the realistic premise of Post 1's prediction, implying it is as unrealistic as a 'Christmas miracle' delivered by mythical creatures."}
-```

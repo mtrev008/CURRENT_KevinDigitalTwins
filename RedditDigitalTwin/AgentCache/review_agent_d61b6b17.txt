@@ -1,1 +1,0 @@
-{"independent_label": "True", "agree": true, "label": "True", "critique": "Both posts support the broad conclusion that the US should maintain a firm stance and not lift sanctions on North Korea without concessions. Although Post 2 disagrees with the Cuba analogy used in Post 1, they share the same overall position regarding the main subject."}

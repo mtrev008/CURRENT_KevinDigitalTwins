@@ -1,6 +1,0 @@
-```json
-{
-  "label": "True",
-  "rationale": "Post 1 argues that a simple question suffices for a sober person, dismissing more complex consent requirements as 'absurd'. Post 2 opens by calling this a 'ridiculous strawman' but immediately clarifies that 'Nobody is advocating for a script like that for consensual sex between two sober, willing adults.' This effectively agrees with Post 1's broad conclusion that such complex scripts are not applicable or necessary for sober individuals. Post 2 then redirects the conversation to consent capacity when intoxicated, but it does not broadly disagree with Post 1's position regarding consent between sober adults."
-}
-```

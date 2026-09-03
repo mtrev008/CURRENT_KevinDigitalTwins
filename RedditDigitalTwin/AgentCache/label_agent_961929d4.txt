@@ -1,6 +1,0 @@
-```json
-{
-  "label": "True",
-  "rationale": "Post 2 agrees with the broad conclusion of Post 1 that Fox and CNN do not offer truly different viewpoints, describing them as 'different flavors of the same corporate ice cream' rather than 'truly opposing viewpoints.' Both posts advocate looking beyond these mainstream sources to find a wider range of perspectives."
-}
-```

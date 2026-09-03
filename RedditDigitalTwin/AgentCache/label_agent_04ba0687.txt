@@ -1,6 +1,0 @@
-```json
-{
-  "label": "True",
-  "rationale": "Post 1 laments the unmemorable nature of Bush's statements, implying a problem with the quality of his communication. Post 2 articulates a preference for genuine communication over 'canned, pre-approved soundbites that doesn't address anything.' Both posts broadly criticize a lack of authentic and impactful communication from political figures. Post 2 provides a reason why the situation described in Post 1 is a 'problem'."
-}
-```

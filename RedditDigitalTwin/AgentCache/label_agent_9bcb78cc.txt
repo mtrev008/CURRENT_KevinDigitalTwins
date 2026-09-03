@@ -1,6 +1,0 @@
-```json
-{
-  "label": "True",
-  "rationale": "Both posts express a similar underlying concern about the potential negative consequences of significant demographic or political shifts leading to a power reversal and unfavorable outcomes for an existing population group. Post 1 uses a hypothetical about global warming displacing people to illustrate the fear of a different political group setting the agenda, while Post 2 articulates a fear of 'demographic shift leads to a complete power reversal and potential retribution' in the US, drawing parallels to historical events. They share the same broad anxiety about the impact of such shifts."
-}
-```

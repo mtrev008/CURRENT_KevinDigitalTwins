@@ -1,1 +1,0 @@
-{"agree": true, "label": "True", "critique": "Both posts share the broad conclusion that responsibility for sequestration belongs to the legislative process and multiple parties rather than a single individual."}

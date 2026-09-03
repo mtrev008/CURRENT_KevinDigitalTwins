@@ -1,8 +1,0 @@
-```json
-{
-  "independent_label": "True",
-  "agree": true,
-  "label": "True",
-  "critique": "Both posts argue against the interpretation that the right to bear arms is restricted to a militia, asserting a broader individual right. Post 1 concludes that Congress cannot restrict gun ownership, a direct implication of such a broader right. Post 2 explains why the right is 'of the people' and not limited to a militia. They express the same overall position."
-}
-```

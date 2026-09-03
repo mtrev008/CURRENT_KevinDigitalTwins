@@ -1,1 +1,0 @@
-{"independent_label": "True", "agree": true, "label": "True", "critique": "Post 2 elaborates on the core message of Post 1, which encourages participation despite feelings of powerlessness by emphasizing collective action and long-term impact. Both posts convey the same broad conclusion."}

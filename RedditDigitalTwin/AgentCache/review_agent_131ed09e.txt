@@ -1,8 +1,0 @@
-```json
-{
-  "independent_label": "True",
-  "agree": true,
-  "label": "True",
-  "critique": "Both posts convey the same broad conclusion: removing incentives for hard work leads to decreased effort and productivity. Post 2 elaborates on and reinforces Post 1's main point, using a clearer explanation of the Pilgrim example which Post 1 briefly mentioned."
-}
-```

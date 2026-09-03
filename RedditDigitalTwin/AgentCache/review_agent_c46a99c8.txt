@@ -1,8 +1,0 @@
-```json
-{
-  "independent_label": "False",
-  "agree": true,
-  "label": "False",
-  "critique": "Post 1 argues that 'Left wing ideals most certainly do not fall under the yoke of fascism' and defends individualist freedom in capitalism. Post 2 directly refutes this, claiming that universal healthcare and education are forms of 'state control' leading to 'totalitarian control,' and explicitly calls them 'Fascist plans,' making their broad conclusions opposite."
-}
-```

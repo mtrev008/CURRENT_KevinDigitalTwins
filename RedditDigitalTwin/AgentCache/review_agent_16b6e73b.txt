@@ -1,8 +1,0 @@
-```json
-{
-  "independent_label": "True",
-  "agree": true,
-  "label": "True",
-  "critique": "Both posts broadly question the justification for the current system where states have disproportionate power, leading to individual votes being valued differently based on where one lives. Post 2 elaborates on the critique that Post 1 introduces, focusing on the same core issue of unequal representation and questioning the rationale behind it. They are on the same side in challenging the status quo's justification."
-}
-```

@@ -1,6 +1,0 @@
-```json
-{
-  "label": "False",
-  "rationale": "Post 1 questions whether a specific negative impact (presumably related to military personnel not being paid during shutdowns, given the context) has occurred in the past, implying skepticism or demanding proof. Post 2 asserts the *fact* that the government 'can't even manage to pay its vital defense personnel during a shutdown' as a given, using it as a basis for criticism. Therefore, Post 2 directly affirms the premise that Post 1 is questioning or demanding evidence for, placing them in opposing positions regarding the occurrence of military personnel not being paid during shutdowns."
-}
-```

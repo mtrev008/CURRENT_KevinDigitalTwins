@@ -1,6 +1,0 @@
-```json
-{
-  "label": "True",
-  "rationale": "Post 1 states that many people believe the Tea Party is a 'corporate/Koch conspiracy.' Post 2, rather than disagreeing, explains *why* people perceived it that way, citing 'early involvement and significant funding from established conservative groups like Americans for Prosperity (backed by the Koch brothers).' Post 2 provides an explanation for the belief described in Post 1, thus aligning with the broad conclusion that such a perception exists and is rooted in specific facts."
-}
-```

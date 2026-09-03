@@ -1,6 +1,0 @@
-```json
-{
-  "label": "True",
-  "rationale": "Post 1 asks for examples of how shutdowns affected the military, referencing an article about shutdown impacts. Post 2 directly discusses the negative impact of shutdowns on military personnel (not getting paid) and criticizes the government for it. Post 2 does not disagree with the premise that military personnel are affected by shutdowns, but rather elaborates on that impact and assigns blame, aligning with the broad topic and implied concern of Post 1."
-}
-```

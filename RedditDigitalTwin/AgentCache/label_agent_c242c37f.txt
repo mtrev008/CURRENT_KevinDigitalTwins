@@ -1,6 +1,0 @@
-```json
-{
-  "label": "True",
-  "rationale": "Post 2 strongly agrees with and expands upon Post 1's broad conclusion that despite feelings of powerlessness, continued engagement and voting are important as part of a collective effort to effect change."
-}
-```

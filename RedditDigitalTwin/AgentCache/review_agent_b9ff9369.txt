@@ -1,1 +1,0 @@
-{"agree": true, "label": "True", "critique": "Both posts argue that the outcome of the case was based on forensic evidence and the legal process rather than bias, and both reject the use of broad statistics as evidence of a double standard in this specific instance."}

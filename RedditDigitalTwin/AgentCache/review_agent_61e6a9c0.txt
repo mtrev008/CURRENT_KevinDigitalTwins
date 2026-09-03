@@ -1,1 +1,0 @@
-{"independent_label": "True", "agree": true, "label": "True", "critique": "Both posts share the same broad conclusion: that political engagement and voting are important even when an individual feels powerless, as they are part of a collective effort toward long-term change."}

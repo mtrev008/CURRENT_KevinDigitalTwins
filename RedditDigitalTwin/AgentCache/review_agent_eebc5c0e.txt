@@ -1,1 +1,0 @@
-{"agree": true, "label": "True", "critique": "Both posts express disappointment with Obama's first term from a progressive or civil-liberties perspective, focusing on unmet expectations and compromises. Post 2 does not disagree with the sentiments expressed in Post 1."}

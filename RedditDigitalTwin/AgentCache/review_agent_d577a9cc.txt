@@ -1,1 +1,0 @@
-{"independent_label": "True", "agree": true, "label": "True", "critique": "Both posts broadly discuss Trump's political strategy as being targeted toward specific demographics rather than attempting to win over all voters. They agree that his rhetoric serves to appeal to certain segments while not alienating others."}

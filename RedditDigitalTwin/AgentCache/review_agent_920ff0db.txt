@@ -1,1 +1,0 @@
-{"independent_label": "True", "agree": true, "label": "True", "critique": "Both posts argue that long-term unemployment is caused by systemic issues (lack of jobs, mismatch, economic conditions) rather than personal laziness or the choice to live off unemployment benefits. They both reject the idea that there is a surplus of viable jobs for most people."}

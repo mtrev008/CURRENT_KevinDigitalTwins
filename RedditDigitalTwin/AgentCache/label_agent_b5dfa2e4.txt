@@ -1,3 +1,0 @@
-```json
-{"label":"True","rationale":"Both posts share the broad conclusion that productivity will decrease when individual incentives for working harder or innovating are removed or diminished, leading people to do the bare minimum."}
-```

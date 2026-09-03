@@ -1,3 +1,0 @@
-```json
-{"label": "True", "rationale": "Both posts broadly conclude that there is a significant mismatch between job seekers and available jobs, and that long-term unemployment is not primarily due to people being unwilling to work or abusing unemployment benefits. Post 2 reinforces Post 1's argument that the labor market has fundamental issues preventing people who want to work from finding suitable employment."}
-```

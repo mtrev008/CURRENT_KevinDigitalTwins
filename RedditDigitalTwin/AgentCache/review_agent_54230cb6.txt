@@ -1,1 +1,0 @@
-{"independent_label": "True", "agree": true, "label": "True", "critique": "Post 2 explicitly agrees with and elaborates on the points made in Post 1, including the preference for 'Das Kapital' over the 'Manifesto', the distinction between Marxism and Leninism, and the difficulty of implementation."}

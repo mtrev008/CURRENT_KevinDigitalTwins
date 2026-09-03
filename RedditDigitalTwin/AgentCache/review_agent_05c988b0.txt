@@ -1,1 +1,0 @@
-{"agree": true, "label": "True", "critique": "Both posts express the same stance by discrediting a preceding argument as being misleading or dishonest (Post 1 calls it 'spin' and Post 2 calls it 'distorted')."}

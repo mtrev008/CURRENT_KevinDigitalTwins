@@ -1,1 +1,0 @@
-{"agree": true, "label": "True", "critique": "Both posts share the same fundamental conclusion that political engagement is worthwhile despite feelings of individual powerlessness, emphasizing the value of being part of a collective effort."}

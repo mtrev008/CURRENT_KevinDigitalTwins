@@ -1,1 +1,0 @@
-{"independent_label": "True", "agree": true, "label": "True", "critique": "Both posts question the moral and democratic justification for giving less populous states disproportionate voting power compared to individual citizens. They share the same core skepticism toward the existing system's fairness."}

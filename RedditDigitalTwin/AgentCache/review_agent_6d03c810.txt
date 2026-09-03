@@ -1,8 +1,0 @@
-```json
-{
-  "independent_label": "False",
-  "agree": true,
-  "label": "False",
-  "critique": "Post 1 makes a political prediction about a state flipping red. Post 2 uses sarcasm to dismiss or mock an unrealistic or overly optimistic political outcome, which is contrary to the predictive and somewhat serious tone of Post 1."
-}
-```

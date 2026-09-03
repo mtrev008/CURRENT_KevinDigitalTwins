@@ -1,6 +1,0 @@
-```json
-{
-  "label": "True",
-  "rationale": "Post 2 generally agrees with the broad points in Post 1 regarding the nature of political debate, the capabilities of women in adversarial environments, and the idea that current representation is imbalanced and should move towards greater diversity and balance. Post 2 expands on the diversity argument but does not contradict Post 1's observations."
-}
-```

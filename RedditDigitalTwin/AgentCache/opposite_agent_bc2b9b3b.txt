@@ -1,8 +1,0 @@
-```json
-{
-  "independent_label": "True",
-  "agree": true,
-  "label": "True",
-  "critique": "Both posts make the same core argument: that blaming sequestration solely on one individual or party is an oversimplification, as it was a product of bipartisan legislation and required votes from both chambers of Congress. They both correct a narrow attribution of blame by highlighting the broader legislative process."
-}
-```

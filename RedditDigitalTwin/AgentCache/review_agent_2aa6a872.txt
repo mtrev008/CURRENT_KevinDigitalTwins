@@ -1,8 +1,0 @@
-```json
-{
-  "independent_label": "True",
-  "agree": true,
-  "label": "True",
-  "critique": "Post 1 argues that candidates and voters who haven't shown long-term commitment to a party shouldn't dictate its future. Post 2, despite starting with a 'disagreement' on a premise, elaborates on this exact point, stating that Bernie was not deeply committed to the Democratic Party and that candidates should build long-term relationships. It criticizes open primaries for allowing non-committed voters to influence parties. Both posts share the broad conclusion that sustained commitment is required to influence a party's direction."
-}
-```

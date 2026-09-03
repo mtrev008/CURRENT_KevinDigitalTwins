@@ -1,3 +1,0 @@
-```json
-{"label":"True","rationale":"Both posts advocate for continued participation and making one's voice heard despite feelings of powerlessness, emphasizing the importance of collective effort. Post 2 elaborates on the reasons why this is important, fully supporting the broad conclusion of Post 1 without disagreement."}
-```

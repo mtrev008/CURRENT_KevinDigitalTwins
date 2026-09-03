@@ -1,3 +1,0 @@
-```json
-{"label": "False", "rationale": "Post 2 explicitly rejects the core mechanism proposed in Post 1. While both posts favor limiting government spending to core functions like defense and infrastructure, Post 1 advocates for individual tax earmarking ('citizens choose what decisions to spend on'), whereas Post 2 calls this approach 'impractical and chaotic' and instead argues for a structural limitation on the scope of government functions."}
-```

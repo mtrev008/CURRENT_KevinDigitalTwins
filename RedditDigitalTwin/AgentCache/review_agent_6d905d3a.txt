@@ -1,8 +1,0 @@
-```json
-{
-  "independent_label": "True",
-  "agree": true,
-  "label": "True",
-  "critique": "Both posts broadly conclude that long-term unemployment is caused by issues in the labor market (e.g., weak demand, job mismatch, employer bias, unsuitable job offers) rather than a lack of willingness to work or over-reliance on unemployment benefits."
-}
-```

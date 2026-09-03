@@ -1,1 +1,0 @@
-{"label": "False", "rationale": "Post 1 expresses a dismissive stance and disinterest in engaging further ('I don't care'). Post 2, however, is an active, sarcastic, and detailed rebuttal of an implied previous statement, directly contradicting Post 1's position of not caring or disengagement. Post 2 is clearly engaging and disagreeing with an argument, not dismissing it."}

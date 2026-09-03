@@ -1,1 +1,0 @@
-{"independent_label": "True", "agree": true, "label": "True", "critique": "Both posts express affirmation/agreement. Post 2 adds context about an edit, but its initial 'Yep' aligns with Post 1's 'Yup', indicating broad agreement and no disagreement."}

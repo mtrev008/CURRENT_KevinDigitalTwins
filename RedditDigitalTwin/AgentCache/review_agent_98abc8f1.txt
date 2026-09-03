@@ -1,1 +1,0 @@
-{"agree": true, "label": "True", "critique": "Both posts share the same broad perspective that political representation is currently unbalanced and that the adversarial nature of politics is a cultural or human trait rather than one strictly defined by gender. Post 2 builds on the themes of diversity and representation mentioned in Post 1 without contradicting them."}

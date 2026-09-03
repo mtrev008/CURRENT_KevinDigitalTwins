@@ -1,6 +1,0 @@
-```json
-{
-  "label": "True",
-  "rationale": "Post 1 uses a rhetorical question to express disapproval of 'letting criminals go free.' Post 2 explains that a 'path to citizenship' is precisely what many consider 'letting criminals go free' and links opposition to upholding the rule of law. Both posts share the broad conclusion that certain actions or policies are akin to 'letting criminals go free' and are undesirable or opposed for that reason. Post 2 does not disagree with Post 1's implied sentiment; rather, it provides context and support for it."
-}
-```

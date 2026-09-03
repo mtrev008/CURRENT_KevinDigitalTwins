@@ -1,3 +1,0 @@
-```json
-{"independent_label": "True", "agree": true, "label": "True", "critique": "Both posts identify capacity and scalability as the primary technical failing of Healthcare.gov. While they use different comparisons (Twitter/Apple vs. Buzzfeed/Kayak), they both conclude that the inability to handle the initial load was the central issue."}
-```

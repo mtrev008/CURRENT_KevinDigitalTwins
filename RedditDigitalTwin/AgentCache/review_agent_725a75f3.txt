@@ -1,1 +1,0 @@
-{"independent_label": "False", "agree": true, "label": "False", "critique": "Post 2 directly challenges and disagrees with the implication in Post 1 that Republican opposition to Obama was due to his race/religion. It asks for evidence to support that implication, thus not representing the same broad conclusion."}

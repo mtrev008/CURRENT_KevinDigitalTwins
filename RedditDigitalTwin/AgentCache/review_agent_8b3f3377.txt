@@ -1,3 +1,0 @@
-```json
-{"independent_label": "False", "agree": true, "label": "False", "critique": "Post 2 explicitly rejects the central premise of Post 1. While both posts discuss tax reform and limiting government spending to certain categories, Post 1 advocates for individual earmarking (letting citizens choose specific allocations), whereas Post 2 explicitly calls that idea 'impractical and chaotic' and favors a fixed definition of core government responsibilities instead."}
-```

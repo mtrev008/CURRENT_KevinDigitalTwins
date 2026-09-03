@@ -1,6 +1,0 @@
-```json
-{
-  "label": "False",
-  "rationale": "Post 1 is about a perceived downvoting pattern related to anarchism. Post 2 starts with 'Exactly.' but then immediately discusses the value and accessibility issues of unpaid federal internships. The topics are completely unrelated, and Post 2 does not address the broad conclusion or overall position of Post 1."
-}
-```

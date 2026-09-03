@@ -1,6 +1,0 @@
-```json
-{
-  "label": "True",
-  "rationale": "Both posts share the broad conclusion that objective facts and evidence, particularly forensic evidence, disprove initial narratives and refute claims of bias in legal outcomes, especially concerning police use of force. Post 2 elaborates on why the grand jury's decision was justified by the evidence, aligning with Post 1's assertion that 'bias exists but only in those who refuse to look at established facts'."
-}
-```

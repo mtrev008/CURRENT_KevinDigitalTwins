@@ -1,1 +1,0 @@
-{"independent_label": "False", "agree": true, "label": "False", "critique": "Post 1 is a personal statement about the author's academic background and interests. Post 2 is a detailed explanation and clarification of economic terms and concepts. They address entirely different topics and there is no broad conclusion or overall position from Post 1 that Post 2 could represent."}

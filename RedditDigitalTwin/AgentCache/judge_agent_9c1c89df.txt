@@ -1,6 +1,0 @@
-```json
-{
-  "final_label": "False",
-  "reasoning": "Post 2 fundamentally disagrees with Post 1's broad conclusion and framing of the scenarios. Post 1, approaching from a 'radical rights' perspective, explicitly states that a burning cross on a sidewalk 'should still be legal' and implies the wall of baby dolls could be a 'political act of free expression.' In contrast, Post 2 unequivocally argues that all these examples 'cross a fundamental line into direct harm, intimidation, or physical coercion' and constitute illegal conduct (trespassing, harassment, threat, blocking access, assault, false imprisonment) rather than protected speech. This is a clear and broad disagreement on what constitutes protected expression versus regulable harmful conduct."
-}
-```

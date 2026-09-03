@@ -1,1 +1,0 @@
-{"label": "True", "rationale": "Both posts convey the same semantic meaning, with Post 1 using a pun and Post 2 using standard spelling."}

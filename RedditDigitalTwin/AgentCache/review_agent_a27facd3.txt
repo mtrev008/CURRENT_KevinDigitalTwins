@@ -1,8 +1,0 @@
-```json
-{
-  "independent_label": "True",
-  "agree": true,
-  "label": "True",
-  "critique": "Post 2 acknowledges Post 1's explanation for the alliance's origins and then builds upon it by questioning the rationale for its *continuation* in a post-Cold War context. It does not disagree with Post 1's broad conclusion but rather seeks further clarification or re-evaluation of the reasons for ongoing support."
-}
-```

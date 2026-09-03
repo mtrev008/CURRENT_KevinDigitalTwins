@@ -1,6 +1,0 @@
-```json
-{
-  "label": "True",
-  "rationale": "Post 1 defines 'the ruling elite' as encompassing both government and private entities, implying a critical stance. Post 2 elaborates on the negative systemic outcomes and collective actions of 'those in power,' particularly focusing on government reach and civil liberties. While Post 2 emphasizes the government aspect more than the private, it does not contradict Post 1's broader definition. Both posts express a critical view of those in power, and Post 2's details align with the general sentiment of Post 1 without disagreement."
-}
-```

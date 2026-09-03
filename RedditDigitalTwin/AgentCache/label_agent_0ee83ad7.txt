@@ -1,6 +1,0 @@
-```json
-{
-  "label": "True",
-  "rationale": "Post 1 asserts that federal money goes into specific areas (implied to be infrastructure and education) and especially for major projects. Post 2, despite an initial phrase 'That's not entirely accurate', strongly corroborates this by detailing how the federal government allocates significant funds to both infrastructure and education, providing multiple examples. The core conclusion that federal money is involved in these areas is consistent across both posts."
-}
-```

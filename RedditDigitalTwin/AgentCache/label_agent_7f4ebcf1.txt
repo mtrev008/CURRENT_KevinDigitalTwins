@@ -1,6 +1,0 @@
-```json
-{
-  "label": "False",
-  "rationale": "Post 1 argues that 'Left wing ideals most certainly do not fall under the yoke of fascism' and that its detailed definition of fascism (including eugenics, ancestry/culture-based national identity) is distinct from liberal policies. Post 2 directly refutes this, claiming that universal healthcare and education are *exactly* what fascism is designed to achieve through state control and mass mobilization, and that these 'liberal policies are the foundation for a state that controls every aspect of its citizens' lives,' thereby equating them with a path to totalitarianism often associated with fascism. Thus, Post 2 disagrees with Post 1's broad conclusion."
-}
-```

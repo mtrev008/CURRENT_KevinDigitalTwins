@@ -1,6 +1,0 @@
-```json
-{
-  "label": "True",
-  "rationale": "Both posts broadly conclude that Social Security should remain a mandatory safety net and argue against an opt-in/opt-out system, advocating for reforms to ensure its solvency rather than abandoning its universal purpose."
-}
-```

@@ -1,3 +1,0 @@
-```json
-{"label": "False", "rationale": "Post 1 concludes that the U.S. spends too much on its military and should cut its budget. Post 2 directly challenges the reasoning behind cutting the budget, arguing that a strong defense is necessary for global deterrence and that the 'amount' is not the primary issue compared to 'priorities.'"}
-```

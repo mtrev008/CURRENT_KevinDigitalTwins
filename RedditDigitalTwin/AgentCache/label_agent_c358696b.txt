@@ -1,6 +1,0 @@
-```json
-{
-  "label": "True",
-  "rationale": "Both posts argue against the idea that sequestration was the sole responsibility of one person, emphasizing its bipartisan nature and the involvement of both parties in its creation and passage."
-}
-```

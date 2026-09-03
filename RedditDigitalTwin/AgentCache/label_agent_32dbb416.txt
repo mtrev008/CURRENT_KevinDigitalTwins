@@ -1,1 +1,0 @@
-{"label": "True", "rationale": "Both posts support the conclusion that the grand jury's decision in the Michael Brown case was justified by evidence (forensics over witness testimony) rather than bias, and both critique the misuse of statistics to prove otherwise."}

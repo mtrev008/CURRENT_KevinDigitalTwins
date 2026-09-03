@@ -1,6 +1,0 @@
-```json
-{
-  "label": "True",
-  "rationale": "Both posts share the broad conclusion that government-mandated healthcare (exemplified by 'socialist style health care' in Post 1 and Obamacare in Post 2) is problematic due to increased costs, reduced choice, and a move away from market-based solutions. Both also implicitly or explicitly defend the higher quality of US healthcare linked to higher investment."
-}
-```

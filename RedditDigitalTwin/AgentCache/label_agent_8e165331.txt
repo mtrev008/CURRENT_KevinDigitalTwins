@@ -1,6 +1,0 @@
-```json
-{
-  "label": "True",
-  "rationale": "Post 2 broadly agrees with Post 1's main conclusions. Both posts concur that 'white' is not synonymous with 'Caucasian' in the US context, that Obama is racially black, and that Zimmerman is racially white (or white Hispanic) because Hispanic/Latino is an ethnicity, not a race. Post 2 reinforces and elaborates on the arguments presented in Post 1, rather than disagreeing with them."
-}
-```

@@ -1,6 +1,0 @@
-```json
-{
-  "label": "False",
-  "rationale": "Post 2 challenges and seeks justification for the implied conclusion in Post 1 regarding racial/religious obstruction, rather than representing or agreeing with it. Post 2 asks for evidence to support the claim Post 1 is implying."
-}
-```

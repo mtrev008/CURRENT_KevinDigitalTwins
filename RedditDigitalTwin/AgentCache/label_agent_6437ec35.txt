@@ -1,3 +1,0 @@
-```json
-{"label": "True", "rationale": "Both posts express the same broad position that free speech protections involve constraints on government action and censorship, and they both reject a narrow definition of free speech that would exclude government suppression."}
-```

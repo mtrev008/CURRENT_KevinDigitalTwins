@@ -1,1 +1,0 @@
-{"independent_label": "True", "agree": true, "label": "True", "critique": "Post 2 largely affirms and elaborates on the key points made in Post 1, particularly the distinction between Marxism and Leninism and the value of deeper theoretical economic analysis like that found in 'Das Kapital.'"}

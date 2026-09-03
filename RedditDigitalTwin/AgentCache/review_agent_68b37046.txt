@@ -1,1 +1,0 @@
-{"independent_label": "True", "agree": true, "label": "True", "critique": "Both posts express the same underlying sentiment: that lenient policies (specifically regarding immigration/citizenship) are equivalent to letting criminals go free and undermining the rule of law. Post 2 elaborates on the specific context and reasoning behind the rhetorical point made in Post 1."}

@@ -1,6 +1,0 @@
-```json
-{
-  "label": "False",
-  "rationale": "Post 1 expresses specific disappointments with the president's first term but crucially states, 'I'm really hoping that he will get a lot more done if he wins a second term' and indicates a willingness to 'likely vote for Obama again' over certain alternatives. This conveys an overall position of critical but conditional support and hope for future improvement. Post 2, while detailing similar points of disappointment, concludes with a broader and deeper sense of 'core disappointment still largely remains,' characterizing the presidency as one of 'compromise and incrementalism' that failed to deliver 'bold, transformative change.' This overall conclusion in Post 2 represents a more fundamental disillusionment and clearly contrasts with Post 1's pragmatic hope for the future and continued electoral consideration."
-}
-```

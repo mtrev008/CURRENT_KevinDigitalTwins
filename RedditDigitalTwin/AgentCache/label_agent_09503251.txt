@@ -1,3 +1,0 @@
-```json
-{"label": "False", "rationale": "Post 1 expresses skepticism that military personnel have been negatively impacted in previous shutdowns, challenging the premise that they lose pay. Post 2 asserts as a fact that the military is not paid during shutdowns and uses this as evidence of government failure. Because they disagree on the fundamental impact of the event, Post 2 does not represent the position of Post 1."}
-```

@@ -1,1 +1,0 @@
-{"independent_label": "True", "agree": true, "label": "True", "critique": "Both posts broadly argue against government-mandated healthcare like Obamacare, advocating for a system with more choice or justified high spending due to quality/research. They share the same overall critical stance towards 'socialist-style' healthcare."}

@@ -1,8 +1,0 @@
-```json
-{
-  "independent_label": "True",
-  "agree": true,
-  "label": "True",
-  "critique": "Post 2 strongly supports and elaborates on the central thesis of Post 1: that Trump's business endeavors and investments have not outperformed the market, and in fact, he would likely be wealthier today had he simply invested passively. Both posts converge on the conclusion that his financial performance is not superior."
-}
-```

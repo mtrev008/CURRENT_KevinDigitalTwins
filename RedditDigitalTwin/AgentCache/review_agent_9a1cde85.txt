@@ -1,1 +1,0 @@
-{"independent_label": "True", "agree": true, "label": "True", "critique": "Both posts agree that requiring a complex script for consent between sober adults is absurd or a strawman. Post 2 elaborates on the context of intoxication, but it fundamentally aligns with Post 1's rejection of the 'absurd' argument regarding sober consent."}

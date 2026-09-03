@@ -1,8 +1,0 @@
-```json
-{
-  "independent_label": "True",
-  "agree": true,
-  "label": "True",
-  "critique": "Both posts convey the same broad conclusion: that sequestration was not the sole responsibility of one individual, but rather a bipartisan outcome requiring legislative action from both parties. Post 2 elaborates on the specifics of the legislative process but supports Post 1's overall position that blaming a single person is an oversimplification."
-}
-```

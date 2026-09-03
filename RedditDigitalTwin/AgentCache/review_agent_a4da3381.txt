@@ -1,1 +1,0 @@
-{"agree": true, "label": "True", "critique": "Both posts argue that left-wing policies like universal healthcare and education are forms of state control and authoritarianism, effectively equating them with fascist mechanisms by prioritizing the state's goals over individual liberty and choice."}

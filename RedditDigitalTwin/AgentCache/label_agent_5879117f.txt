@@ -1,6 +1,0 @@
-```json
-{
-  "label": "True",
-  "rationale": "Post 1 suggests Bush's statements are forgettable, implying a lack of substance or genuineness. Post 2 expresses a preference for genuine answers over 'canned, pre-approved soundbites' that 'don't address anything.' Both posts broadly criticize inauthentic or insubstantial political communication, with Post 2 offering a perspective that aligns with the implied problem in Post 1."
-}
-```

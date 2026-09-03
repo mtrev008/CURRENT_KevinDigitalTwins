@@ -1,1 +1,0 @@
-{"independent_label": "True", "agree": true, "label": "True", "critique": "Both posts express similar views on the nature of the Chinese economy (capitalism used to sustain the state/avoid collapse), the idea that the core purpose or role of governance remains constant despite technological change, and a generally critical stance on communism."}

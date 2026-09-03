@@ -1,6 +1,0 @@
-```json
-{
-  "label": "True",
-  "rationale": "Post 2 explicitly agrees with and elaborates on Post 1's central point that *Citizens United* did not address campaign donations or allow direct corporate contributions to campaigns, but rather dealt with independent expenditures. Both posts identify the opposite view as a common misconception."
-}
-```

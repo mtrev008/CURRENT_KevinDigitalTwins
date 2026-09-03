@@ -1,6 +1,0 @@
-```json
-{
-  "label": "True",
-  "rationale": "Post 2 begins with an affirmative 'Haha, yep!' directly agreeing with Post 1's main point about a candidate being on the ballot. It then adds context about the parties involved, further supporting the general topic without disagreeing."
-}
-```

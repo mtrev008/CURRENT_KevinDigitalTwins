@@ -1,3 +1,0 @@
-```json
-{"label": "True", "rationale": "Post 2 fully agrees with Post 1's broad conclusion that knowing the name of MLK's killer is not important. Post 2 elaborates on this point, providing additional reasoning and contrasting it with what *is* important for civic knowledge, but it does not disagree with Post 1's main stance."}
-```

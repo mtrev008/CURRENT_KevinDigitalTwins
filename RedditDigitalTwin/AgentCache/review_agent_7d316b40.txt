@@ -1,1 +1,0 @@
-{"independent_label": "True", "agree": true, "label": "True", "critique": "Both posts are affirmative responses. Post 2 provides more context regarding a correction, but it does not disagree with the simple affirmation in Post 1."}

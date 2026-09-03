@@ -1,1 +1,0 @@
-{"independent_label": "True", "agree": true, "label": "True", "critique": "Both posts broadly share the same overall position: a defense of private property and a dismissive stance towards revolutionary threats from the 'poor' in an automated future, asserting their ability to secure their assets."}

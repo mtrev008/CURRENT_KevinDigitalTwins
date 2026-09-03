@@ -1,6 +1,0 @@
-```json
-{
-  "label": "True",
-  "rationale": "Post 1 argues that while the New Deal did some good, it was minuscule compared to WW2 as a jobs program. Post 2 strongly affirms the effectiveness of the WW2 jobs program in pulling the US out of the Depression and doesn't explicitly disagree with Post 1's assessment of the New Deal's relative impact. Post 2's statement that the New Deal's effectiveness is 'a whole other debate' and that even if it had issues, it doesn't negate the success of WW2, aligns with Post 1's broad conclusion about WW2 being the more significant job creator."
-}
-```

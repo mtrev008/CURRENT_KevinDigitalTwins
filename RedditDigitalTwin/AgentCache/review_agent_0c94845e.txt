@@ -1,1 +1,0 @@
-{"agree": true, "label": "False", "critique": "Post 2 explicitly rejects and insults Post 1, calling it 'meaningless bullshit' and demanding the author admit they are wrong. This is a clear disagreement."}

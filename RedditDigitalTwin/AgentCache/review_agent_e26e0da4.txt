@@ -1,1 +1,0 @@
-{"independent_label": "True", "agree": true, "label": "True", "critique": "Post 1 laments the absence of a clear policy ('no red line'), while Post 2 advocates for and explains the benefits of having a clear policy. Both posts are broadly aligned on the importance of having a defined policy, making them consistent in their overall message."}

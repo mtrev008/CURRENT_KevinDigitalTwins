@@ -1,6 +1,0 @@
-```json
-{
-  "label": "True",
-  "rationale": "Both posts convey the same broad conclusion: productivity will decline when individual incentives for hard work and exceeding expectations are removed or diminished, with both citing the historical example of the Pilgrims to support this point."
-}
-```

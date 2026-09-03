@@ -1,8 +1,0 @@
-```json
-{
-  "independent_label": "True",
-  "agree": true,
-  "label": "True",
-  "critique": "Both posts discuss the *potential* for a serious campaign finance violation if a corporate employee is paid by the corporation for campaign work, while refraining from making a definitive judgment of guilt. Post 2 elaborates on the specific nature of this potential violation, aligning with the broad conclusion of Post 1."
-}
-```

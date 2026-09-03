@@ -1,3 +1,0 @@
-```json
-{"independent_label": "True", "agree": true, "label": "True", "critique": "Both posts express the same broad conclusion: that simple political fixes (like policy-based ballots) are insufficient or dangerous because they lack philosophical depth and coherent worldviews. Post 1 critiques a specific proposal for being impractical and having negative implications, while Post 2 agrees that such a system (policy bullet points) is a 'dangerous oversimplification' that narrows the political imagination. Both favor deeper discourse over shallow engagement."}
-```

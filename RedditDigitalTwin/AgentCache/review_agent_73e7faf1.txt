@@ -1,1 +1,0 @@
-{"independent_label": "False", "agree": true, "label": "False", "critique": "Post 1 asks a challenging question about justification. Post 2 is an interpretive accusation directed at the person who made Post 1, not a representation of Post 1's broad conclusion."}

@@ -1,8 +1,0 @@
-```json
-{
-  "independent_label": "False",
-  "agree": false,
-  "label": "False",
-  "critique": "Post 1 argues that the US commitment to North Korea is driven by political stubbornness and fear of losing votes, using the Cuba embargo as an analogy for political inertia. Post 2 explicitly rejects this framing, calling the Cuba comparison a 'false equivalency' and arguing that the commitment stems from strategic imperatives such as denuclearization, non-proliferation, and protecting allies from a nuclear threat. While both posts advocate for a strong stance, they fundamentally disagree on the *reasons* and *justification* for that stance, with Post 2 directly refuting Post 1's premise that the policy is born of political expediency rather than strategic necessity."
-}
-```

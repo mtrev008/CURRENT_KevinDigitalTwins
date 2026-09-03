@@ -1,6 +1,0 @@
-```json
-{
-  "label": "False",
-  "rationale": "Post 1 makes an accusatory rhetorical statement, interpreting an unstated 'liberal' position. Post 2 directly refutes Post 1, calling its content 'meaningless bullshit' and accusing the author of Post 1 of being wrong. They are in direct opposition and do not express the same broad conclusion or overall position."
-}
-```

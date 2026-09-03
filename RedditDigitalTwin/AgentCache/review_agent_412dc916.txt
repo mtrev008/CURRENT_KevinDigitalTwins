@@ -1,8 +1,0 @@
-```json
-{
-  "independent_label": "False",
-  "agree": true,
-  "label": "False",
-  "critique": "Post 1 expresses skepticism or demands proof regarding whether a specific event (presumably negative impact on military personnel, given the context of Post 2) has occurred in past shutdowns. Post 2, conversely, states as a fact that the government 'can't even manage to pay its vital defense personnel during a shutdown' and uses this as a premise to criticize government mismanagement. Thus, Post 2 affirms the occurrence of the very event Post 1 is questioning or asking for proof about, making their broad conclusions or positions contradictory. Post 2 clearly disagrees with the implied skepticism of Post 1."
-}
-```
